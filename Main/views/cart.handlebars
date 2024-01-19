@@ -1,0 +1,17 @@
+<h1>Your Cart</h1>
+{{#if logged_in}}
+    {{#if items.length}}
+        <ul>
+            {{#each items}}
+                <li>
+                    {{this.Item.name}} - Quantity: {{this.quantity}}
+                    <!-- Add other item details here -->
+                </li>
+            {{/each}}
+        </ul>
+    {{else}}
+        <p>Your cart is empty.</p>
+    {{/if}}
+{{else}}
+    <p>Please log in to view your cart.</p>
+{{/if}}
