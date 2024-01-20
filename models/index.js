@@ -14,14 +14,52 @@ const { CallTracker } = require('assert');
 // One-to-one relations
 
 // Orders - Order Item
+Order.hasOne(orderItem, {
+    foreignKey: 'orderID'
+});
+
+orderItem.belongsTo(Order, {
+    foreignKey: 'id'
+});
 
 // User - Cart
 
+User.hasOne(Cart, {
+    foreignKey: 'userID'
+});
+
+Cart.belongsTo(User, {
+    foreignKey: 'id'
+});
+
 // User - Wishlist
+
+User.hasOne(Wishlist, {
+    foreignKey: 'userID'
+});
+
+Wishlist.belongsTo(User, {
+    foreignKey: 'id'
+});
 
 // Order Item - Item
 
-// Item - wishlistItem
+orderItem.hasOne(Item, {
+    foreignKey: 'id'
+});
+
+Item.belongsTo(orderItem, {
+    foreignKey: 'itemID'
+});
+
+// wishlistItem - Item
+wishlistItem.hasOne(Item, {
+    foreignKey: 'id'
+});
+
+Item.belongsTo(wishlistItem, {
+    foreignKey: 'itemID'
+});
 
 
 
@@ -84,4 +122,6 @@ cartItem.belongsTo(Cart, {
 
 
 
-module.exports = { User, Cart, cartItem, Item, Review, Wishlist, wishlistItem };
+
+
+module.exports = { User, Cart, cartItem, Item, Review, Wishlist, wishlistItem, orderItem, Order };
