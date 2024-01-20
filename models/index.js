@@ -119,6 +119,19 @@ cartItem.belongsTo(Cart, {
 // Many-to-Many relations
 
 // User - Item
+User.belongsToMany(Item, {
+    through: {
+        model: Item
+    },
+    foreignKey: 'userID',
+});
+
+Item.belongsToMany(User, {
+    through: {
+        model: User
+    },
+    foreignKey: 'id'
+});
 
 
 
