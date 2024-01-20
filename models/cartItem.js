@@ -14,16 +14,23 @@ cartItem.init(
         }
     },
     {
-        itemId: {
+        itemID: {
             type: DataTypes.INTEGER,
             allowNull: false
         },
     },
     {
-        cartId: {
+        cartID: {
             type: DataTypes.INTEGER,
             allowNull: false 
         }
+    },
+    {
+        sequelize,
+        timestamps: false,
+        freezeTableName: true,
+        underscored: true,
+        modelName: "cartitem",
     }
 );
 
