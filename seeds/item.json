@@ -527,7 +527,7 @@
 },
 
 // closing Girls dress seeds and opening Girls tops and bottoms
-
+//girls tops seeds
 
 {
     "name:": "Sunshine Dreams Girls' Top",
@@ -562,8 +562,7 @@
     "trash_footprint": 1.8, 
     "image_url": "https://example.com/ocean-breeze-childrens-top.jpg"
 },
-
-// Girls top seeds
+// girls bottoms seeds
 {
     "name:": "Denim Dazzle Girls' Jeans",
     "price:": 34.99,
@@ -574,4 +573,58 @@
     "energy_footprint": 4.6,
     "trash_footprint": 2.3, 
     "image_url": "https://example.com/denim-dazzle-girls-jeans.jpg"
+},
+{
+    "name:": "Twirl Time Kids' Skirt",
+    "price:": 29.95,
+    "description": "Kids' skirt designed for twirling fun",
+    "carbon_footprint": 3.6,
+    "user_id": "",
+    "category": "kids",
+    "energy_footprint": 4.2,
+    "trash_footprint": 2.1, 
+    "image_url": "https://example.com/twirl-time-kids-skirt.jpg"
+},
+{
+    "name:": "Adventure Shorts for Children",
+    "price:": 26.99,
+    "description": "Adventure shorts for active and adventurous children",
+    "carbon_footprint": 3.4,
+    "user_id": "",
+    "category": "kids",
+    "energy_footprint": 3.9,
+    "trash_footprint": 1.9, 
+    "image_url": "https://example.com/adventure-shorts-for-children.jpg"
+},
+
+// Closing girls tops and bottoms seeds and opening boys Tops and bottoms seeds
+
+
+     // will add in these seeds later
+
+
+
+// closing boys tops and bottoms seeds opening womens cloths seeds
+    //womens dresses seeds
+{
+    "name:": "Elegant Evening Women's Dress",
+    "price:": 79.99,
+    "description": "Elegant evening women's dress for formal events",
+    "carbon_footprint": 5.2,
+    "user_id": "",
+    "category": "women",
+    "energy_footprint": 6.8,
+    "trash_footprint": 3.4, 
+    "image_url": "https://example.com/elegant-evening-womens-dress.jpg"
+},
+{
+    "name:": "Floral Fantasy Ladies' Dress",
+    "price:": 69.95,
+    "description": "Ladies' dress with a floral fantasy design",
+    "carbon_footprint": 4.7,
+    "user_id": "",
+    "category": "women",
+    "energy_footprint": 6.2,
+    "trash_footprint": 3.1, 
+    "image_url": "https://example.com/floral-fantasy-ladies-dress.jpg"
 },
