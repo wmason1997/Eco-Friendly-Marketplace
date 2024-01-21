@@ -1,3 +1,15 @@
+[
+    {
+        "name": "Best soap",
+        "price": 10,
+        "description": "Exfoliating green soap",
+        "carbon_footprint": 5,
+        "userID": 1,
+        "category": "cleaning",
+        "energy_footprint": 15,
+        "trash_footprint": 20, 
+        "image_url": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
+    },
 {
     "name:": "GreenClean Dish Soap",
     "price:": 10,
@@ -394,4 +406,6 @@
 
 //Closing Cleaning Seeds and opening cloths seeds
 //opening Baby Clothes 'onsies' seeds
-
+  
+  
+]
