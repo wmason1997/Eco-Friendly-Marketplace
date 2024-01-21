@@ -83,9 +83,9 @@
 }
 
 {
-    "name:": "EcoSaver Dishwashing Liquid",
+    "name:": "CleanCare Dishwashing Liquid",
     "price:": 7.50,
-    "description": "Budget-friendly and eco-conscious",
+    "description": "Plant devived diswasher dish cleaner ",
     "carbon_footprint": 3.5,
     "user_id": "",
     "category": "cleaning",
@@ -128,4 +128,484 @@
     "energy_footprint": 14.5,
     "trash_footprint": 19.5, 
     "image_url": "https://example.com/ecoshine-dish-detergent.jpg"
+}
+
+{
+    "name:": "NaturalGlow Dish Soap",
+    "price:": 9.49,
+    "description": "Natural ingredients for a sparkling clean",
+    "carbon_footprint": 4.2,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.2,
+    "trash_footprint": 18.8, 
+    "image_url": "https://example.com/naturalglow-dish-soap.jpg"
+}
+
+{
+    "name:": "EcoFresh Dish Liquid",
+    "price:": 10.25,
+    "description": "Fresh scent with eco-friendly cleaning power",
+    "carbon_footprint": 4.8,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15.8,
+    "trash_footprint": 20.5, 
+    "image_url": "https://example.com/ecofresh-dish-liquid.jpg"
+}
+
+{
+    "name:": "PureEarth Dish Detergent",
+    "price:": 9.75,
+    "description": "Earth-friendly cleaning without compromise",
+    "carbon_footprint": 4.4,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.4,
+    "trash_footprint": 19, 
+    "image_url": "https://example.com/pureearth-dish-detergent.jpg"
+}
+
+{
+    "name:": "CleanSweep Dish Soap",
+    "price:": 9.99,
+    "description": "Efficient cleaning with an eco-conscious twist",
+    "carbon_footprint": 4.6,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.6,
+    "trash_footprint": 19.2, 
+    "image_url": "https://example.com/cleansweep-dish-soap.jpg"
+}
+
+{
+    "name:": "EcoGo Dishwashing Liquid",
+    "price:": 8.99,
+    "description": "Care for your dishes and the environment",
+    "carbon_footprint": 4.1,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 13.9,
+    "trash_footprint": 18.5, 
+    "image_url": "https://example.com/ecocare-dishwashing-liquid.jpg"
+}
+
+{
+    "name:": "PureSuds Eco Dish Soap",
+    "price:": 10.49,
+    "description": "Suds that make a difference",
+    "carbon_footprint": 4.9,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15.3,
+    "trash_footprint": 20.1, 
+    "image_url": "https://example.com/puresuds-eco-dish-soap.jpg"
+}
+
+{
+    "name:": "Sparkling Dish Magic",
+    "price:": 9.75,
+    "description": "Experience the magic of sparkling dishes",
+    "carbon_footprint": 4.3,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.3,
+    "trash_footprint": 18.7, 
+    "image_url": "https://example.com/sparkling-dish-magic.jpg"
+}
+
+{
+    "name:": "GentleWave Dish Elegance",
+    "price:": 11.25,
+    "description": "Elegant and gentle eco-friendly cleaning",
+    "carbon_footprint": 5.1,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 16.1,
+    "trash_footprint": 21, 
+    "image_url": "https://example.com/gentlewave-dish-elegance.jpg"
+}
+
+{
+    "name:": "Zenith Dish Harmony",
+    "price:": 8.95,
+    "description": "Discover harmony in your dishwashing routine",
+    "carbon_footprint": 4.2,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.2,
+    "trash_footprint": 18.9, 
+    "image_url": "https://example.com/zenith-dish-harmony.jpg"
+}
+
+{
+    "name:": "Gleaming Crystal Clear Dish Soap",
+    "price:": 9.99,
+    "description": "Get crystal clear dishes with a gleaming touch",
+    "carbon_footprint": 4.6,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.6,
+    "trash_footprint": 19.2, 
+    "image_url": "https://example.com/crystal-clear-dish-soap.jpg"
+}
+
+{
+    "name:": "Sapphire Shine Dish Liquid",
+    "price:": 10.99,
+    "description": "Shine like a sapphire with eco-friendly cleaning",
+    "carbon_footprint": 4.5,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15.5,
+    "trash_footprint": 21, 
+    "image_url": "https://example.com/sapphire-shine-dish-liquid.jpg"
+}
+
+{
+    "name:": "Tranquil Breeze Dish Detergent",
+    "price:": 8.75,
+    "description": "Experience tranquility while washing dishes",
+    "carbon_footprint": 4,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.5,
+    "trash_footprint": 19.5, 
+    "image_url": "https://example.com/tranquil-breeze-dish-detergent.jpg"
+}
+
+{
+    "name:": "Oceanic Splash Dish Soap",
+    "price:": 9.49,
+    "description": "Splash into eco-friendly dishwashing",
+    "carbon_footprint": 4.2,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.2,
+    "trash_footprint": 18.8, 
+    "image_url": "https://example.com/oceanic-splash-dish-soap.jpg"
+}
+
+{
+    "name:": "Golden Harmony Dishwashing Liquid",
+    "price:": 8.99,
+    "description": "Find golden harmony in every drop",
+    "carbon_footprint": 4.1,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 13.9,
+    "trash_footprint": 18.5, 
+    "image_url": "https://example.com/golden-harmony-dishwashing-liquid.jpg"
+}
+
+{
+    "name:": "Lustrous Crystal Clean Dish Soap",
+    "price:": 10.49,
+    "description": "Achieve lustrous crystal-clean dishes",
+    "carbon_footprint": 4.9,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15.3,
+    "trash_footprint": 20.1, 
+    "image_url": "https://example.com/lustrous-crystal-clean-dish-soap.jpg"
+}
+
+{
+    "name:": "Eternal Sunshine Dish Elixir",
+    "price:": 9.29,
+    "description": "Eternal sunshine for your kitchen",
+    "carbon_footprint": 4.0,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.0,
+    "trash_footprint": 18.6, 
+    "image_url": "https://example.com/eternal-sunshine-dish-elixir.jpg"
+}
+
+{
+    "name:": "Mystic Forest Dishwashing Potion",
+    "price:": 11.75,
+    "description": "Enchanting eco-cleaning from the mystic forest",
+    "carbon_footprint": 5.2,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 16.2,
+    "trash_footprint": 21.5, 
+    "image_url": "https://example.com/mystic-forest-dishwashing-potion.jpg"
+}
+
+{
+    "name:": "Citrus Zest Dish Delight",
+    "price:": 9.89,
+    "description": "Delight in the refreshing zest of citrus",
+    "carbon_footprint": 4.3,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.3,
+    "trash_footprint": 19, 
+    "image_url": "https://example.com/citrus-zest-dish-delight.jpg"
+}
+
+{
+    "name:": "Serene Oasis Dish Oasis",
+    "price:": 9.15,
+    "description": "Discover a serene oasis in your dishwashing",
+    "carbon_footprint": 4.1,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 13.9,
+    "trash_footprint": 18.3, 
+    "image_url": "https://example.com/serene-oasis-dish-oasis.jpg"
+}
+
+{
+    "name:": "Sapphire Breeze Dishwashing Bliss",
+    "price:": 10.99,
+    "description": "Experience bliss with a sapphire breeze",
+    "carbon_footprint": 4.5,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15.5,
+    "trash_footprint": 20.5, 
+    "image_url": "https://example.com/sapphire-breeze-dishwashing-bliss.jpg"
+}
+
+{
+    "name:": "Velvet Touch Dish Liquid",
+    "price:": 8.75,
+    "description": "A velvet touch for your dishes and the environment",
+    "carbon_footprint": 4.0,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.0,
+    "trash_footprint": 18.5, 
+    "image_url": "https://example.com/velvet-touch-dish-liquid.jpg"
+}
+
+{
+    "name:": "Crystal Serenity Dish Sparkle",
+    "price:": 9.49,
+    "description": "Experience the sparkle of crystal serenity",
+    "carbon_footprint": 4.2,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.2,
+    "trash_footprint": 18.8, 
+    "image_url": "https://example.com/crystal-serenity-dish-sparkle.jpg"
+}
+
+{
+    "name:": "Moonlit Shores Dish Magic",
+    "price:": 9.75,
+    "description": "Experience the magic of moonlit shores in your dishes",
+    "carbon_footprint": 4.3,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.3,
+    "trash_footprint": 18.7, 
+    "image_url": "https://example.com/moonlit-shores-dish-magic.jpg"
+}
+
+{
+    "name:": "Amber Glow Dish Elegance",
+    "price:": 11.25,
+    "description": "Elegance and amber glow for eco-friendly cleaning",
+    "carbon_footprint": 5.1,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 16.1,
+    "trash_footprint": 21, 
+    "image_url": "https://example.com/amber-glow-dish-elegance.jpg"
+}
+
+{
+    "name:": "Lavender Dreams Dish Delight",
+    "price:": 10.99,
+    "description": "Delight in the soothing lavender dreams",
+    "carbon_footprint": 4.5,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15.5,
+    "trash_footprint": 20.5, 
+    "image_url": "https://example.com/lavender-dreams-dish-delight.jpg"
+}
+
+{
+    "name:": "Crimson Cascade Dish Liquid",
+    "price:": 8.75,
+    "description": "Experience the cascade of crimson eco-cleaning",
+    "carbon_footprint": 4.0,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.0,
+    "trash_footprint": 18.5, 
+    "image_url": "https://example.com/crimson-cascade-dish-liquid.jpg"
+}
+
+{
+    "name:": "Golden Sands Dish Sparkle",
+    "price:": 9.49,
+    "description": "Sparkle with the radiance of golden sands",
+    "carbon_footprint": 4.2,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.2,
+    "trash_footprint": 18.8, 
+    "image_url": "https://example.com/golden-sands-dish-sparkle.jpg"
+}
+
+{
+    "name:": "Moonlit Garden Dish Magic",
+    "price:": 9.75,
+    "description": "Experience the magic of a moonlit garden on your dishes",
+    "carbon_footprint": 4.3,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.3,
+    "trash_footprint": 18.7, 
+    "image_url": "https://example.com/moonlit-garden-dish-magic.jpg"
+}
+
+{
+    "name:": "Ocean Breeze Dish Elegance",
+    "price:": 11.25,
+    "description": "Elegance with the refreshing scent of ocean breeze",
+    "carbon_footprint": 5.1,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 16.1,
+    "trash_footprint": 21, 
+    "image_url": "https://example.com/ocean-breeze-dish-elegance.jpg"
+}
+
+{
+    "name:": "Serenity Falls Dish Delight",
+    "price:": 10.99,
+    "description": "Delight in the tranquil serenity of waterfall cleaning",
+    "carbon_footprint": 4.5,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15.5,
+    "trash_footprint": 20.5, 
+    "image_url": "https://example.com/serenity-falls-dish-delight.jpg"
+}
+
+{
+    "name:": "Crystal Rain Dish Liquid",
+    "price:": 8.75,
+    "description": "Experience the refreshing crystal rain eco-cleaning",
+    "carbon_footprint": 4.0,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.0,
+    "trash_footprint": 18.5, 
+    "image_url": "https://example.com/crystal-rain-dish-liquid.jpg"
+}
+
+{
+    "name:": "Mystic Meadows Dish Magic",
+    "price:": 9.49,
+    "description": "Experience the magic of mystic meadows on your dishes",
+    "carbon_footprint": 4.2,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.2,
+    "trash_footprint": 18.8, 
+    "image_url": "https://example.com/mystic-meadows-dish-magic.jpg"
+}
+
+{
+    "name:": "Emerald Forest Dish Elegance",
+    "price:": 9.75,
+    "description": "Elegance with the enchantment of an emerald forest",
+    "carbon_footprint": 4.3,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.3,
+    "trash_footprint": 18.7, 
+    "image_url": "https://example.com/emerald-forest-dish-elegance.jpg"
+}
+
+{
+    "name:": "Sunlit Meadows Dish Bliss",
+    "price:": 11.25,
+    "description": "Bliss with the radiance of sunlit meadows",
+    "carbon_footprint": 5.1,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 16.1,
+    "trash_footprint": 21, 
+    "image_url": "https://example.com/sunlit-meadows-dish-bliss.jpg"
+}
+
+{
+    "name:": "Citrus Delight Dishwashing Symphony",
+    "price:": 10.99,
+    "description": "Experience a citrus symphony with eco-friendly cleaning",
+    "carbon_footprint": 4.5,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15.5,
+    "trash_footprint": 20.5, 
+    "image_url": "https://example.com/citrus-delight-dishwashing-symphony.jpg"
+}
+
+{
+    "name:": "Velvet Cascade Dish Euphoria",
+    "price:": 8.75,
+    "description": "Experience the euphoria of a velvet cascade eco-cleaning",
+    "carbon_footprint": 4.0,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.0,
+    "trash_footprint": 18.5, 
+    "image_url": "https://example.com/velvet-cascade-dish-euphoria.jpg"
+}
+
+{
+    "name:": "Lavender Bliss Dishwashing Marvel",
+    "price:": 9.49,
+    "description": "Marvel at the bliss of lavender dishwashing",
+    "carbon_footprint": 4.2,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.2,
+    "trash_footprint": 18.8, 
+    "image_url": "https://example.com/lavender-bliss-dishwashing-marvel.jpg"
+}
+
+{
+    "name:": "Emerald Dreams Dish Symphony",
+    "price:": 9.75,
+    "description": "Experience a symphony of emerald dreams on your dishes",
+    "carbon_footprint": 4.3,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.3,
+    "trash_footprint": 18.7, 
+    "image_url": "https://example.com/emerald-dreams-dish-symphony.jpg"
+}
+
+{
+    "name:": "Sunlit Cascade Dishwashing Euphoria",
+    "price:": 11.25,
+    "description": "Experience the euphoria of sunlit cascade cleaning",
+    "carbon_footprint": 5.1,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 16.1,
+    "trash_footprint": 21, 
+    "image_url": "https://example.com/sunlit-cascade-dishwashing-euphoria.jpg"
+}
+
+{
+    "name:": "Crimson Glow Dish Bliss",
+    "price:": 10.49,
+    "description": "Experience bliss with the radiance of crimson glow",
+    "carbon_footprint": 4.9,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15.3,
+    "trash_footprint": 20.1, 
+    "image_url": "https://example.com/crimson-glow-dish-bliss.jpg"
 }
