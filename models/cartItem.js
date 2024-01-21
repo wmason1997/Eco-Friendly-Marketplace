@@ -1,6 +1,7 @@
-const {Model, DataTypes} = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
+const Cart = require('./Cart');
 
 class cartItem extends Model {}
 
@@ -18,7 +19,11 @@ cartItem.init(
         },
         cartID: {
             type: DataTypes.INTEGER,
-            allowNull: false 
+            allowNull: false,
+            // references: {
+            //     model: 'cart',
+            //     key: 'id'
+            // }
         },
     },
     {

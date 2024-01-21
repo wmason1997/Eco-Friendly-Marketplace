@@ -5,10 +5,10 @@ router.get('/cart', async (req, res) => {
   // find cart
   // be sure to include its associated Products
   try {
-    const userId = req.session.userId;
+    const userID = req.session.userID;
     const userCartItems = await Cart.findAll({
-      where: { userId: userId },
-      include: [{ model: Item, as: 'Items' }],
+      where: { userID: 1 },
+      include: [{ model: cartItem }],
     });
 
     // Serialize data so the template can read it
@@ -32,14 +32,14 @@ router.put('/cart/update/:itemID', async (req, res) => {
   try {
     await cartItem.update(req.body, {
       where: {
-        id: req.params.itemId,
-        userId: req.session.userId, 
+        id: req.params.itemID,
+        userID: req.session.userID, 
       },
     });
 
     // Fetch the updated cart items for the user
     const updatedCartItems = await cartItem.findAll({
-      where: { userId: req.session.userId },
+      where: { userID: req.session.userID },
       include: [{ model: cartItem }], 
     });
 
@@ -61,13 +61,13 @@ router.put('/cart/update/:itemID', async (req, res) => {
 router.delete('/:id', async (req, res) => {
   // delete an item in the cart by its `id` value and 'userid' value match
   try {
-    const itemId = req.params.itemId;
-    const userId = req.session.userId;
+    const itemID = req.params.itemID;
+    const userID = req.session.userID;
 
     const cartitemData = await cartItem.destroy({
       where: {
-        id: itemId,
-        userId: userId,
+        id: itemID,
+        userID: userID,
       },
     });
 

@@ -114,8 +114,6 @@ cartItem.belongsTo(Cart, {
 });
 
 
-
-
 // Many-to-Many relations
 
 // User - Item

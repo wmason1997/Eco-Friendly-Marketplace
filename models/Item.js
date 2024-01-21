@@ -13,6 +13,7 @@ Item.init(
         },
         userID: {
             type: DataTypes.INTEGER,
+            allowNull: false,
             references: {
                 model: 'user',
                 key: 'id',

@@ -1,10 +1,10 @@
 [
     {
-        "name:": "Best soap",
-        "price:": 10,
+        "name": "Best soap",
+        "price": 10,
         "description": "Exfoliating green soap",
         "carbon_footprint": 5,
-        "user_id": "",
+        "userID": 1,
         "category": "cleaning",
         "energy_footprint": 15,
         "trash_footprint": 20, 
