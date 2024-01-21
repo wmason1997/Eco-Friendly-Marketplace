@@ -5,14 +5,21 @@ class wishlistItem extends Model {}
 
 wishlistItem.init(
     {
-        id: {},
+        id: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+            primaryKey: true,
+            autoIncrement: true,
+        },
         wishlistID: {
+            type: DataTypes.INTEGER,
             references: {
                 model: 'wishlist',
                 key: 'id',
             },
         },
         itemID: {
+            type: DataTypes.INTEGER,
             references: {
                 model: 'item',
                 key: 'id',

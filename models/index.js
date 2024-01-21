@@ -45,7 +45,7 @@ Wishlist.belongsTo(User, {
 // Order Item - Item
 
 orderItem.hasOne(Item, {
-    foreignKey: 'id'
+    foreignKey: 'itemID'
 });
 
 Item.belongsTo(orderItem, {
@@ -110,7 +110,7 @@ Cart.hasMany(cartItem, {
 });
 
 cartItem.belongsTo(Cart, {
-    foreignKey: 'id'
+    foreignKey: 'cartID'
 });
 
 
@@ -120,17 +120,13 @@ cartItem.belongsTo(Cart, {
 
 // User - Item
 User.belongsToMany(Item, {
-    through: {
-        model: Item
-    },
+    through: 'UserItem', // Sequelize creates a junction table named UserItem
     foreignKey: 'userID',
 });
 
 Item.belongsToMany(User, {
-    through: {
-        model: User
-    },
-    foreignKey: 'id'
+    through: 'UserItem', 
+    foreignKey: 'userID',
 });
 
 

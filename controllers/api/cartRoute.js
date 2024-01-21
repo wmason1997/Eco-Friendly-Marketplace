@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Cart, cartItem } = require('../../models');
+const { Cart, cartItem, Item } = require('../../models');
 
 router.get('/cart', async (req, res) => {
   // find cart
@@ -27,7 +27,7 @@ router.get('/cart', async (req, res) => {
   }
 });
 
-router.put('/cart/update/:itemId', async (req, res) => {
+router.put('/cart/update/:itemID', async (req, res) => {
   // Update the specified cart item's quantity
   try {
     await cartItem.update(req.body, {
@@ -40,7 +40,7 @@ router.put('/cart/update/:itemId', async (req, res) => {
     // Fetch the updated cart items for the user
     const updatedCartItems = await cartItem.findAll({
       where: { userId: req.session.userId },
-      include: [{ model: Item }], 
+      include: [{ model: cartItem }], 
     });
 
     // Serialize data so the template can read it
