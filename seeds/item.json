@@ -420,3 +420,111 @@
 
 //closing Baby onesie seeds and opening baby tops seeds
 
+{
+    "name:": "Rainbow Bliss Baby Top",
+    "price:": 18.95,
+    "description": "Colorful rainbow bliss baby top for happy days",
+    "carbon_footprint": 2.4,
+    "user_id": "",
+    "category": "baby",
+    "energy_footprint": 3.0,
+    "trash_footprint": 1.4, 
+    "image_url": "https://example.com/rainbow-bliss-baby-top.jpg"
+},
+{
+    "name:": "Sunshine Smiles Infant Tee",
+    "price:": 16.99,
+    "description": "Infant tee that spreads sunshine and smiles",
+    "carbon_footprint": 2.2,
+    "user_id": "",
+    "category": "baby",
+    "energy_footprint": 2.8,
+    "trash_footprint": 1.3, 
+    "image_url": "https://example.com/sunshine-smiles-infant-tee.jpg"
+},
+{
+    "name:": "Jungle Adventure Baby Shirt",
+    "price:": 21.95,
+    "description": "Baby shirt for jungle-themed adventures",
+    "carbon_footprint": 2.7,
+    "user_id": "",
+    "category": "baby",
+    "energy_footprint": 3.4,
+    "trash_footprint": 1.7, 
+    "image_url": "https://example.com/jungle-adventure-baby-shirt.jpg"
+},
+
+// closing baby tops seeds and opening baby bottoms seeds
+
+{
+    "name:": "Denim Dreams Baby Jeans",
+    "price:": 24.99,
+    "description": "Denim dreams baby jeans for a stylish look",
+    "carbon_footprint": 3.0,
+    "user_id": "",
+    "category": "baby",
+    "energy_footprint": 3.7,
+    "trash_footprint": 1.9, 
+    "image_url": "https://example.com/denim-dreams-baby-jeans.jpg"
+},
+{
+    "name:": "Twinkle Toes Infant Leggings",
+    "price:": 17.99,
+    "description": "Twinkle toes infant leggings for little ones",
+    "carbon_footprint": 2.3,
+    "user_id": "",
+    "category": "baby",
+    "energy_footprint": 2.9,
+    "trash_footprint": 1.4, 
+    "image_url": "https://example.com/twinkle-toes-infant-leggings.jpg"
+},
+{
+    "name:": "Playtime Essentials Baby Pants",
+    "price:": 19.95,
+    "description": "Essential baby pants for playtime adventures",
+    "carbon_footprint": 2.5,
+    "user_id": "",
+    "category": "baby",
+    "energy_footprint": 3.1,
+    "trash_footprint": 1.5, 
+    "image_url": "https://example.com/playtime-essentials-baby-pants.jpg"
+},
+
+// closing baby bottoms seeds and opening girls dresses seeds
+
+{
+    "name:": "Floral Delight Girls' Dress",
+    "price:": 29.99,
+    "description": "Floral delight girls' dress for special occasions",
+    "carbon_footprint": 3.6,
+    "user_id": "",
+    "category": "kids",
+    "energy_footprint": 4.2,
+    "trash_footprint": 2.1, 
+    "image_url": "https://example.com/floral-delight-girls-dress.jpg"
+},
+{
+    "name:": "Rainbow Ruffles Kids' Dress",
+    "price:": 27.95,
+    "description": "Kids' dress with rainbow ruffles for fun times",
+    "carbon_footprint": 3.4,
+    "user_id": "",
+    "category": "kids",
+    "energy_footprint": 4.0,
+    "trash_footprint": 2.0, 
+    "image_url": "https://example.com/rainbow-ruffles-kids-dress.jpg"
+},
+{
+    "name:": "Sparkling Starlight Children's Dress",
+    "price:": 32.99,
+    "description": "Children's dress that sparkles like starlight",
+    "carbon_footprint": 3.8,
+    "user_id": "",
+    "category": "kids",
+    "energy_footprint": 4.4,
+    "trash_footprint": 2.2, 
+    "image_url": "https://example.com/sparkling-starlight-childrens-dress.jpg"
+},
+
+// closing Girls dress seeds and opening Girls tops and bottoms
+
