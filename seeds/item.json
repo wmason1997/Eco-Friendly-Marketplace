@@ -20,9 +20,6 @@
     "trash_footprint": 16, 
     "image_url": "https://example.com/ecosuds-dishwashing-liquid.jpg"
 },
-
-// closing dishsoap seeds and opening Dishtowel seeds
-
 {
     "name:": "FreshFiber Dish Towel",
     "price:": 12.5,
@@ -56,9 +53,6 @@
     "trash_footprint": 20.3, 
     "image_url": "https://example.com/ecochic-dish-linen.jpg"
 },
-
-// closing dish towel seeds and opening sponges seeds
-
 {
     "name:": "CleanWave Dish Scrubber",
     "price:": 9.99,
@@ -92,9 +86,6 @@
     "trash_footprint": 18.5, 
     "image_url": "https://example.com/cleanslate-bamboo-scrubber.jpg"
 },
-
-// cloaing Sponges seeds and opening Kitchen cleaner seeeds
-
 {
     "name:": "KitchenMagic All-Purpose Cleaner",
     "price:": 7.99,
@@ -128,9 +119,6 @@
     "trash_footprint": 18.2, 
     "image_url": "https://example.com/ecoshine-kitchen-surface-cleaner.jpg"
 },
-
-// closing Kitchen cleaner seeds and opening Bathroom cleaner seeds
-
 {
     "name:": "BathGleam Bathroom Disinfectant",
     "price:": 9.99,
@@ -164,9 +152,6 @@
     "trash_footprint": 18.0, 
     "image_url": "https://example.com/freshbloom-bathroom-citrus-cleaner.jpg"
 },
-
-// closing Bathroom seeds and opening Broom seeds
-
 {
     "name:": "SweepMaster Eco-Friendly Broom",
     "price:": 12.99,
@@ -200,9 +185,6 @@
     "trash_footprint": 18.7, 
     "image_url": "https://example.com/quicksweep-multi-surface-broom.jpg"
 },
-
-// closing Broom seeds and opening Mop seeds
-
 {
     "name:": "CleanWave Microfiber Mop",
     "price:": 15.99,
@@ -236,9 +218,6 @@
     "trash_footprint": 21.0, 
     "image_url": "https://example.com/aquaglide-wet-mop-system.jpg"
 },
-
-// closing Mop seeds and opeing Trash Bags seeds
-
 {
     "name:": "EcoGuard Compostable Trash Bags",
     "price:": 12.99,
@@ -272,9 +251,6 @@
     "trash_footprint": 18.7, 
     "image_url": "https://example.com/greenearth-recycling-bags.jpg"
 },
-
-// closing trash bag seeds and opening Glovves seeds
-
 {
     "name:": "EcoShield Reusable Cleaning Gloves",
     "price:": 7.99,
@@ -308,9 +284,6 @@
     "trash_footprint": 17.8, 
     "image_url": "https://example.com/ecocomfort-household-gloves.jpg"
 },
-
-// closing Gloves seeds and opening Floor Cleaner seeds
-
 {
     "name:": "FreshStep All-Natural Floor Cleaner",
     "price:": 11.99,
@@ -344,9 +317,6 @@
     "trash_footprint": 18.7, 
     "image_url": "https://example.com/grimeblast-floor-stain-remover.jpg"
 },
-
-// closing Flooe Cleaner seeds and opnenig Strorage seeds
-
 {
     "name:": "EcoBins Stackable Storage Containers",
     "price:": 12.49,
@@ -380,10 +350,6 @@
     "trash_footprint": 20.0, 
     "image_url": "https://example.com/bamboobox-eco-storage-solutions.jpg"
 },
-
-//Closing Cleaning Seeds and opening cloths seeds
-//opening Baby Clothes 'onsies' seeds
-
 {
     "name:": "CozyCuddle Baby Onesie",
     "price:": 19.99,
@@ -417,9 +383,6 @@
     "trash_footprint": 1.6, 
     "image_url": "https://example.com/little-explorer-baby-jumpsuit.jpg"
 },
-
-//closing Baby onesie seeds and opening baby tops seeds
-
 {
     "name:": "Rainbow Bliss Baby Top",
     "price:": 18.95,
@@ -453,9 +416,6 @@
     "trash_footprint": 1.7, 
     "image_url": "https://example.com/jungle-adventure-baby-shirt.jpg"
 },
-
-// closing baby tops seeds and opening baby bottoms seeds
-
 {
     "name:": "Denim Dreams Baby Jeans",
     "price:": 24.99,
@@ -489,9 +449,6 @@
     "trash_footprint": 1.5, 
     "image_url": "https://example.com/playtime-essentials-baby-pants.jpg"
 },
-
-// closing baby bottoms seeds and opening girls dresses seeds
-
 {
     "name:": "Floral Delight Girls' Dress",
     "price:": 29.99,
@@ -525,10 +482,6 @@
     "trash_footprint": 2.2, 
     "image_url": "https://example.com/sparkling-starlight-childrens-dress.jpg"
 },
-
-// closing Girls dress seeds and opening Girls tops and bottoms
-//girls tops seeds
-
 {
     "name:": "Sunshine Dreams Girls' Top",
     "price:": 24.95,
@@ -562,7 +515,6 @@
     "trash_footprint": 1.8, 
     "image_url": "https://example.com/ocean-breeze-childrens-top.jpg"
 },
-// girls bottoms seeds
 {
     "name:": "Denim Dazzle Girls' Jeans",
     "price:": 34.99,
@@ -596,16 +548,6 @@
     "trash_footprint": 1.9, 
     "image_url": "https://example.com/adventure-shorts-for-children.jpg"
 },
-
-// Closing girls tops and bottoms seeds and opening boys Tops and bottoms seeds
-
-
-     // will add in these seeds later
-
-
-
-// closing boys tops and bottoms seeds opening womens cloths seeds
-    //womens dresses seeds
 {
     "name:": "Elegant Evening Women's Dress",
     "price:": 79.99,
