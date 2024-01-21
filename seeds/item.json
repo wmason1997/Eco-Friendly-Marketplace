@@ -1,15 +1,4 @@
 {
-    "name:": "GreenClean Dish Soap",
-    "price:": 10,
-    "description": "Exfoliating green soap",
-    "carbon_footprint": 5,
-    "user_id": "",
-    "category": "cleaning",
-    "energy_footprint": 15,
-    "trash_footprint": 20, 
-    "image_url": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
-},
-{
     "name:": "Nature's Choice Dish Soap",
     "price:": 8,
     "description": "Gentle and eco-friendly dish soap",
@@ -394,4 +383,40 @@
 
 //Closing Cleaning Seeds and opening cloths seeds
 //opening Baby Clothes 'onsies' seeds
+
+{
+    "name:": "CozyCuddle Baby Onesie",
+    "price:": 19.99,
+    "description": "Cozy and cuddly baby onesie for maximum comfort",
+    "carbon_footprint": 2.5,
+    "user_id": "",
+    "category": "baby",
+    "energy_footprint": 3.2,
+    "trash_footprint": 1.5, 
+    "image_url": "https://example.com/cozycuddle-baby-onesie.jpg"
+},
+{
+    "name:": "Starry Nights Infant Romper",
+    "price:": 22.95,
+    "description": "Adorable starry nights infant romper for bedtime",
+    "carbon_footprint": 2.8,
+    "user_id": "",
+    "category": "baby",
+    "energy_footprint": 3.5,
+    "trash_footprint": 1.8, 
+    "image_url": "https://example.com/starry-nights-infant-romper.jpg"
+},
+{
+    "name:": "Little Explorer Baby Jumpsuit",
+    "price:": 20.99,
+    "description": "Jumpsuit for the little explorer in your family",
+    "carbon_footprint": 2.6,
+    "user_id": "",
+    "category": "baby",
+    "energy_footprint": 3.3,
+    "trash_footprint": 1.6, 
+    "image_url": "https://example.com/little-explorer-baby-jumpsuit.jpg"
+},
+
+//closing Baby onesie seeds and opening baby tops seeds
 
