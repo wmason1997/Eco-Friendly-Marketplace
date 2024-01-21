@@ -1,13 +1,131 @@
-[
-    {
-        "name:": "Best soap",
-        "price:": 10,
-        "description": "Exfoliating green soap",
-        "carbon_footprint": 5,
-        "user_id": "",
-        "category": "cleaning",
-        "energy_footprint": 15,
-        "trash_footprint": 20, 
-        "image_url": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
-    }
-]
+{
+    "name:": "GreenClean Dish Soap",
+    "price:": 10,
+    "description": "Exfoliating green soap",
+    "carbon_footprint": 5,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15,
+    "trash_footprint": 20, 
+    "image_url": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
+}
+
+{
+    "name:": "Nature's Choice Dish Soap",
+    "price:": 8,
+    "description": "Gentle and eco-friendly dish soap",
+    "carbon_footprint": 4,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 12,
+    "trash_footprint": 18, 
+    "image_url": "https://example.com/natures-choice-dish-soap.jpg"
+}
+
+{
+    "name:": "EcoSuds Dishwashing Liquid",
+    "price:": 7,
+    "description": "Plant-based and biodegradable",
+    "carbon_footprint": 3,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 10,
+    "trash_footprint": 16, 
+    "image_url": "https://example.com/ecosuds-dishwashing-liquid.jpg"
+}
+
+{
+    "name:": "PureGreen Dish Soap",
+    "price:": 9,
+    "description": "100% natural and eco-friendly",
+    "carbon_footprint": 4,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14,
+    "trash_footprint": 19, 
+    "image_url": "https://example.com/puregreen-dish-soap.jpg"
+}
+
+{
+    "name:": "GreenEarth Dish Liquid",
+    "price:": 11,
+    "description": "Environmentally conscious dish soap",
+    "carbon_footprint": 6,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 16,
+    "trash_footprint": 22, 
+    "image_url": "https://example.com/greenearth-dish-liquid.jpg"
+}
+
+{
+    "name:": "EcoSolutions Dish Soap",
+    "price:": 8,
+    "description": "Sustainable and effective cleaning",
+    "carbon_footprint": 5,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 13,
+    "trash_footprint": 17, 
+    "image_url": "https://example.com/ecosolutions-dish-soap.jpg"
+}
+
+{
+    "name:": "Organic Fresh Dish Soap",
+    "price:": 9,
+    "description": "Organic ingredients for a clean home",
+    "carbon_footprint": 4,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14,
+    "trash_footprint": 19, 
+    "image_url": "https://example.com/organic-fresh-dish-soap.jpg"
+}
+
+{
+    "name:": "EcoSaver Dishwashing Liquid",
+    "price:": 7.50,
+    "description": "Budget-friendly and eco-conscious",
+    "carbon_footprint": 3.5,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 12.5,
+    "trash_footprint": 16.5, 
+    "image_url": "https://example.com/ecosaver-dishwashing-liquid.jpg"
+}
+
+{
+    "name:": "EcoSaver Dishwashing Liquid",
+    "price:": 7.50,
+    "description": "Budget-friendly and eco-conscious",
+    "carbon_footprint": 3.5,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 12.5,
+    "trash_footprint": 16.5, 
+    "image_url": "https://example.com/ecosaver-dishwashing-liquid.jpg"
+}
+
+{
+    "name:": "GreenGlow Eco Soap",
+    "price:": 10.99,
+    "description": "Gentle on the environment, tough on grease",
+    "carbon_footprint": 4.5,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 15.5,
+    "trash_footprint": 21, 
+    "image_url": "https://example.com/greenglow-eco-soap.jpg"
+}
+
+{
+    "name:": "EcoShine Dish Detergent",
+    "price:": 8.75,
+    "description": "Shine your dishes with sustainability",
+    "carbon_footprint": 4,
+    "user_id": "",
+    "category": "cleaning",
+    "energy_footprint": 14.5,
+    "trash_footprint": 19.5, 
+    "image_url": "https://example.com/ecoshine-dish-detergent.jpg"
+}
