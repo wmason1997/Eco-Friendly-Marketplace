@@ -1,4 +1,16 @@
-{
+[
+  {
+    "name": "Best soap",
+    "price": 10,
+    "description": "Exfoliating green soap",
+    "carbon_footprint": 5,
+    "userID": 1,
+    "category": "cleaning",
+    "energy_footprint": 15,
+    "trash_footprint": 20,
+    "image_url": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
+  },
+  {
     "name:": "GreenClean Dish Soap",
     "price:": 10,
     "description": "Exfoliating green soap",
@@ -6,10 +18,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15,
-    "trash_footprint": 20, 
+    "trash_footprint": 20,
     "image_url": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
-},
-{
+  },
+  {
     "name:": "Nature's Choice Dish Soap",
     "price:": 8,
     "description": "Gentle and eco-friendly dish soap",
@@ -17,10 +29,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 12,
-    "trash_footprint": 18, 
+    "trash_footprint": 18,
     "image_url": "https://example.com/natures-choice-dish-soap.jpg"
-},
-{
+  },
+  {
     "name:": "EcoSuds Dishwashing Liquid",
     "price:": 7,
     "description": "Plant-based and biodegradable",
@@ -28,13 +40,11 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 10,
-    "trash_footprint": 16, 
+    "trash_footprint": 16,
     "image_url": "https://example.com/ecosuds-dishwashing-liquid.jpg"
-},
+  },
 
-// closing dishsoap seeds and opening Dishtowel seeds
-
-{
+  {
     "name:": "FreshFiber Dish Towel",
     "price:": 12.5,
     "description": "Eco-friendly and absorbent dish towel",
@@ -42,10 +52,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.5,
-    "trash_footprint": 19.7, 
+    "trash_footprint": 19.7,
     "image_url": "https://example.com/freshfiber-dish-towel.jpg"
-},
-{
+  },
+  {
     "name:": "CleanSweep Bamboo Cloth",
     "price:": 10.75,
     "description": "Bamboo-based eco cloth for efficient cleaning",
@@ -53,10 +63,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.2,
-    "trash_footprint": 18.5, 
+    "trash_footprint": 18.5,
     "image_url": "https://example.com/cleansweep-bamboo-cloth.jpg"
-},
-{
+  },
+  {
     "name:": "EcoChic Dish Linen",
     "price:": 13.25,
     "description": "Stylish and eco-friendly dish linen",
@@ -64,13 +74,11 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.2,
-    "trash_footprint": 20.3, 
+    "trash_footprint": 20.3,
     "image_url": "https://example.com/ecochic-dish-linen.jpg"
-},
+  },
 
-// closing dish towel seeds and opening sponges seeds
-
-{
+  {
     "name:": "CleanWave Dish Scrubber",
     "price:": 9.99,
     "description": "Effective and eco-friendly dish scrubber",
@@ -78,10 +86,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.0,
-    "trash_footprint": 19.0, 
+    "trash_footprint": 19.0,
     "image_url": "https://example.com/cleanwave-dish-scrubber.jpg"
-},
-{
+  },
+  {
     "name:": "GreenGrove Eco Sponge",
     "price:": 8.49,
     "description": "Sustainable and eco-friendly cleaning sponge",
@@ -89,10 +97,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.0,
-    "trash_footprint": 18.0, 
+    "trash_footprint": 18.0,
     "image_url": "https://example.com/greengrove-eco-sponge.jpg"
-},
-{
+  },
+  {
     "name:": "CleanSlate Bamboo Scrubber",
     "price:": 10.25,
     "description": "Bamboo-based scrubber for eco-conscious cleaning",
@@ -100,13 +108,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.2,
-    "trash_footprint": 18.5, 
+    "trash_footprint": 18.5,
     "image_url": "https://example.com/cleanslate-bamboo-scrubber.jpg"
-},
-
-// cloaing Sponges seeds and opening Kitchen cleaner seeeds
-
-{
+  },
+  {
     "name:": "KitchenMagic All-Purpose Cleaner",
     "price:": 7.99,
     "description": "Versatile all-purpose cleaner for your kitchen",
@@ -114,10 +119,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.5,
-    "trash_footprint": 19.0, 
+    "trash_footprint": 19.0,
     "image_url": "https://example.com/kitchenmagic-all-purpose-cleaner.jpg"
-},
-{
+  },
+  {
     "name:": "GreaseBuster Kitchen Degreaser",
     "price:": 8.49,
     "description": "Powerful degreaser for stubborn kitchen grease",
@@ -125,10 +130,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.0,
-    "trash_footprint": 18.7, 
+    "trash_footprint": 18.7,
     "image_url": "https://example.com/greasebuster-kitchen-degreaser.jpg"
-},
-{
+  },
+  {
     "name:": "EcoShine Kitchen Surface Cleaner",
     "price:": 6.99,
     "description": "Eco-friendly cleaner for a sparkling kitchen",
@@ -136,13 +141,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.2,
-    "trash_footprint": 18.2, 
+    "trash_footprint": 18.2,
     "image_url": "https://example.com/ecoshine-kitchen-surface-cleaner.jpg"
-},
-
-// closing Kitchen cleaner seeds and opening Bathroom cleaner seeds
-
-{
+  },
+  {
     "name:": "BathGleam Bathroom Disinfectant",
     "price:": 9.99,
     "description": "Powerful disinfectant for a sparkling clean bathroom",
@@ -150,10 +152,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.7,
-    "trash_footprint": 19.5, 
+    "trash_footprint": 19.5,
     "image_url": "https://example.com/bathgleam-bathroom-disinfectant.jpg"
-},
-{
+  },
+  {
     "name:": "TileTide Bathroom Cleaner Spray",
     "price:": 8.75,
     "description": "Efficient spray for tile and bathroom cleaning",
@@ -161,10 +163,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.0,
-    "trash_footprint": 18.3, 
+    "trash_footprint": 18.3,
     "image_url": "https://example.com/tiletide-bathroom-cleaner-spray.jpg"
-},
-{
+  },
+  {
     "name:": "FreshBloom Bathroom Citrus Cleaner",
     "price:": 7.49,
     "description": "Citrus-scented cleaner for a fresh bathroom experience",
@@ -172,13 +174,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.2,
-    "trash_footprint": 18.0, 
+    "trash_footprint": 18.0,
     "image_url": "https://example.com/freshbloom-bathroom-citrus-cleaner.jpg"
-},
-
-// closing Bathroom seeds and opening Broom seeds
-
-{
+  },
+  {
     "name:": "SweepMaster Eco-Friendly Broom",
     "price:": 12.99,
     "description": "Eco-friendly broom for efficient cleaning",
@@ -186,10 +185,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.5,
-    "trash_footprint": 19.2, 
+    "trash_footprint": 19.2,
     "image_url": "https://example.com/sweepmaster-eco-friendly-broom.jpg"
-},
-{
+  },
+  {
     "name:": "DustAway Bamboo Broom",
     "price:": 11.25,
     "description": "Bamboo-based broom for dust-free cleaning",
@@ -197,10 +196,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.2,
-    "trash_footprint": 18.8, 
+    "trash_footprint": 18.8,
     "image_url": "https://example.com/dustaway-bamboo-broom.jpg"
-},
-{
+  },
+  {
     "name:": "QuickSweep Multi-Surface Broom",
     "price:": 10.99,
     "description": "Versatile broom for multi-surface cleaning",
@@ -208,13 +207,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.3,
-    "trash_footprint": 18.7, 
+    "trash_footprint": 18.7,
     "image_url": "https://example.com/quicksweep-multi-surface-broom.jpg"
-},
-
-// closing Broom seeds and opening Mop seeds
-
-{
+  },
+  {
     "name:": "CleanWave Microfiber Mop",
     "price:": 15.99,
     "description": "Efficient microfiber mop for spotless cleaning",
@@ -222,10 +218,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.5,
-    "trash_footprint": 20.0, 
+    "trash_footprint": 20.0,
     "image_url": "https://example.com/cleanwave-microfiber-mop.jpg"
-},
-{
+  },
+  {
     "name:": "MopMist Deluxe Floor Mop",
     "price:": 14.25,
     "description": "Deluxe floor mop with misting feature for easy cleaning",
@@ -233,10 +229,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.2,
-    "trash_footprint": 19.5, 
+    "trash_footprint": 19.5,
     "image_url": "https://example.com/mopmist-deluxe-floor-mop.jpg"
-},
-{
+  },
+  {
     "name:": "AquaGlide Wet Mop System",
     "price:": 17.49,
     "description": "Wet mop system with aqua-glide technology for effortless cleaning",
@@ -244,13 +240,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 16.0,
-    "trash_footprint": 21.0, 
+    "trash_footprint": 21.0,
     "image_url": "https://example.com/aquaglide-wet-mop-system.jpg"
-},
-
-// closing Mop seeds and opeing Trash Bags seeds
-
-{
+  },
+  {
     "name:": "EcoGuard Compostable Trash Bags",
     "price:": 12.99,
     "description": "Compostable trash bags for eco-conscious disposal",
@@ -258,10 +251,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.8,
-    "trash_footprint": 19.2, 
+    "trash_footprint": 19.2,
     "image_url": "https://example.com/ecoguard-compostable-trash-bags.jpg"
-},
-{
+  },
+  {
     "name:": "UltraStrength Trash Can Liners",
     "price:": 13.75,
     "description": "Heavy-duty trash can liners for maximum strength",
@@ -269,10 +262,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.0,
-    "trash_footprint": 19.8, 
+    "trash_footprint": 19.8,
     "image_url": "https://example.com/ultrastrength-trash-can-liners.jpg"
-},
-{
+  },
+  {
     "name:": "GreenEarth Recycling Bags",
     "price:": 10.99,
     "description": "Recycling bags made with eco-friendly materials",
@@ -280,13 +273,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.5,
-    "trash_footprint": 18.7, 
+    "trash_footprint": 18.7,
     "image_url": "https://example.com/greenearth-recycling-bags.jpg"
-},
-
-// closing trash bag seeds and opening Glovves seeds
-
-{
+  },
+  {
     "name:": "EcoShield Reusable Cleaning Gloves",
     "price:": 7.99,
     "description": "Reusable and eco-friendly cleaning gloves for household tasks",
@@ -294,10 +284,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.2,
-    "trash_footprint": 18.3, 
+    "trash_footprint": 18.3,
     "image_url": "https://example.com/ecoshield-reusable-cleaning-gloves.jpg"
-},
-{
+  },
+  {
     "name:": "Latex-Free EcoGrip Gloves",
     "price:": 8.49,
     "description": "Latex-free and eco-friendly grip gloves for various uses",
@@ -305,10 +295,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.5,
-    "trash_footprint": 18.7, 
+    "trash_footprint": 18.7,
     "image_url": "https://example.com/latex-free-ecogrip-gloves.jpg"
-},
-{
+  },
+  {
     "name:": "EcoComfort Household Gloves",
     "price:": 6.99,
     "description": "Comfortable and eco-friendly household gloves for daily chores",
@@ -316,13 +306,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 13.9,
-    "trash_footprint": 17.8, 
+    "trash_footprint": 17.8,
     "image_url": "https://example.com/ecocomfort-household-gloves.jpg"
-},
-
-// closing Gloves seeds and opening Floor Cleaner seeds
-
-{
+  },
+  {
     "name:": "FreshStep All-Natural Floor Cleaner",
     "price:": 11.99,
     "description": "All-natural floor cleaner for a fresh and clean floor",
@@ -330,10 +317,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.2,
-    "trash_footprint": 19.5, 
+    "trash_footprint": 19.5,
     "image_url": "https://example.com/freshstep-all-natural-floor-cleaner.jpg"
-},
-{
+  },
+  {
     "name:": "ShineGuard Floor Shine Enhancer",
     "price:": 10.49,
     "description": "Enhancer for a shiny and spotless floor finish",
@@ -341,10 +328,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.0,
-    "trash_footprint": 19.0, 
+    "trash_footprint": 19.0,
     "image_url": "https://example.com/shineguard-floor-shine-enhancer.jpg"
-},
-{
+  },
+  {
     "name:": "GrimeBlast Floor Stain Remover",
     "price:": 9.99,
     "description": "Stain remover to tackle tough floor stains",
@@ -352,13 +339,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 14.8,
-    "trash_footprint": 18.7, 
+    "trash_footprint": 18.7,
     "image_url": "https://example.com/grimeblast-floor-stain-remover.jpg"
-},
-
-// closing Flooe Cleaner seeds and opnenig Strorage seeds
-
-{
+  },
+  {
     "name:": "EcoBins Stackable Storage Containers",
     "price:": 12.49,
     "description": "Stackable storage containers for eco-friendly organization",
@@ -366,10 +350,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.2,
-    "trash_footprint": 19.7, 
+    "trash_footprint": 19.7,
     "image_url": "https://example.com/ecobins-stackable-storage-containers.jpg"
-},
-{
+  },
+  {
     "name:": "ClearView Eco-Friendly Storage Bins",
     "price:": 11.99,
     "description": "Eco-friendly storage bins with clear view for easy identification",
@@ -377,10 +361,10 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.0,
-    "trash_footprint": 19.5, 
+    "trash_footprint": 19.5,
     "image_url": "https://example.com/clearview-eco-friendly-storage-bins.jpg"
-},
-{
+  },
+  {
     "name:": "BambooBox Eco Storage Solutions",
     "price:": 13.25,
     "description": "Eco-friendly storage solutions made from sustainable bamboo",
@@ -388,10 +372,7 @@
     "user_id": "",
     "category": "cleaning",
     "energy_footprint": 15.5,
-    "trash_footprint": 20.0, 
+    "trash_footprint": 20.0,
     "image_url": "https://example.com/bamboobox-eco-storage-solutions.jpg"
-},
-
-//Closing Cleaning Seeds and opening cloths seeds
-//opening Baby Clothes 'onsies' seeds
-
+  }
+]

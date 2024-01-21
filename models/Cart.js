@@ -1,6 +1,7 @@
-const {Model, DataTypes} = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
+const cartItem = require('./cartItem');
 
 class Cart extends Model {}
     
@@ -15,9 +16,14 @@ Cart.init(
         },
         userID: {
             type: DataTypes.INTEGER,
-            allowNull: false
+            allowNull: false,
+            references: {
+                model: 'user',
+                key: 'id',
+                field: 'userID'
+            },
         
-        }
+        },
     },
     {
         sequelize,
@@ -27,5 +33,11 @@ Cart.init(
         modelName: 'cart'
     }
 )
+
+// Define associations
+Cart.hasMany(cartItem, {
+    foreignKey: 'cartID',
+  });
+
 
 module.exports = Cart;
