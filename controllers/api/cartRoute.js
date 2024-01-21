@@ -58,7 +58,7 @@ router.put('/cart/update/:itemID', async (req, res) => {
   }
 });
 
-router.delete('/:id', async (req, res) => {
+router.delete('/cart/delete/:itemId', async (req, res) => {
   // delete an item in the cart by its `id` value and 'userid' value match
   try {
     const itemID = req.params.itemID;
