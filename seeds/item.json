@@ -528,3 +528,50 @@
 
 // closing Girls dress seeds and opening Girls tops and bottoms
 
+
+{
+    "name:": "Sunshine Dreams Girls' Top",
+    "price:": 24.95,
+    "description": "Girls' top that brings sunshine and dreams",
+    "carbon_footprint": 3.3,
+    "user_id": "",
+    "category": "kids",
+    "energy_footprint": 3.9,
+    "trash_footprint": 1.9, 
+    "image_url": "https://example.com/sunshine-dreams-girls-top.jpg"
+},
+{
+    "name:": "Polka Dot Princess Kids' Top",
+    "price:": 26.99,
+    "description": "Polka dot princess kids' top for stylish kids",
+    "carbon_footprint": 3.5,
+    "user_id": "",
+    "category": "kids",
+    "energy_footprint": 4.1,
+    "trash_footprint": 2.0, 
+    "image_url": "https://example.com/polka-dot-princess-kids-top.jpg"
+},
+{
+    "name:": "Ocean Breeze Children's Top",
+    "price:": 23.95,
+    "description": "Children's top inspired by the ocean breeze",
+    "carbon_footprint": 3.2,
+    "user_id": "",
+    "category": "kids",
+    "energy_footprint": 3.7,
+    "trash_footprint": 1.8, 
+    "image_url": "https://example.com/ocean-breeze-childrens-top.jpg"
+},
+
+// Girls top seeds
+{
+    "name:": "Denim Dazzle Girls' Jeans",
+    "price:": 34.99,
+    "description": "Girls' jeans with a touch of denim dazzle",
+    "carbon_footprint": 4.0,
+    "user_id": "",
+    "category": "kids",
+    "energy_footprint": 4.6,
+    "trash_footprint": 2.3, 
+    "image_url": "https://example.com/denim-dazzle-girls-jeans.jpg"
+},
