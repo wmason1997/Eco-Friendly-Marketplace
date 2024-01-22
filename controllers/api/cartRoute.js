@@ -6,13 +6,16 @@ router.get('/cart', async (req, res) => {
   // be sure to include its associated Products
   try {
     const userID = req.session.userID;
-    const userCartItems = await Cart.findAll({
+    const userCartItems = await Cart.findOne({
       where: { userID: 1 },
-      include: [{ model: cartItem }],
+      include: [{ 
+        model: cartItem,
+        include: [{ model: Item }]
+      }],
     });
 
-    // Serialize data so the template can read it
-    const cartItems = userCartItems.map((item) => item.get({ plain: true }));
+    // Check if userCartItems is not null or undefined before mapping
+    const cartItems = userCartItems ? userCartItems.map((item) => item.get({ plain: true })) : [];
 
     // Pass serialized data and session flag into template
     res.render('cart', {
@@ -38,10 +41,11 @@ router.put('/cart/update/:itemID', async (req, res) => {
     });
 
     // Fetch the updated cart items for the user
-    const updatedCartItems = await cartItem.findAll({
+    const updatedCartItems = await Cart.findAll({
       where: { userID: req.session.userID },
-      include: [{ model: cartItem }], 
+      include: [{ model: cartItem }],
     });
+    
 
     // Serialize data so the template can read it
     const cartItems = updatedCartItems.map((cartItem) => cartItem.get({ plain: true }));
@@ -64,12 +68,9 @@ router.delete('/cart/delete/:itemId', async (req, res) => {
     const itemID = req.params.itemID;
     const userID = req.session.userID;
 
-    const cartitemData = await cartItem.destroy({
-      where: {
-        id: itemID,
-        userID: userID,
-      },
-    });
+    const cartItemData = await Cart.findByPk(itemID);
+    await cartItemData.destroy();
+  
 
     res.status(200).json(cartitemData);
   } catch (err) {

@@ -22,6 +22,15 @@ orderItem.belongsTo(Order, {
     foreignKey: 'id'
 });
 
+// item - cartitem
+cartItem.hasOne(Item, {
+    foreignKey: 'id'
+});
+
+Item.hasOne(cartItem, {
+    foreignKey: 'itemID'
+});
+
 // User - Cart
 
 User.hasOne(Cart, {
