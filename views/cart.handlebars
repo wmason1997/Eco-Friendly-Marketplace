@@ -1,10 +1,10 @@
 <h1>Your Cart</h1>
 {{#if logged_in}}
-    {{#if items.length}}
+    {{#if cartItem.length}}
         <ul>
-            {{#each items}}
+            {{#each cartItems}}
                 <li>
-                    {{this.Item.name}} - Quantity: {{this.quantity}}
+                    {{this.cartItem.name}} 
                     <!-- Add other item details here -->
                 </li>
             {{/each}}

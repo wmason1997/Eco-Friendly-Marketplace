@@ -6,9 +6,11 @@ router.get('/cart', async (req, res) => {
   // be sure to include its associated Products
   try {
     const userID = req.session.userID;
-    const userCartItems = await Cart.findAll({
-      where: { userID: 1 },
-      include: [{ model: cartItem }],
+    const userCartItems = await Cart.findOne({
+      where: { userID: req.session.userID },
+      include: [{ model: cartItem ,
+        include: [{model: Item}]
+      }],
     });
 
     // Serialize data so the template can read it
