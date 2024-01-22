@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Best soap",
     "price": 10,
     "description": "Exfoliating green soap",
@@ -11,6 +12,7 @@
     "image_url": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
   },
   {
+    "id": 2,
     "name:": "GreenClean Dish Soap",
     "price:": 10,
     "description": "Exfoliating green soap",
