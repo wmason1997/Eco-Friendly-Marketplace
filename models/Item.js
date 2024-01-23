@@ -26,7 +26,7 @@ Item.init(
             type: DataTypes.STRING
         },
         price: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.DECIMAL(6,2),
         },
         category: {
             type: DataTypes.STRING,
@@ -35,13 +35,13 @@ Item.init(
             type: DataTypes.STRING,
         },
         carbon: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.DECIMAL(4,2),
         },
         energy: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.DECIMAL(4,2),
         },
         waste: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.DECIMAL(4,2),
         },
         imageURL: {
             type: DataTypes.STRING,
