@@ -6,8 +6,10 @@ router.get('/cart', async (req, res) => {
   // be sure to include its associated Products
   try {
     const userID = req.session.userID;
+    console.log("###", userID);
     const userCartItems = await Cart.findOne({
       where: { userID: 1 },
+
       include: [{ 
         model: cartItem,
         include: [{ model: Item }]
