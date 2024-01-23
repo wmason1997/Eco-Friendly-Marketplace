@@ -1262,7 +1262,7 @@
   "category": "Home",
   "subcategory": "Laundry Detergent",
   "energy": 3,
-  "waste": "0.08 lbs/year",
+  "waste": 0.08,
   "imageURL": "[Image URL]"
 },
 {
@@ -1274,7 +1274,7 @@
   "category": "Home",
   "subcategory": "Laundry Detergent",
   "energy": 4,
-  "waste": "0.1 lbs/year",
+  "waste": 0.1,
   "imageURL": "[Image URL]"
 },
 {
@@ -1286,7 +1286,7 @@
   "category": "Home",
   "subcategory": "Laundry Detergent",
   "energy": 5,
-  "waste": "0.12 lbs/year",
+  "waste": 0.12,
   "imageURL": "[Image URL]"
 },
 {
@@ -1298,7 +1298,7 @@
   "category": "Home",
   "subcategory": "Laundry Baskets",
   "energy": 6,
-  "waste": "0.14 lbs/year",
+  "waste": 0.14,
   "imageURL": "[Image URL]"
 },
 {
@@ -1310,7 +1310,7 @@
   "category": "Home",
   "subcategory": "Laundry Baskets",
   "energy": 7,
-  "waste": "0.16 lbs/year",
+  "waste": 0.16,
   "imageURL": "[Image URL]"
 },
 {
@@ -1322,7 +1322,7 @@
   "category": "Home",
   "subcategory": "Laundry Baskets",
   "energy": 8,
-  "waste": "0.18 lbs/year",
+  "waste": 0.18,
   "imageURL": "[Image URL]"
 },
 {
@@ -1334,7 +1334,7 @@
   "category": "Home",
   "subcategory": "Vacuums",
   "energy": 15,
-  "waste": "0.3 lbs/year",
+  "waste": 0.3,
   "imageURL": "[Image URL]"
 },
 {
@@ -1346,7 +1346,7 @@
   "category": "Home",
   "subcategory": "Vacuums",
   "energy": 17,
-  "waste": "0.32 lbs/year",
+  "waste": 0.32,
   "imageURL": "[Image URL]"
 },
 {
@@ -1358,7 +1358,7 @@
   "category": "Home",
   "subcategory": "Vacuums",
   "energy": 19,
-  "waste": "0.34 lbs/year",
+  "waste": 0.34,
   "imageURL": "[Image URL]"
 },
 {
@@ -1370,7 +1370,7 @@
   "category": "Home",
   "subcategory": "Bedding",
   "energy": 9,
-  "waste": "0.2 lbs/year",
+  "waste": 0.2,
   "imageURL": "[Image URL]"
 },
 {
@@ -1382,7 +1382,7 @@
   "category": "Home",
   "subcategory": "Bedding",
   "energy": 8,
-  "waste": "0.18 lbs/year",
+  "waste": 0.18,
   "imageURL": "[Image URL]"
 },
 {
@@ -1394,7 +1394,7 @@
   "category": "Home",
   "subcategory": "Bedding",
   "energy": 10,
-  "waste": "0.22 lbs/year",
+  "waste": 0.22,
   "imageURL": "[Image URL]"
 },
 {
@@ -1406,7 +1406,7 @@
   "category": "Home",
   "subcategory": "Decor",
   "energy": 4,
-  "waste": "0.1 lbs/year",
+  "waste": 0.1,
   "imageURL": "[Image URL]"
 },
 {
@@ -1418,7 +1418,7 @@
   "category": "Home",
   "subcategory": "Decor",
   "energy": 5,
-  "waste": "0.12 lbs/year",
+  "waste": 0.12,
   "imageURL": "[Image URL]"
 },
 {
@@ -1430,7 +1430,7 @@
   "category": "Home",
   "subcategory": "Decor",
   "energy": 6,
-  "waste": "0.14 lbs/year",
+  "waste": 0.14,
   "imageURL": "[Image URL]"
 },
 {
@@ -1442,7 +1442,7 @@
   "category": "Home",
   "subcategory": "Mattress",
   "energy": 40,
-  "waste": "0.8 lbs/year",
+  "waste": 0.8,
   "imageURL": "[Image URL]"
 },
 {
@@ -1454,7 +1454,7 @@
   "category": "Home",
   "subcategory": "Mattress",
   "energy": 45,
-  "waste": "0.9 lbs/year",
+  "waste": 0.9,
   "imageURL": "[Image URL]"
 },
 {
@@ -1466,7 +1466,7 @@
   "category": "Home",
   "subcategory": "Mattress",
   "energy": 35,
-  "waste": "0.7 lbs/year",
+  "waste": 0.7,
   "imageURL": "[Image URL]"
 },
 {
@@ -1478,7 +1478,7 @@
   "category": "Home",
   "subcategory": "Storage",
   "energy": 3,
-  "waste": "0.06 lbs/year",
+  "waste": 0.06,
   "imageURL": "[Image URL]"
 },
 {
@@ -1490,7 +1490,7 @@
   "category": "Home",
   "subcategory": "Storage",
   "energy": 4,
-  "waste": "0.08 lbs/year",
+  "waste": 0.08,
   "imageURL": "[Image URL]"
 },
 {
@@ -1502,7 +1502,7 @@
   "category": "Home",
   "subcategory": "Storage",
   "energy": 5,
-  "waste": "0.1 lbs/year",
+  "waste": 0.1,
   "imageURL": "[Image URL]"
 },
 {
@@ -1514,7 +1514,7 @@
   "category": "Home",
   "subcategory": "Appliances",
   "energy": 8,
-  "waste": "0.16 lbs/year",
+  "waste": 0.16,
   "imageURL": "[Image URL]"
 },
 {
@@ -1526,7 +1526,7 @@
   "category": "Home",
   "subcategory": "Appliances",
   "energy": 7,
-  "waste": "0.14 lbs/year",
+  "waste": 0.14,
   "imageURL": "[Image URL]"
 },
 {
@@ -1538,7 +1538,7 @@
   "category": "Home",
   "subcategory": "Appliances",
   "energy": 6,
-  "waste": "0.12 lbs/year",
+  "waste": 0.12,
   "imageURL": "[Image URL]"
 },
 {
@@ -1550,7 +1550,7 @@
   "category": "Home",
   "subcategory": "Rugs",
   "energy": 8,
-  "waste": "0.16 lbs/year",
+  "waste": 0.16,
   "imageURL": "[Image URL]"
 },
 {
@@ -1562,7 +1562,7 @@
   "category": "Home",
   "subcategory": "Rugs",
   "energy": 9,
-  "waste": "0.18 lbs/year",
+  "waste": 0.18,
   "imageURL": "[Image URL]"
 },
 {
@@ -1574,7 +1574,7 @@
   "category": "Home",
   "subcategory": "Rugs",
   "energy": 10,
-  "waste": "0.2 lbs/year",
+  "waste": 0.2,
   "imageURL": "[Image URL]"
 },
 {
@@ -1586,7 +1586,7 @@
   "category": "Home",
   "subcategory": "Throw Blankets",
   "energy": 3,
-  "waste": "0.06 lbs/year",
+  "waste": 0.06,
   "imageURL": "[Image URL]"
 },
 {
@@ -1598,7 +1598,7 @@
   "category": "Home",
   "subcategory": "Throw Blankets",
   "energy": 4,
-  "waste": "0.08 lbs/year",
+  "waste": 0.08,
   "imageURL": "[Image URL]"
 },
 {
@@ -1610,7 +1610,7 @@
   "category": "Home",
   "subcategory": "Throw Blankets",
   "energy": 5,
-  "waste": "0.1 lbs/year",
+  "waste": 0.1,
   "imageURL": "[Image URL]"
 },
 {
@@ -1622,7 +1622,7 @@
   "category": "Home",
   "subcategory": "Tables",
   "energy": 20,
-  "waste": "0.4 lbs/year",
+  "waste": 0.4,
   "imageURL": "[Image URL]"
 },
 {
@@ -1634,7 +1634,7 @@
   "category": "Home",
   "subcategory": "Tables",
   "energy": 13,
-  "waste": "0.26 lbs/year",
+  "waste": 0.26,
   "imageURL": "[Image URL]"
 },
 {
@@ -1646,7 +1646,7 @@
   "category": "Home",
   "subcategory": "Tables",
   "energy": 15,
-  "waste": "0.3 lbs/year",
+  "waste": 0.3,
   "imageURL": "[Image URL]"
 },
 {
@@ -1658,7 +1658,7 @@
   "category": "Home",
   "subcategory": "Chairs",
   "energy": 8,
-  "waste": "0.16 lbs/year",
+  "waste": 0.16,
   "imageURL": "[Image URL]"
 },
 {
@@ -1670,7 +1670,7 @@
   "category": "Home",
   "subcategory": "Chairs",
   "energy": 9,
-  "waste": "0.18 lbs/year",
+  "waste": 0.18,
   "imageURL": "[Image URL]"
 },
 {
@@ -1682,7 +1682,7 @@
   "category": "Home",
   "subcategory": "Chairs",
   "energy": 5,
-  "waste": "0.1 lbs/year",
+  "waste": 0.1,
   "imageURL": "[Image URL]"
 }
 
