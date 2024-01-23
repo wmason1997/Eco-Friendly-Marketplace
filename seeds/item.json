@@ -314,13 +314,8 @@
     "energy_footprint": 14.5,
     "trash_footprint": 18.7,
     "image_url": "https://example.com/greenearth-recycling-bags.jpg"
-<<<<<<< HEAD
-},
-{
-=======
   },
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "EcoShield Reusable Cleaning Gloves",
     "price:": 7.99,
     "description": "Reusable and eco-friendly cleaning gloves for household tasks",
