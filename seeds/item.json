@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-{
-=======
 [
   {
     "name": "Best soap",
@@ -25,7 +22,6 @@
     "image_url": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
   },
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "Nature's Choice Dish Soap",
     "price:": 8,
     "description": "Gentle and eco-friendly dish soap",
@@ -46,14 +42,9 @@
     "energy_footprint": 10,
     "trash_footprint": 16,
     "image_url": "https://example.com/ecosuds-dishwashing-liquid.jpg"
-<<<<<<< HEAD
-},
-{
-=======
   },
 
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "FreshFiber Dish Towel",
     "price:": 12.5,
     "description": "Eco-friendly and absorbent dish towel",
@@ -85,14 +76,9 @@
     "energy_footprint": 15.2,
     "trash_footprint": 20.3,
     "image_url": "https://example.com/ecochic-dish-linen.jpg"
-<<<<<<< HEAD
-},
-{
-=======
   },
 
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "CleanWave Dish Scrubber",
     "price:": 9.99,
     "description": "Effective and eco-friendly dish scrubber",
@@ -124,13 +110,8 @@
     "energy_footprint": 14.2,
     "trash_footprint": 18.5,
     "image_url": "https://example.com/cleanslate-bamboo-scrubber.jpg"
-<<<<<<< HEAD
-},
-{
-=======
   },
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "KitchenMagic All-Purpose Cleaner",
     "price:": 7.99,
     "description": "Versatile all-purpose cleaner for your kitchen",
@@ -162,13 +143,8 @@
     "energy_footprint": 14.2,
     "trash_footprint": 18.2,
     "image_url": "https://example.com/ecoshine-kitchen-surface-cleaner.jpg"
-<<<<<<< HEAD
-},
-{
-=======
   },
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "BathGleam Bathroom Disinfectant",
     "price:": 9.99,
     "description": "Powerful disinfectant for a sparkling clean bathroom",
@@ -200,13 +176,8 @@
     "energy_footprint": 14.2,
     "trash_footprint": 18.0,
     "image_url": "https://example.com/freshbloom-bathroom-citrus-cleaner.jpg"
-<<<<<<< HEAD
-},
-{
-=======
   },
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "SweepMaster Eco-Friendly Broom",
     "price:": 12.99,
     "description": "Eco-friendly broom for efficient cleaning",
@@ -238,13 +209,8 @@
     "energy_footprint": 14.3,
     "trash_footprint": 18.7,
     "image_url": "https://example.com/quicksweep-multi-surface-broom.jpg"
-<<<<<<< HEAD
-},
-{
-=======
   },
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "CleanWave Microfiber Mop",
     "price:": 15.99,
     "description": "Efficient microfiber mop for spotless cleaning",
@@ -276,13 +242,8 @@
     "energy_footprint": 16.0,
     "trash_footprint": 21.0,
     "image_url": "https://example.com/aquaglide-wet-mop-system.jpg"
-<<<<<<< HEAD
-},
-{
-=======
   },
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "EcoGuard Compostable Trash Bags",
     "price:": 12.99,
     "description": "Compostable trash bags for eco-conscious disposal",
@@ -347,13 +308,8 @@
     "energy_footprint": 13.9,
     "trash_footprint": 17.8,
     "image_url": "https://example.com/ecocomfort-household-gloves.jpg"
-<<<<<<< HEAD
-},
-{
-=======
   },
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "FreshStep All-Natural Floor Cleaner",
     "price:": 11.99,
     "description": "All-natural floor cleaner for a fresh and clean floor",
@@ -385,13 +341,8 @@
     "energy_footprint": 14.8,
     "trash_footprint": 18.7,
     "image_url": "https://example.com/grimeblast-floor-stain-remover.jpg"
-<<<<<<< HEAD
-},
-{
-=======
   },
   {
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
     "name:": "EcoBins Stackable Storage Containers",
     "price:": 12.49,
     "description": "Stackable storage containers for eco-friendly organization",
@@ -423,229 +374,5 @@
     "energy_footprint": 15.5,
     "trash_footprint": 20.0,
     "image_url": "https://example.com/bamboobox-eco-storage-solutions.jpg"
-<<<<<<< HEAD
-},
-{
-    "name:": "CozyCuddle Baby Onesie",
-    "price:": 19.99,
-    "description": "Cozy and cuddly baby onesie for maximum comfort",
-    "carbon_footprint": 2.5,
-    "user_id": "",
-    "category": "baby",
-    "energy_footprint": 3.2,
-    "trash_footprint": 1.5, 
-    "image_url": "https://example.com/cozycuddle-baby-onesie.jpg"
-},
-{
-    "name:": "Starry Nights Infant Romper",
-    "price:": 22.95,
-    "description": "Adorable starry nights infant romper for bedtime",
-    "carbon_footprint": 2.8,
-    "user_id": "",
-    "category": "baby",
-    "energy_footprint": 3.5,
-    "trash_footprint": 1.8, 
-    "image_url": "https://example.com/starry-nights-infant-romper.jpg"
-},
-{
-    "name:": "Little Explorer Baby Jumpsuit",
-    "price:": 20.99,
-    "description": "Jumpsuit for the little explorer in your family",
-    "carbon_footprint": 2.6,
-    "user_id": "",
-    "category": "baby",
-    "energy_footprint": 3.3,
-    "trash_footprint": 1.6, 
-    "image_url": "https://example.com/little-explorer-baby-jumpsuit.jpg"
-},
-{
-    "name:": "Rainbow Bliss Baby Top",
-    "price:": 18.95,
-    "description": "Colorful rainbow bliss baby top for happy days",
-    "carbon_footprint": 2.4,
-    "user_id": "",
-    "category": "baby",
-    "energy_footprint": 3.0,
-    "trash_footprint": 1.4, 
-    "image_url": "https://example.com/rainbow-bliss-baby-top.jpg"
-},
-{
-    "name:": "Sunshine Smiles Infant Tee",
-    "price:": 16.99,
-    "description": "Infant tee that spreads sunshine and smiles",
-    "carbon_footprint": 2.2,
-    "user_id": "",
-    "category": "baby",
-    "energy_footprint": 2.8,
-    "trash_footprint": 1.3, 
-    "image_url": "https://example.com/sunshine-smiles-infant-tee.jpg"
-},
-{
-    "name:": "Jungle Adventure Baby Shirt",
-    "price:": 21.95,
-    "description": "Baby shirt for jungle-themed adventures",
-    "carbon_footprint": 2.7,
-    "user_id": "",
-    "category": "baby",
-    "energy_footprint": 3.4,
-    "trash_footprint": 1.7, 
-    "image_url": "https://example.com/jungle-adventure-baby-shirt.jpg"
-},
-{
-    "name:": "Denim Dreams Baby Jeans",
-    "price:": 24.99,
-    "description": "Denim dreams baby jeans for a stylish look",
-    "carbon_footprint": 3.0,
-    "user_id": "",
-    "category": "baby",
-    "energy_footprint": 3.7,
-    "trash_footprint": 1.9, 
-    "image_url": "https://example.com/denim-dreams-baby-jeans.jpg"
-},
-{
-    "name:": "Twinkle Toes Infant Leggings",
-    "price:": 17.99,
-    "description": "Twinkle toes infant leggings for little ones",
-    "carbon_footprint": 2.3,
-    "user_id": "",
-    "category": "baby",
-    "energy_footprint": 2.9,
-    "trash_footprint": 1.4, 
-    "image_url": "https://example.com/twinkle-toes-infant-leggings.jpg"
-},
-{
-    "name:": "Playtime Essentials Baby Pants",
-    "price:": 19.95,
-    "description": "Essential baby pants for playtime adventures",
-    "carbon_footprint": 2.5,
-    "user_id": "",
-    "category": "baby",
-    "energy_footprint": 3.1,
-    "trash_footprint": 1.5, 
-    "image_url": "https://example.com/playtime-essentials-baby-pants.jpg"
-},
-{
-    "name:": "Floral Delight Girls' Dress",
-    "price:": 29.99,
-    "description": "Floral delight girls' dress for special occasions",
-    "carbon_footprint": 3.6,
-    "user_id": "",
-    "category": "kids",
-    "energy_footprint": 4.2,
-    "trash_footprint": 2.1, 
-    "image_url": "https://example.com/floral-delight-girls-dress.jpg"
-},
-{
-    "name:": "Rainbow Ruffles Kids' Dress",
-    "price:": 27.95,
-    "description": "Kids' dress with rainbow ruffles for fun times",
-    "carbon_footprint": 3.4,
-    "user_id": "",
-    "category": "kids",
-    "energy_footprint": 4.0,
-    "trash_footprint": 2.0, 
-    "image_url": "https://example.com/rainbow-ruffles-kids-dress.jpg"
-},
-{
-    "name:": "Sparkling Starlight Children's Dress",
-    "price:": 32.99,
-    "description": "Children's dress that sparkles like starlight",
-    "carbon_footprint": 3.8,
-    "user_id": "",
-    "category": "kids",
-    "energy_footprint": 4.4,
-    "trash_footprint": 2.2, 
-    "image_url": "https://example.com/sparkling-starlight-childrens-dress.jpg"
-},
-{
-    "name:": "Sunshine Dreams Girls' Top",
-    "price:": 24.95,
-    "description": "Girls' top that brings sunshine and dreams",
-    "carbon_footprint": 3.3,
-    "user_id": "",
-    "category": "kids",
-    "energy_footprint": 3.9,
-    "trash_footprint": 1.9, 
-    "image_url": "https://example.com/sunshine-dreams-girls-top.jpg"
-},
-{
-    "name:": "Polka Dot Princess Kids' Top",
-    "price:": 26.99,
-    "description": "Polka dot princess kids' top for stylish kids",
-    "carbon_footprint": 3.5,
-    "user_id": "",
-    "category": "kids",
-    "energy_footprint": 4.1,
-    "trash_footprint": 2.0, 
-    "image_url": "https://example.com/polka-dot-princess-kids-top.jpg"
-},
-{
-    "name:": "Ocean Breeze Children's Top",
-    "price:": 23.95,
-    "description": "Children's top inspired by the ocean breeze",
-    "carbon_footprint": 3.2,
-    "user_id": "",
-    "category": "kids",
-    "energy_footprint": 3.7,
-    "trash_footprint": 1.8, 
-    "image_url": "https://example.com/ocean-breeze-childrens-top.jpg"
-},
-{
-    "name:": "Denim Dazzle Girls' Jeans",
-    "price:": 34.99,
-    "description": "Girls' jeans with a touch of denim dazzle",
-    "carbon_footprint": 4.0,
-    "user_id": "",
-    "category": "kids",
-    "energy_footprint": 4.6,
-    "trash_footprint": 2.3, 
-    "image_url": "https://example.com/denim-dazzle-girls-jeans.jpg"
-},
-{
-    "name:": "Twirl Time Kids' Skirt",
-    "price:": 29.95,
-    "description": "Kids' skirt designed for twirling fun",
-    "carbon_footprint": 3.6,
-    "user_id": "",
-    "category": "kids",
-    "energy_footprint": 4.2,
-    "trash_footprint": 2.1, 
-    "image_url": "https://example.com/twirl-time-kids-skirt.jpg"
-},
-{
-    "name:": "Adventure Shorts for Children",
-    "price:": 26.99,
-    "description": "Adventure shorts for active and adventurous children",
-    "carbon_footprint": 3.4,
-    "user_id": "",
-    "category": "kids",
-    "energy_footprint": 3.9,
-    "trash_footprint": 1.9, 
-    "image_url": "https://example.com/adventure-shorts-for-children.jpg"
-},
-{
-    "name:": "Elegant Evening Women's Dress",
-    "price:": 79.99,
-    "description": "Elegant evening women's dress for formal events",
-    "carbon_footprint": 5.2,
-    "user_id": "",
-    "category": "women",
-    "energy_footprint": 6.8,
-    "trash_footprint": 3.4, 
-    "image_url": "https://example.com/elegant-evening-womens-dress.jpg"
-},
-{
-    "name:": "Floral Fantasy Ladies' Dress",
-    "price:": 69.95,
-    "description": "Ladies' dress with a floral fantasy design",
-    "carbon_footprint": 4.7,
-    "user_id": "",
-    "category": "women",
-    "energy_footprint": 6.2,
-    "trash_footprint": 3.1, 
-    "image_url": "https://example.com/floral-fantasy-ladies-dress.jpg"
-},
-=======
   }
 ]
->>>>>>> c31bcf4d22cc1bb9ad1e1389dbc759d587a8d9a9
