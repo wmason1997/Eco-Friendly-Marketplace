@@ -28,7 +28,7 @@ Review.init(
         stars: {
             type: DataTypes.INTEGER,
         },
-        review: {
+        reviewText: {
             type: DataTypes.TEXT,
         }
     },
@@ -36,7 +36,7 @@ Review.init(
         sequelize,
         timestamps: false,
         freezeTableName: true,
-        underscored: true,
+        underscored: false,
         modelName: 'review'
     }
 )

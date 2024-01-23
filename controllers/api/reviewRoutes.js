@@ -1,17 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const { Review } = require('../../models'); 
+const { Review } = require('../../models');
+const { v4: uuidv4 } = require('uuid'); 
 
 // POST route to add a item review to the database only if the user is logged in
-router.post('/add/review/:userId', async (req, res) => {
-    if (req.session && req.session.userId) {
+router.post('/add/review/:userID', async (req, res) => {
         try {
-            const { itemId, userId, stars, reviewText } = req.body;
-            addReview.id = uuidv4(); // generate a unique ID for the review
+            const userID = req.params.userID; 
+            const { itemID, stars, reviewText } = req.body;
             const addReview = await Review.create({
-                id:uuidv4(), 
-                itemId, 
-                userId,
+                itemID, 
+                userID,
                 stars, 
                 reviewText
             });
@@ -22,19 +21,15 @@ router.post('/add/review/:userId', async (req, res) => {
             res.status(500).json({ message: 'Error adding review' });
         }
 
-    } else {
-        // User is not logged in, send an error message
-        res.status(401).send('User is not logged in.');
-    }
 });
 
 // GET route to view all reviews submitted by a user only if a user is logged in
-router.get('/view/reviews/:userId', async (req, res) => {
-    if (req.session && req.session.userId) {
+router.get('/view/reviews/:userID', async (req, res) => {
+    if (req.session && req.session.userID) {
         try {
-            const userId = req.params.userId;
+            const userID = req.params.userID;
             const viewReviews = await Review.findAll({
-                where: { userId: userId } // // Query database for reviews with this userId
+                where: { userID: userID } // // Query database for reviews with this userId
             });
 
             // Check if user has reviews
@@ -44,6 +39,7 @@ router.get('/view/reviews/:userId', async (req, res) => {
                 // Render a view and pass the userReviews to the template
                 res.render('userReviews', { reviews: viewReviews });
             }
+            
         } catch (error) {
             console.error(error);
             res.status(500).render(error, { message: 'Error retrieving reviews' });
@@ -55,17 +51,17 @@ router.get('/view/reviews/:userId', async (req, res) => {
 });
 
 // Update a review for a user
-router.put('/update/review/:reviewId', async (req, res) => {
+router.put('/update/review/:reviewID', async (req, res) => {
     try {
-        const reviewId = req.params.reviewId;
-        const userId = req.session.userId;
-        const { itemId, stars, reviewText } = req.body;
+        const reviewID = req.params.reviewID;
+        const userID = req.session.userID;
+        const { itemID, stars, reviewText } = req.body;
         const updateReview = await Review.update(
             { stars, reviewText },
-            { where: { reviewId: reviewId, userId: userId, itemId: itemId } } 
+            { where: { reviewID: reviewID, userID: userID, itemID: itemID } } 
         );
 
-        res.status(204).render({ message: "Updated review successfully!"})
+        res.status(200).render({ message: "Updated review successfully!"})
 
     } catch (error) {
         console.error(error);
@@ -77,15 +73,14 @@ router.put('/update/review/:reviewId', async (req, res) => {
 router.delete('/delete/review/:reviewId', async (req, res) => {
     try {
         const reviewId = req.params.reviewId;
-        const deletedReview = await Review.destroy({
+        const deleteReview = await Review.destroy({
             where: {
                 id: reviewId,
                 userId: userId // UserId check so user can only delete their own reviews
             }
         });
-        if (deleteReview) {
             res.status(200).json({message: "Review deleted successfully"})
-        };
+
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: 'Error deleting review' });
