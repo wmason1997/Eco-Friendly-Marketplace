@@ -6,7 +6,7 @@ router.post('/', async (req, res) => {
     const userData = await User.create(req.body);
 
     req.session.save(() => {
-      req.session.user_id = userData.id;
+      req.session.userID = userData.id;
       req.session.logged_in = true;
 
       res.status(200).json(userData);
@@ -18,9 +18,17 @@ router.post('/', async (req, res) => {
 
 router.post('/login', async (req, res) => {
   try {
+    const { email, password } = req.body;
+
+    if (!email || !password) {
+      res.status(400).json({ message: 'Email and password are required' });
+      return;
+    }
+
     const userData = await User.findOne({ where: { email: req.body.email } });
 
     if (!userData) {
+      console.log('this is for no userdata');
       res
         .status(400)
         .json({ message: 'Incorrect email or password, please try again' });
@@ -30,6 +38,7 @@ router.post('/login', async (req, res) => {
     const validPassword = await userData.checkPassword(req.body.password);
 
     if (!validPassword) {
+      console.log("this is for no valid password");
       res
         .status(400)
         .json({ message: 'Incorrect email or password, please try again' });
@@ -37,7 +46,7 @@ router.post('/login', async (req, res) => {
     }
 
     req.session.save(() => {
-      req.session.user_id = userData.id;
+      req.session.userID = userData.id;
       req.session.logged_in = true;
       
       res.json({ user: userData, message: 'You are now logged in!' });

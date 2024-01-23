@@ -15,4 +15,4 @@ const seedDatabase = async () => {
 }
 
 
-// seedDatabase();
+seedDatabase();
