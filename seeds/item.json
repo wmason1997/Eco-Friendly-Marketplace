@@ -430,8 +430,7 @@
     "energy_footprint": "4.5 kWh/year",
     "trash_footprint": "0.09 lbs/year",
     "image_url": "[Image URL]"
-  }
-  
+  },
   {
     "name:": "CozyCuddle Baby Onesie",
     "price:": 19.99,
@@ -2319,8 +2318,9 @@
   "energy_footprint": "10 kWh/year",
   "trash_footprint": "0.2 lbs/year",
   "image_url": "[Image URL]"
-},
+}
 
+]
 
 
 
