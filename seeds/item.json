@@ -43,7 +43,6 @@
     "trash_footprint": 16,
     "image_url": "https://example.com/ecosuds-dishwashing-liquid.jpg"
   },
-
   {
     "name:": "FreshFiber Dish Towel",
     "price:": 12.5,
@@ -77,7 +76,6 @@
     "trash_footprint": 20.3,
     "image_url": "https://example.com/ecochic-dish-linen.jpg"
   },
-
   {
     "name:": "CleanWave Dish Scrubber",
     "price:": 9.99,
@@ -957,6 +955,303 @@
   "energy_footprint": 4.9,
   "trash_footprint": 2.3, 
   "image_url": "https://example.com/chic-cat-eye-sunglasses.jpg"
+},
+{
+  "name": "TechFusion Pro",
+  "price": 199.99,
+  "description": "Advanced technology fusion device",
+  "carbon_footprint": 3,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 8,
+  "trash_footprint": 5,
+  "image_url": "https://example.com/techfusion-pro.jpg"
+},
+{
+  "name": "SpeedByte Nexus",
+  "price": 149.95,
+  "description": "High-speed internet router",
+  "carbon_footprint": 2,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 7,
+  "trash_footprint": 4,
+  "image_url": "https://example.com/speedbyte-nexus.jpg"
+},
+{
+  "name": "QuantumEdge Workstation",
+  "price": 799.99,
+  "description": "Powerful quantum computing workstation",
+  "carbon_footprint": 4,
+  "user_id": "",
+  "category": "Computers",
+  "energy_footprint": 9,
+  "trash_footprint": 6,
+  "image_url": "https://example.com/quantumedge-workstation.jpg"
+},
+{
+  "name": "SnapMaster X1",
+  "price": 129.99,
+  "description": "Versatile camera and photography tool",
+  "carbon_footprint": 2,
+  "user_id": "",
+  "category": "Photography",
+  "energy_footprint": 7,
+  "trash_footprint": 4,
+  "image_url": "https://example.com/snapmaster-x1.jpg"
+},
+{
+  "name": "FocusVision Elite",
+  "price": 299.95,
+  "description": "High-resolution focus and vision enhancement",
+  "carbon_footprint": 4,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 9,
+  "trash_footprint": 6,
+  "image_url": "https://example.com/focusvision-elite.jpg"
+},
+{
+  "name": "ShutterPro Ultra",
+  "price": 79.99,
+  "description": "Professional-grade camera shutter controller",
+  "carbon_footprint": 1,
+  "user_id": "",
+  "category": "Photography",
+  "energy_footprint": 6,
+  "trash_footprint": 3,
+  "image_url": "https://example.com/shutterpro-ultra.jpg"
+},
+{
+  "name": "PowerBlitz Turbo Charger",
+  "price": 39.99,
+  "description": "Fast-charging turbo charger for devices",
+  "carbon_footprint": 1,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 5,
+  "trash_footprint": 2,
+  "image_url": "https://example.com/powerblitz-turbo-charger.jpg"
+},
+{
+  "name": "ChargeMate Max",
+  "price": 19.95,
+  "description": "Compact and efficient device charger",
+  "carbon_footprint": 1,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 4,
+  "trash_footprint": 1,
+  "image_url": "https://example.com/chargemate-max.jpg"
+},
+{
+  "name": "VoltBoost Pro",
+  "price": 29.99,
+  "description": "High-performance voltage booster",
+  "carbon_footprint": 1,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 3,
+  "trash_footprint": 0,
+  "image_url": "https://example.com/voltboost-pro.jpg"
+},
+{
+  "name": "SonicSync HD",
+  "price": 149.99,
+  "description": "HD audio synchronization system",
+  "carbon_footprint": 3,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 8,
+  "trash_footprint": 5,
+  "image_url": "https://example.com/sonicsync-hd.jpg"
+},
+{
+  "name": "BassBeats Pro",
+  "price": 79.95,
+  "description": "Professional bass and beats headphones",
+  "carbon_footprint": 2,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 7,
+  "trash_footprint": 4,
+  "image_url": "https://example.com/bassbeats-pro.jpg"
+},
+{
+  "name": "ElectronicsWave Elite",
+  "price": 129.99,
+  "description": "Elite-level audio equipment",
+  "carbon_footprint": 3,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 6,
+  "trash_footprint": 3,
+  "image_url": "https://example.com/audiowave-elite.jpg"
+},
+{
+  "name": "UltraVision HDX",
+  "price": 499.99,
+  "description": "Ultra high-definition television experience",
+  "carbon_footprint": 4,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 9,
+  "trash_footprint": 6,
+  "image_url": "https://example.com/ultravision-hdx.jpg"
+},
+{
+  "name": "CinemaMax Pro",
+  "price": 699.95,
+  "description": "Pro-level home cinema system",
+  "carbon_footprint": 5,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 10,
+  "trash_footprint": 7,
+  "image_url": "https://example.com/cinemamax-pro.jpg"
+},
+{
+  "name": "SmartStream Elite",
+  "price": 59.99,
+  "description": "Smart streaming device for entertainment",
+  "carbon_footprint": 1,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 5,
+  "trash_footprint": 2,
+  "image_url": "https://example.com/smartstream-elite.jpg"
+},
+{
+  "name": "EcoPower LithiumTech",
+  "price": 39.95,
+  "description": "Environmentally friendly power technology",
+  "carbon_footprint": 2,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 6,
+  "trash_footprint": 3,
+  "image_url": "https://example.com/ecopower-lithiumtech.jpg"
+},
+{
+  "name": "EnergyCore Max",
+  "price": 59.99,
+  "description": "Maximized energy core for devices",
+  "carbon_footprint": 1,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 4,
+  "trash_footprint": 1,
+  "image_url": "https://example.com/energycore-max.jpg"
+},
+{
+  "name": "LongLife Duracell",
+  "price": 9.99,
+  "description": "Long-lasting Duracell batteries",
+  "carbon_footprint": 0,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 3,
+  "trash_footprint": 0,
+  "image_url": "https://example.com/longlife-duracell.jpg"
+},
+{
+  "name": "SonicWave Xperience",
+  "price": 199.99,
+  "description": "Immersive audio experience with SonicWave",
+  "carbon_footprint": 3,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 8,
+  "trash_footprint": 5,
+  "image_url": "https://example.com/sonicwave-xperience.jpg"
+},
+{
+  "name": "AcousticMaster Pro",
+  "price": 249.95,
+  "description": "Pro-level acoustic mastery equipment",
+  "carbon_footprint": 4,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 9,
+  "trash_footprint": 6,
+  "image_url": "https://example.com/acousticmaster-pro.jpg"
+},
+{
+  "name": "SoundStream Fusion",
+  "price": 99.99,
+  "description": "Fusion of sound streaming technologies",
+  "carbon_footprint": 2,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 7,
+  "trash_footprint": 4,
+  "image_url": "https://example.com/soundstream-fusion.jpg"
+},
+{
+  "name": "InfinityTouch Pro",
+  "price": 179.99,
+  "description": "Pro-level touch interface technology",
+  "carbon_footprint": 3,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 8,
+  "trash_footprint": 5,
+  "image_url": "https://example.com/infinitytouch-pro.jpg"
+},
+{
+  "name": "PureConnect X1",
+  "price": 199.95,
+  "description": "Pure and high-performance connectivity",
+  "carbon_footprint": 3,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 8,
+  "trash_footprint": 5,
+  "image_url": "https://example.com/pureconnect-x1.jpg"
+},
+{
+  "name": "StellarCall Plus",
+  "price": 79.99,
+  "description": "Stellar-quality conference calling",
+  "carbon_footprint": 1,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 5,
+  "trash_footprint": 2,
+  "image_url": "https://example.com/stellarcall-plus.jpg"
+},
+{
+  "name": "PrintPro Max",
+  "price": 129.99,
+  "description": "Maximum performance printer",
+  "carbon_footprint": 2,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 6,
+  "trash_footprint": 3,
+  "image_url": "https://example.com/printpro-max.jpg"
+},
+{
+  "name": "PrecisionPrint Elite",
+  "price": 89.95,
+  "description": "Elite precision printing technology",
+  "carbon_footprint": 1,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 4,
+  "trash_footprint": 1,
+  "image_url": "https://example.com/precisionprint-elite.jpg"
+},
+{
+  "name": "ColorCraft Pro",
+  "price": 149.99,
+  "description": "Professional color crafting equipment",
+  "carbon_footprint": 3,
+  "user_id": "",
+  "category": "Electronics",
+  "energy_footprint": 7,
+  "trash_footprint": 4,
+  "image_url": "https://example.com/colorcraft-pro.jpg"
 }
 
 
