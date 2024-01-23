@@ -18,5 +18,6 @@ const seedDatabase = async () => {
     individualHooks: true,
     returning: true,
   });
+};
 
  seedDatabase();

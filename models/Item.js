@@ -31,6 +31,9 @@ Item.init(
         category: {
             type: DataTypes.STRING,
         },
+        subcategory: {
+            type: DataTypes.STRING,
+        },
         carbon: {
             type: DataTypes.INTEGER,
         },
