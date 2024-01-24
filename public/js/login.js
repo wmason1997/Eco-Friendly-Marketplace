@@ -24,6 +24,7 @@ const loginFormHandler = async (event) => {
 
 const signupFormHandler = async (event) => {
   event.preventDefault();
+  console.log("You tried to sign up");
 
   const name = document.querySelector('#name-signup').value.trim();
   const email = document.querySelector('#email-signup').value.trim();
@@ -35,7 +36,7 @@ const signupFormHandler = async (event) => {
       body: JSON.stringify({ name, email, password }),
       headers: { 'Content-Type': 'application/json' },
     });
-
+    console.log("String after fetch", response);
     if (response.ok) {
       document.location.replace('/searchpage'); // this is where I want it to reroute to search page upon successful login
     } else {

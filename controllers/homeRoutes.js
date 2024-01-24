@@ -23,7 +23,7 @@ router.get('/', async (req, res) => {
         
       
     });
-    console.log(itemData);
+    // console.log(itemData);
     // Serialize data so the template can read it
     const items = itemData.map((item) => item.get({ plain: true }));
 

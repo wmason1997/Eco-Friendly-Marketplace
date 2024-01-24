@@ -16,6 +16,8 @@ const searchFormHandler = async (event) => {
 
         if (response.ok) {
             document.location.replace('/searchpage');
+            // here I want to filter through the items to return only the items that match what the user searched
+            
         } else {
             alert('Could not perform search');
         }
