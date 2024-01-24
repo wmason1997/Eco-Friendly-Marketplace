@@ -33,3 +33,9 @@ const categories = [
   },
   // ... more categories if needed
 ];
+
+function choseCategory(itemID, subcategory,subcategoryImage) { //chooseCategory function will get called in handlebars html when user click category image. Will get take to the subcategories page of that category. 
+
+    // Redirect to the subcategories page for the chosen category
+    window.location.href = `/items/${category}`;
+}
