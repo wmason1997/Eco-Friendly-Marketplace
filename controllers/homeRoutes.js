@@ -1,25 +1,35 @@
 const router = require('express').Router();
-const { Project, User } = require('../models');
+const { Item, User } = require('../models');
 const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
+  console.log("We are at the slash route.")
   try {
     // Get all projects and JOIN with user data
-    const projectData = await Project.findAll({
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
-    });
+    //const projectData = await Project.findAll({
+      // include: [
+      //   {
+      //     model: User,
+      //     attributes: ['name'],
+      //   },
+      // ],
+      
 
+      
+    //});
+
+    const itemData = await Item.findAll({
+      include: User, // would include related models
+        
+      
+    });
+    console.log(itemData);
     // Serialize data so the template can read it
-    const projects = projectData.map((project) => project.get({ plain: true }));
+    const items = itemData.map((item) => item.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    res.render('homepage', { 
-      projects, 
+    res.render('searchpage', { // was homepage to switch back to
+      items, 
       logged_in: req.session.logged_in 
     });
   } catch (err) {
