@@ -8,11 +8,11 @@ router.get('/cart', async (req, res) => {
     const userID = req.session.userID;
     console.log("###", userID);
     const userCartItems = await Cart.findOne({
-      where: { userID: 1 },
 
-      include: [{ 
-        model: cartItem,
-        include: [{ model: Item }]
+      where: { userID: req.session.userID },
+      include: [{ model: cartItem ,
+        include: [{model: Item}]
+
       }],
     });
 
