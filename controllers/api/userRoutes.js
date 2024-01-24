@@ -2,14 +2,16 @@ const router = require('express').Router();
 const { User } = require('../../models');
 
 router.post('/', async (req, res) => {
+  console.log('This is our signup route.');
   try {
     const userData = await User.create(req.body);
-
+    console.log(userData, "###");
     req.session.save(() => {
       req.session.userID = userData.id;
       req.session.logged_in = true;
 
       res.status(200).json(userData);
+      // redirect to search screen here
     });
   } catch (err) {
     res.status(400).json(err);
@@ -50,6 +52,9 @@ router.post('/login', async (req, res) => {
       req.session.logged_in = true;
       
       res.json({ user: userData, message: 'You are now logged in!' });
+
+      // redirect to a search page
+      
     });
 
   } catch (err) {
