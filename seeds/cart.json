@@ -1,9 +1,5 @@
 [
     {
-        "user": "William",
-        "items": ["Best soap ever", "greenest shirt"],
-        "summed_carbon_footprint": 12,
-        "summed_energy_footprint": 0,
-        "summed_trash_footprint": 0
+        "userID":1
     }
 ]
