@@ -3,6 +3,7 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers'); // Make sure to adjust the path if needed
+const searchRoute = require('./controllers/searchRoute');
 const helpers = require('./utils/helpers');
 //const passport = require('passport'); // Import Passport if needed
 
@@ -42,6 +43,8 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(searchRoute);
 
 app.use(routes);
 
