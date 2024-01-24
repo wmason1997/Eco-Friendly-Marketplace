@@ -1,10 +1,5 @@
 [
     {
-        "user": "William",
-        "wanted_items": ["bluest shirt", "greenest soap"],
-        "potential_carbon_sum": 15,
-        "potential_energy_sum": 20,
-        "potential_waste_sum": 25
-
+        "userID": 1
     }
 ]

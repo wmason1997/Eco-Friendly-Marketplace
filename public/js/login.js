@@ -37,7 +37,7 @@ const signupFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/profile');
+      document.location.replace('/searchpage'); // this is where I want it to reroute to search page upon successful login
     } else {
       alert(response.statusText);
     }

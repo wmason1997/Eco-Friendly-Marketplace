@@ -25,6 +25,10 @@ cartItem.init(
             //     key: 'id'
             // }
         },
+        quantityOfCartItemInCart: {
+            type: DataTypes.INTEGER,
+            allowNull: false
+        }
     },
     {
         sequelize,
