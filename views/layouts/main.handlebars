@@ -4,29 +4,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fund My Project!</title>
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
   <title>Taiga</title>
 </head>
 
 <body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <span role="img" aria-label="money">💸</span>
-        <a href="/">Taiga</a>
-      </h1>
-      <nav>
-        <!-- Conditionally render login or logout links -->
-        {{#if logged_in}}
-        <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
-      </nav>
-    </header>
+  <body class = "landing-page-body">
+    <div class="container-background">
+        <nav class="navbar is-transparent">
+            <div class="navbar-brand">
+                <a class="navbar-item">
+                    <img src="./public/images/Taiga-navbar.png" alt="Taiga logo" style="width: 30px; height: 8vh;"> 
+                </a>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                            <a class="bd-tw-button button" href="./index.html"
+                                style="border: none; background-image: linear-gradient(to right, #f27405 0%, #a62f03 51%, #591202 100%)">
+                                <span class="icon">
+                                    <i class="fa-sharp fa-solid fa-house fa-sm" style="color: #ffffff;"></i>
+                                </span>
+                                <span style="color: #ffffff; font-family: 'Instrument Sans', sans-serif;border: none;">
+                                    My Account
+                                </span>
+                            </a>
+                        </p>
+                        <p class="control">
+                            <a class="button" href="./dinner-details.html" style="border: none; background-image: linear-gradient(to right, #f27405 0%, #a62f03 51%, #591202 100%)"> <!--- LINK CART HANDLEBARS PAGE IN HREF --->
+                                <span class="icon">
+                                    <i class="fa-sharp fa-solid fa-heart fa-sm" style="color: #ffffff;"></i>
+                                </span>
+                                <span style="color: #ffffff; font-family: 'Instrument Sans', sans-serif; ">
+                                    Cart
+                                </span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <figure class='header-container'>
+           <h1 class='header-title'>Taiga</h1>
+            <h3> You're Eco-Conscious Marketplace</h3>
+          <p id='header-p'>
+            Welcome to Taiga, where sustainable shopping is revolutionized for the
+            eco-conscious consumer. Effortlessly browse categories or search items, each
+            with clear carbon, energy, and waste footprints. Our platform empowers you
+            with eco-scores on products, making your choices both informed and
+            impactful. Join our journey to a greener future with every purchase.
+          </p>
+        </figure>
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
       {{{ body }}}
