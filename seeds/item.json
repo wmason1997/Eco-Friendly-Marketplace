@@ -14,7 +14,7 @@
   {
     "name": "GreenClean Dish Soap",
     "price": 4.49,
-    "description": "Eco-friendly dish soap for a greener kitchen",
+    "description": "dish soap for a greener kitchen",
     "carbon": 0.25,
     "userID": 1,
     "category": "Cleaning",
@@ -50,7 +50,7 @@
   {
     "name": "CleanSweep Bamboo Cloth",
     "price": 4.99,
-    "description": "Eco-friendly bamboo dish cloth for sustainable cleaning",
+    "description": "bamboo dish cloth for sustainable cleaning",
     "carbon": 0.25,
     "userID": 1,
     "category": "Cleaning",
@@ -86,7 +86,7 @@
   {
     "name": "GreenGrove Eco Sponge",
     "price": 3.49,
-    "description": "Eco-friendly sponge for gentle and efficient cleaning",
+    "description": "sponge for gentle and efficient cleaning",
     "carbon": 0.2,
     "userID": 1,
     "category": "Cleaning",
@@ -134,7 +134,7 @@
   {
     "name": "EcoShine Kitchen Surface Cleaner",
     "price": 6.99,
-    "description": "Eco-friendly kitchen surface cleaner",
+    "description": "kitchen surface cleaner",
     "carbon": 0.3,
     "userID": 1,
     "category": "Cleaning",
@@ -180,9 +180,9 @@
     "imageURL": "[Image URL]"
   },
   {
-    "name": "SweepMaster Eco-Friendly Broom",
+    "name": "SweepMaster Broom",
     "price": 14.99,
-    "description": "Eco-friendly broom for effective cleaning",
+    "description": "broom for effective cleaning",
     "carbon": 0.6,
     "userID": 1,
     "category": "Cleaning",
@@ -278,7 +278,7 @@
   {
     "name": "GreenEarth Recycling Bags",
     "price": 7.99,
-    "description": "Recycling bags for eco-friendly waste management",
+    "description": "Recycling bags for waste management",
     "carbon": 0.3,
     "userID": 1,
     "category": "Cleaning",
@@ -302,7 +302,7 @@
   {
     "name": "Latex-Free EcoGrip Gloves",
     "price": 4.99,
-    "description": "Latex-free eco-friendly cleaning gloves",
+    "description": "Latex-free cleaning gloves",
     "carbon": "0.2",
     "userID": 1,
     "category": "Cleaning",
@@ -326,7 +326,7 @@
   {
     "name": "EcoTowels Bamboo Paper Towels",
     "price": 6.99,
-    "description": "Bamboo paper towels for eco-friendly use",
+    "description": "Bamboo paper towels for use",
     "carbon": 0.3,
     "userID": 1,
     "category": "Cleaning",
@@ -336,9 +336,9 @@
     "imageURL": "[Image URL]"
   },
   {
-    "name": "SoftTouch Eco-Friendly Paper Towels",
+    "name": "SoftTouch Paper Towels",
     "price": 5.99,
-    "description": "Eco-friendly paper towels with a soft touch",
+    "description": "paper towels with a soft touch",
     "carbon": "0.2",
     "userID": 1,
     "category": "Cleaning",
@@ -374,7 +374,7 @@
   {
     "name": "EcoShine Floor Surface Cleaner",
     "price": 9.49,
-    "description": "Eco-friendly floor surface cleaner for a sparkling home",
+    "description": "floor surface cleaner for a sparkling home",
     "carbon": 0.4,
     "userID": 1,
     "category": "Cleaning",
@@ -386,7 +386,7 @@
   {
     "name": "NatureClean Green Floor Cleaner",
     "price": 8.99,
-    "description": "Natural and eco-friendly floor cleaner for a healthier home",
+    "description": "Natural and floor cleaner for a healthier home",
     "carbon": "0.35",
     "userID": 1,
     "category": "Cleaning",
@@ -398,7 +398,7 @@
   {
     "name": "EcoBins Stackable Storage Containers",
     "price": 14.99,
-    "description": "Eco-friendly stackable storage containers for organized living",
+    "description": "stackable storage containers for organized living",
     "carbon": 0.5,
     "userID": 1,
     "category": "Cleaning",
@@ -408,9 +408,9 @@
     "imageURL": "[Image URL]"
   },
   {
-    "name": "ClearView Eco-Friendly Storage Bins",
+    "name": "ClearView Storage Bins",
     "price": 12.99,
-    "description": "Transparent eco-friendly storage bins for easy visibility",
+    "description": "Transparent storage bins for easy visibility",
     "carbon": 0.4,
     "userID": 1,
     "category": "Cleaning",
@@ -456,7 +456,7 @@
   {
     "name:": "Nature's Choice Dish Soap",
     "price:": 8,
-    "description": "Gentle and eco-friendly dish soap",
+    "description": "Gentle and dish soap",
     "carbon": 4,
     "userID": 1,
     "category": "cleaning",
@@ -478,7 +478,7 @@
   {
     "name:": "FreshFiber Dish Towel",
     "price:": 12.5,
-    "description": "Eco-friendly and absorbent dish towel",
+    "description": "and absorbent dish towel",
     "carbon": 4.8,
     "userID": 1,
     "category": "cleaning",
@@ -500,7 +500,7 @@
   {
     "name:": "EcoChic Dish Linen",
     "price:": 13.25,
-    "description": "Stylish and eco-friendly dish linen",
+    "description": "Stylish and dish linen",
     "carbon": 5.0,
     "userID": 1,
     "category": "cleaning",
@@ -511,7 +511,7 @@
   {
     "name:": "CleanWave Dish Scrubber",
     "price:": 9.99,
-    "description": "Effective and eco-friendly dish scrubber",
+    "description": "Effective and dish scrubber",
     "carbon": 4.5,
     "userID": 1,
     "category": "cleaning",
@@ -522,7 +522,7 @@
   {
     "name:": "GreenGrove Eco Sponge",
     "price:": 8.49,
-    "description": "Sustainable and eco-friendly cleaning sponge",
+    "description": "Sustainable and cleaning sponge",
     "carbon": 4.0,
     "userID": 1,
     "category": "cleaning",
@@ -566,7 +566,7 @@
   {
     "name:": "EcoShine Kitchen Surface Cleaner",
     "price:": 6.99,
-    "description": "Eco-friendly cleaner for a sparkling kitchen",
+    "description": "cleaner for a sparkling kitchen",
     "carbon": 4.0,
     "userID": 1,
     "category": "cleaning",
@@ -608,9 +608,9 @@
     "imageURL": "https://example.com/freshbloom-bathroom-citrus-cleaner.jpg"
   },
   {
-    "name:": "SweepMaster Eco-Friendly Broom",
+    "name:": "SweepMaster Broom",
     "price:": 12.99,
-    "description": "Eco-friendly broom for efficient cleaning",
+    "description": "broom for efficient cleaning",
     "carbon": 4.8,
     "userID": 1,
     "category": "cleaning",
@@ -698,7 +698,7 @@
   {
     "name:": "GreenEarth Recycling Bags",
     "price:": 10.99,
-    "description": "Recycling bags made with eco-friendly materials",
+    "description": "Recycling bags made with materials",
     "carbon": 4.3,
     "userID": 1,
     "category": "cleaning",
@@ -709,7 +709,7 @@
   {
     "name:": "EcoShield Reusable Cleaning Gloves",
     "price:": 7.99,
-    "description": "Reusable and eco-friendly cleaning gloves for household tasks",
+    "description": "Reusable and cleaning gloves for household tasks",
     "carbon": 4.0,
     "userID": 1,
     "category": "cleaning",
@@ -720,7 +720,7 @@
   {
     "name:": "Latex-Free EcoGrip Gloves",
     "price:": 8.49,
-    "description": "Latex-free and eco-friendly grip gloves for various uses",
+    "description": "Latex-free and grip gloves for various uses",
     "carbon": 4.2,
     "userID": 1,
     "category": "cleaning",
@@ -731,7 +731,7 @@
   {
     "name:": "EcoComfort Household Gloves",
     "price:": 6.99,
-    "description": "Comfortable and eco-friendly household gloves for daily chores",
+    "description": "Comfortable and household gloves for daily chores",
     "carbon": 3.8,
     "userID": 1,
     "category": "cleaning",
@@ -775,7 +775,7 @@
   {
     "name:": "EcoBins Stackable Storage Containers",
     "price:": 12.49,
-    "description": "Stackable storage containers for eco-friendly organization",
+    "description": "Stackable storage containers for organization",
     "carbon": 4.8,
     "userID": 1,
     "category": "cleaning",
@@ -784,9 +784,9 @@
     "imageURL": "https://example.com/ecobins-stackable-storage-containers.jpg"
   },
   {
-    "name:": "ClearView Eco-Friendly Storage Bins",
+    "name:": "ClearView Storage Bins",
     "price:": 11.99,
-    "description": "Eco-friendly storage bins with clear view for easy identification",
+    "description": "storage bins with clear view for easy identification",
     "carbon": 4.5,
     "userID": 1,
     "category": "cleaning",
@@ -797,7 +797,7 @@
   {
     "name:": "BambooBox Eco Storage Solutions",
     "price:": 13.25,
-    "description": "Eco-friendly storage solutions made from sustainable bamboo",
+    "description": "storage solutions made from sustainable bamboo",
     "carbon": 5.0,
     "userID": 1,
     "category": "cleaning",
@@ -2144,7 +2144,7 @@
   {
     "name": "Ocean Breeze EcoSoap Bar",
     "price": 4.99,
-    "description": "Eco-friendly soap bar with ocean breeze scent",
+    "description": "soap bar with ocean breeze scent",
     "carbon": 0.1,
     "userID": 1,
     "category": "Personal Care",
@@ -2156,7 +2156,7 @@
   {
     "name": "LeafyFresh Bamboo Toothbrush",
     "price": 2.99,
-    "description": "Bamboo toothbrush for eco-friendly dental care",
+    "description": "Bamboo toothbrush for dental care",
     "carbon": 0.05,
     "userID": 1,
     "category": "Personal Care",
@@ -2240,7 +2240,7 @@
   {
     "name": "RenewNaturals EcoRevive Shampoo & Conditioner",
     "price": 12.99,
-    "description": "Eco-friendly shampoo and conditioner for hair revival",
+    "description": "shampoo and conditioner for hair revival",
     "carbon": 0.3,
     "userID": 1,
     "category": "Personal Care",
@@ -2288,7 +2288,7 @@
   {
     "name": "Earthly Bloom Reusable Menstrual Cup",
     "price": 8.99,
-    "description": "Reusable menstrual cup for an eco-friendly period",
+    "description": "Reusable menstrual cup for an period",
     "carbon": 0.2,
     "userID": 1,
     "category": "Personal Care",
@@ -2348,7 +2348,7 @@
   {
     "name": "EcoShave Shaving Cream Bar",
     "price": 6.49,
-    "description": "Shaving cream bar for eco-friendly grooming",
+    "description": "Shaving cream bar for grooming",
     "carbon": 0.16,
     "userID": 1,
     "category": "Personal Care",
@@ -2384,7 +2384,7 @@
   {
     "name": "PureEarth EcoMakeup Remover Pads",
     "price": 8.99,
-    "description": "Eco-friendly makeup remover pads",
+    "description": "makeup remover pads",
     "carbon": 0.2,
     "userID": 1,
     "category": "Personal Care",
@@ -2444,7 +2444,7 @@
   {
     "name": "EcoLuxe Canvas Voyager Duffle",
     "price": 69.99,
-    "description": "Canvas voyager duffle with eco-friendly materials",
+    "description": "Canvas voyager duffle with materials",
     "carbon": 0.6,
     "userID": 1,
     "category": "Luggage",
@@ -2480,7 +2480,7 @@
   {
     "name": "EarthyElegance EcoJet Carry On",
     "price": 99.99,
-    "description": "EcoJet carry-on with elegant eco-friendly features",
+    "description": "EcoJet carry-on with elegant features",
     "carbon": 1.0,
     "userID": 1,
     "category": "Luggage",
@@ -2528,7 +2528,7 @@
   {
     "name": "EcoElite Leather Traveler Suitcase",
     "price": 179.99,
-    "description": "Leather traveler suitcase with elite eco-friendly features",
+    "description": "Leather traveler suitcase with elite features",
     "carbon": 1.8,
     "userID": 1,
     "category": "Luggage",
@@ -2612,7 +2612,7 @@
   {
     "name": "ElegantEco Leather Laptop Tote",
     "price": 69.99,
-    "description": "Leather laptop tote with an elegant eco-friendly touch",
+    "description": "Leather laptop tote with an elegant touch",
     "carbon": 0.7,
     "userID": 1,
     "category": "Luggage",
@@ -2696,11 +2696,11 @@
   {
     "name": "Stuffed Creatures",
     "price": 15.99,
-    "description": "Eco-friendly stuffed creatures",
+    "description": "stuffed creatures",
     "carbon": 0.19,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Stuffed Animals",
+    "subcategory": "Stuffed Animals",
     "energy": 1.9,
     "waste": 0.038,
     "imageURL": "[Image URL]"
@@ -2708,11 +2708,11 @@
   {
     "name": "Eco-Jigsaw Challenge",
     "price": 24.99,
-    "description": "Eco-friendly jigsaw puzzle challenge",
+    "description": "jigsaw puzzle challenge",
     "carbon": 0.3,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Puzzles",
+    "subcategory": "Puzzles",
     "energy": 3,
     "waste": 0.06,
     "imageURL": "[Image URL]"
@@ -2720,11 +2720,11 @@
   {
     "name": "Wooden Puzzle Masters",
     "price": 29.99,
-    "description": "Eco-friendly wooden puzzles",
+    "description": "wooden puzzles",
     "carbon": 0.36,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Puzzles",
+    "subcategory": "Puzzles",
     "energy": 3.6,
     "waste": 0.072,
     "imageURL": "[Image URL]"
@@ -2736,7 +2736,7 @@
     "carbon": 0.32,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Puzzles",
+    "subcategory": "Puzzles",
     "energy": 3.2,
     "waste": 0.064,
     "imageURL": "[Image URL]"
@@ -2744,11 +2744,11 @@
   {
     "name": "SolarSpeed Racer",
     "price": 39.99,
-    "description": "Eco-friendly solar-powered remote control car",
+    "description": "solar-powered remote control car",
     "carbon": 0.48,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Remote Control Cars",
+    "subcategory": "Remote Control Cars",
     "energy": 4.8,
     "waste": 0.096,
     "imageURL": "[Image URL]"
@@ -2760,7 +2760,7 @@
     "carbon": 0.4,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Remote Control Cars",
+    "subcategory": "Remote Control Cars",
     "energy": 4,
     "waste": 0.08,
     "imageURL": "[Image URL]"
@@ -2772,7 +2772,7 @@
     "carbon": 0.44,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Remote Control Cars",
+    "subcategory": "Remote Control Cars",
     "energy": 4.4,
     "waste": 0.088,
     "imageURL": "[Image URL]"
@@ -2780,11 +2780,11 @@
   {
     "name": "Bamboo Frame Bicycle",
     "price": 199.99,
-    "description": "Eco-friendly bicycle with a bamboo frame",
+    "description": "bicycle with a bamboo frame",
     "carbon": 2.4,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Bikes",
+    "subcategory": "Bikes",
     "energy": 24,
     "waste": 0.48,
     "imageURL": "[Image URL]"
@@ -2796,7 +2796,7 @@
     "carbon": 2.16,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Bikes",
+    "subcategory": "Bikes",
     "energy": 21.6,
     "waste": 0.432,
     "imageURL": "[Image URL]"
@@ -2804,11 +2804,11 @@
   {
     "name": "Sustainable Commuter Bike",
     "price": 219.99,
-    "description": "Eco-friendly sustainable commuter bike",
+    "description": "sustainable commuter bike",
     "carbon": 2.64,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Bikes",
+    "subcategory": "Bikes",
     "energy": 26.4,
     "waste": 0.528,
     "imageURL": "[Image URL]"
@@ -2816,11 +2816,11 @@
   {
     "name": "Natural Wood Building Blocks",
     "price": 19.99,
-    " description": "Eco-friendly natural wood building blocks",
+    " description": "natural wood building blocks",
     "carbon": 0.24,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Blocks",
+    "subcategory": "Blocks",
     "energy": 2.4,
     "waste": 0.048,
     "imageURL": "[Image URL]"
@@ -2828,11 +2828,11 @@
   {
     "name": "Recycled Material Construction Set",
     "price": 22.99,
-    "description": "Eco-friendly construction set with recycled materials",
+    "description": "construction set with recycled materials",
     "carbon": 0.28,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Blocks",
+    "subcategory": "Blocks",
     "energy": 2.8,
     "waste": 0.056,
     "imageURL": "[Image URL]"
@@ -2844,7 +2844,7 @@
     "carbon": 0.3,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Blocks",
+    "subcategory": "Blocks",
     "energy": 3,
     "waste": 0.06,
     "imageURL": "[Image URL]"
@@ -2852,11 +2852,11 @@
   {
     "name": "EcoBaby Toy Collection",
     "price": 17.99,
-    "description": "Eco-friendly baby toy collection",
+    "description": "baby toy collection",
     "carbon": 0.22,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Baby Toys",
+    "subcategory": "Baby Toys",
     "energy": 2.2,
     "waste": 0.044,
     "imageURL": "[Image URL]"
@@ -2868,19 +2868,19 @@
     "carbon": 0.18,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Baby Toys",
+    "subcategory": "Baby Toys",
     "energy": 1.8,
     "waste": 0.036,
     "imageURL": "[Image URL]"
   },
   {
-    "name": "Eco-Friendly Infant Toys",
+    "name": "Infant Toys",
     "price": 16.99,
-    "description": "Eco-friendly toys for infants",
+    "description": "toys for infants",
     "carbon": 0.2,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Baby Toys",
+    "subcategory": "Baby Toys",
     "energy": 2,
     "waste": 0.04,
     "imageURL": "[Image URL]"
@@ -2892,7 +2892,7 @@
     "carbon": 0.4,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Costumes",
+    "subcategory": "Costumes",
     "energy": 4,
     "waste": 0.08,
     "imageURL": "[Image URL]"
@@ -2904,19 +2904,19 @@
     "carbon": 0.36,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Costumes",
+    "subcategory": "Costumes",
     "energy": 3.6,
     "waste": 0.072,
     "imageURL": "[Image URL]"
   },
   {
-    "name": "Eco-Friendly Costume Collection",
+    "name": "Costume Collection",
     "price": 34.99,
-    "description": "Collection of eco-friendly costumes",
+    "description": "Collection of costumes",
     "carbon": 0.42,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Costumes",
+    "subcategory": "Costumes",
     "energy": 4.2,
     "waste": 0.084,
     "imageURL": "[Image URL]"
@@ -2924,11 +2924,11 @@
   {
     "name": "Sustainable Board Game",
     "price": 24.99,
-    "description": "Eco-friendly sustainable board game",
+    "description": "sustainable board game",
     "carbon": 0.3,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Board Games",
+    "subcategory": "Board Games",
     "energy": 3,
     "waste": 0.06,
     "imageURL": "[Image URL]"
@@ -2940,7 +2940,7 @@
     "carbon": 0.34,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Board Games",
+    "subcategory": "Board Games",
     "energy": 3.4,
     "waste": 0.068,
     "imageURL": "[Image URL]"
@@ -2948,11 +2948,11 @@
   {
     "name": "Adventure Board Game",
     "price": 29.99,
-    "description": "Adventure-themed eco-friendly board game",
+    "description": "Adventure-themed board game",
     "carbon": 0.36,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Board Games",
+    "subcategory": "Board Games",
     "energy": 3.6,
     "waste": 0.072,
     "imageURL": "[Image URL]"
@@ -2960,11 +2960,11 @@
   {
     "name": "Sustainable Playhouse",
     "price": 59.99,
-    "description": "Eco-friendly sustainable playhouse",
+    "description": "sustainable playhouse",
     "carbon": 0.72,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Play House",
+    "subcategory": "Play House",
     "energy": 7.2,
     "waste": 0.144,
     "imageURL": "[Image URL]"
@@ -2972,11 +2972,11 @@
   {
     "name": "Sustainable Playhouse",
     "price": 59.99,
-    "description": "Eco-friendly sustainable playhouse for kids",
+    "description": "sustainable playhouse for kids",
     "carbon": 0.72,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Play House",
+    "subcategory": "Play House",
     "energy": 7.2,
     "waste": 0.144,
     "imageURL": "[Image URL]"
@@ -2988,19 +2988,19 @@
     "carbon": 0.6,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Play House",
+    "subcategory": "Play House",
     "energy": 6,
     "waste": 0.12,
     "imageURL": "[Image URL]"
   },
   {
-    "name": "Eco-Friendly Play Mansion",
+    "name": "Play Mansion",
     "price": 69.99,
-    "description": "Spacious eco-friendly play mansion",
+    "description": "Spacious play mansion",
     "carbon": 0.84,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Play House",
+    "subcategory": "Play House",
     "energy": 8.4,
     "waste": 0.168,
     "imageURL": "[Image URL]"
@@ -3008,11 +3008,11 @@
   {
     "name": "Organic Cloth Dolls",
     "price": 24.99,
-    "description": "Eco-friendly organic cloth dolls",
+    "description": "organic cloth dolls",
     "carbon": 0.3,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Dolls",
+    "subcategory": "Dolls",
     "energy": 3,
     "waste": 0.06,
     "imageURL": "[Image URL]"
@@ -3024,7 +3024,7 @@
     "carbon": 0.24,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Dolls",
+    "subcategory": "Dolls",
     "energy": 2.4,
     "waste": 0.048,
     "imageURL": "[Image URL]"
@@ -3032,15 +3032,409 @@
   {
     "name": "Sustainable Dollhouse Friends",
     "price": 29.99,
-    "description": "Eco-friendly dollhouse friends set",
+    "description": "dollhouse friends set",
     "carbon": 0.36,
     "userID": 1,
     "category": "Toys",
-    "subcategory": "Eco-Friendly Dolls",
+    "subcategory": "Dolls",
     "energy": 3.6,
     "waste": 0.072,
     "imageURL": "[Image URL]"
+  },
+  {
+    "name": "GreenCraft Artisan Craft Kit",
+    "price": 29.99,
+    "description": "crafting kit for artisans",
+    "carbon": 0.36,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Crafting",
+    "energy": 3.6,
+    "waste": 0.072,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EcoVibrance Non-Toxic Paint Set",
+    "price": 19.99,
+    "description": "Non-toxic paint set with materials",
+    "carbon": 0.24,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Crafting",
+    "energy": 2.4,
+    "waste": 0.048,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EarthyHues Recycled Craft Paper",
+    "price": 14.99,
+    "description": "Recycled craft paper in earthy hues",
+    "carbon": 0.18,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Crafting",
+    "energy": 1.8,
+    "waste": 0.036,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "PureCotton Organic Yarn Collection",
+    "price": 24.99,
+    "description": "Organic cotton yarn collection",
+    "carbon": 0.3,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Yarn",
+    "energy": 3,
+    "waste": 0.06,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EcoChic Hemp Blend Yarn",
+    "price": 19.99,
+    "description": "Eco-chic hemp blend yarn",
+    "carbon": 0.24,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Yarn",
+    "energy": 2.4,
+    "waste": 0.048,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "RenewWool Sustainable Wool Yarn",
+    "price": 27.99,
+    "description": "Sustainable wool yarn for crafting",
+    "carbon": 0.336,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Yarn",
+    "energy": 3.36,
+    "waste": 0.0672,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "BambooBrush EcoPaint Brush Set",
+    "price": 12.99,
+    "description": "bamboo paint brush set",
+    "carbon": 0.156,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Paint Brushes",
+    "energy": 1.56,
+    "waste": 0.0312,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "RecycledCanvas Brush Holder",
+    "price": 9.99,
+    "description": "Brush holder made from recycled canvas",
+    "carbon": 0.12,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Paint Brushes",
+    "energy": 1.2,
+    "waste": 0.024,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "GreenGrip Biodegradable Brush Handles",
+    "price": 7.99,
+    "description": "Biodegradable brush handles with a green grip",
+    "carbon": 0.096,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Paint Brushes",
+    "energy": 0.96,
+    "waste": 0.0192,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "RenewStitch Sewing Machine",
+    "price": 119.99,
+    "description": "sewing machine for sustainable stitching",
+    "carbon": 1.44,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Sewing Machine",
+    "energy": 14.4,
+    "waste": 0.288,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EarthSew Organic Fabric Stitcher",
+    "price": 109.99,
+    "description": "Organic fabric stitcher for eco-conscious sewing",
+    "carbon": 1.32,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Sewing Machine",
+    "energy": 13.2,
+    "waste": 0.264,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "GreenThread Recycled Sewing Machine",
+    "price": 129.99,
+    "description": "Recycled sewing machine with green thread",
+    "carbon": 1.56,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Sewing Machine",
+    "energy": 15.6,
+    "waste": 0.312,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EcoMemories Recycled Photo Album",
+    "price": 19.99,
+    "description": "Recycled photo album for eco memories",
+    "carbon": 0.24,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Photo Albums",
+    "energy": 2.4,
+    "waste": 0.048,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "NaturalWood Album Cover",
+    "price": 14.99,
+    "description": "Album cover made from natural wood",
+    "carbon": 0.18,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Photo Albums",
+    "energy": 1.8,
+    "waste": 0.036,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EarthyEmbrace Linen-Bound Keepsake",
+    "price": 24.99,
+    "description": "Linen-bound keepsake album with an earthy embrace",
+    "carbon": 0.3,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Photo Albums",
+    "energy": 3,
+    "waste": 0.06,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EcoAdorn Recycled Sticker Pack",
+    "price": 7.99,
+    "description": "Recycled sticker pack for adornment",
+    "carbon": 0.096,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Stickers",
+    "energy": 0.96,
+    "waste": 0.0192,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "LeafyLove Biodegradable Sticker Collection",
+    "price": 9.99,
+    "description": "Biodegradable sticker collection with leafy love",
+    "carbon": 0.12,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Stickers",
+    "energy": 1.2,
+    "waste": 0.024,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "GreenGlow Nature-Inspired Stickers",
+    "price": 8.99,
+    "description": "Nature-inspired stickers with a green glow",
+    "carbon": 0.108,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Stickers",
+    "energy": 1.08,
+    "waste": 0.0216,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "PureCraft Recycled Scrapbook Kit",
+    "price": 18.99,
+    "description": "Recycled scrapbook kit for pure crafting",
+    "carbon": 0.228,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Scrapbook",
+    "energy": 2.28,
+    "waste": 0.0456,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EcoCharm Botanical Scrapbook Paper",
+    "price": 14.99,
+    "description": "Botanical scrapbook paper with eco charm",
+    "carbon": 0.18,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Scrapbook",
+    "energy": 1.8,
+    "waste": 0.036,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "RenewMemory Eco-Leather Scrapbook",
+    "price": 21.99,
+    "description": "Eco-leather scrapbook for renewed memories",
+    "carbon": 0.264,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Scrapbook",
+    "energy": 2.64,
+    "waste": 0.0528,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EarthBeads Natural Gemstone Collection",
+    "price": 12.99,
+    "description": "Natural gemstone bead collection",
+    "carbon": 0.156,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Beads",
+    "energy": 1.56,
+    "waste": 0.0312,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "BambooBeads EcoWood Bead Set",
+    "price": 9.99,
+    "description": "Eco-wood bead set made from bamboo",
+    "carbon": 0.12,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Beads",
+    "energy": 1.2,
+    "waste": 0.024,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "OceanGem Glass Beads from Recycled Glass",
+    "price": 15.99,
+    "description": "Glass beads made from recycled glass",
+    "carbon": 0.192,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Beads",
+    "energy": 1.92,
+    "waste": 0.0384,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EcoArt Water-Based Marker Set",
+    "price": 12.99,
+    "description": "Water-based marker set for art projects",
+    "carbon": 0.156,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Markers",
+    "energy": 1.56,
+    "waste": 0.0312,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "GreenGrip Biodegradable Marker Barrels",
+    "price": 9.99,
+    "description": "Biodegradable marker barrels for sustainable art",
+    "carbon": 0.12,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Markers",
+    "energy": 1.2,
+    "waste": 0.024,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "LeafyLines Non-Toxic Marker Collection",
+    "price": 14.99,
+    "description": "Non-toxic marker collection with packaging",
+    "carbon": 0.18,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Markers",
+    "energy": 1.8,
+    "waste": 0.036,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EcoCreativity Nature-Inspired Coloring Book",
+    "price": 8.99,
+    "description": "Nature-inspired coloring book with paper",
+    "carbon": 0.108,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Coloring Books",
+    "energy": 1.08,
+    "waste": 0.0216,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "RenewArt Recycled Paper Coloring Book",
+    "price": 9.99,
+    "description": "Coloring book made from recycled paper",
+    "carbon": 0.12,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Coloring Books",
+    "energy": 1.2,
+    "waste": 0.024,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EarthyExpressions Botanical Coloring Book",
+    "price": 10.99,
+    "description": "Botanical-themed coloring book with materials",
+    "carbon": 0.132,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Coloring Books",
+    "energy": 1.32,
+    "waste": 0.0264,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "PureGemstone DIY Jewelry Kit",
+    "price": 26.99,
+    "description": "DIY jewelry kit with pure gemstones",
+    "carbon": 0.324,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Jewelry Making Kits",
+    "energy": 3.24,
+    "waste": 0.0648,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EcoChic Wooden Bead Jewelry Set",
+    "price": 18.99,
+    "description": "EcoChic wooden bead jewelry set for crafting",
+    "carbon": 0.228,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Jewelry Making Kits",
+    "energy": 2.28,
+    "waste": 0.0456,
+    "imageURL": "[Image URL]"
+  },
+  {
+    "name": "EarthyElegance Recycled Glass Jewelry Kit",
+    "price": 24.99,
+    "description": "Recycled glass jewelry kit with an elegant touch",
+    "carbon": 0.3,
+    "userID": 1,
+    "category": "Toys",
+    "subcategory": "Jewelry Making Kits",
+    "energy": 3,
+    "waste": 0.06,
+    "imageURL": "[Image URL]"
   }
-  
-  
-  ]
+]
