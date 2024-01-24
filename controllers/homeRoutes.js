@@ -2,40 +2,30 @@ const router = require('express').Router();
 const { Item, User } = require('../models');
 const withAuth = require('../utils/auth');
 
+
+// Get route to find category property in Item model and then display categories on the home page per the wireframe
 router.get('/', async (req, res) => {
   console.log("We are at the slash route.")
   try {
-    // Get all projects and JOIN with user data
-    //const projectData = await Project.findAll({
-      // include: [
-      //   {
-      //     model: User,
-      //     attributes: ['name'],
-      //   },
-      // ],
-      
-
-      
-    //});
-
-    const itemData = await Item.findAll({
-      include: User, // would include related models
-        
-      
+       const itemData = await Item.findAll({
+        attributes: ['category'],
+        group: ['category']          
     });
-    // console.log(itemData);
+  
     // Serialize data so the template can read it
-    const items = itemData.map((item) => item.get({ plain: true }));
+    const categories = itemData.map((category) => category.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    res.render('searchpage', { // was homepage to switch back to
-      items, 
+    res.render('homepage', { // was homepage to switch back to
+      categories, 
       logged_in: req.session.logged_in 
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
+
+
 
 router.get('/project/:id', async (req, res) => {
   try {
