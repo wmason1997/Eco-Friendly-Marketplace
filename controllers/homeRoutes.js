@@ -1,31 +1,41 @@
 const router = require('express').Router();
-const { Project, User } = require('../models');
+const { Item, User } = require('../models');
 const withAuth = require('../utils/auth');
 
-// router.get('/', async (req, res) => {
-//   try {
-//     // Get all projects and JOIN with user data
-//     const projectData = await Project.findAll({
-//       include: [
-//         {
-//           model: User,
-//           attributes: ['name'],
-//         },
-//       ],
-//     });
+router.get('/', async (req, res) => {
+  console.log("We are at the slash route.")
+  try {
+    // Get all projects and JOIN with user data
+    //const projectData = await Project.findAll({
+      // include: [
+      //   {
+      //     model: User,
+      //     attributes: ['name'],
+      //   },
+      // ],
+      
 
-//     // Serialize data so the template can read it
-//     const projects = projectData.map((project) => project.get({ plain: true }));
+      
+    //});
 
-//     // Pass serialized data and session flag into template
-//     res.render('homepage', { 
-//       projects, 
-//       logged_in: req.session.logged_in 
-//     });
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-// });
+    const itemData = await Item.findAll({
+      include: User, // would include related models
+        
+      
+    });
+    console.log(itemData);
+    // Serialize data so the template can read it
+    const items = itemData.map((item) => item.get({ plain: true }));
+
+    // Pass serialized data and session flag into template
+    res.render('searchpage', { // was homepage to switch back to
+      items, 
+      logged_in: req.session.logged_in 
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
 router.get('/project/:id', async (req, res) => {
   try {
