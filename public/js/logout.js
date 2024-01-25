@@ -11,4 +11,7 @@ const logout = async () => {
   }
 };
 
-document.querySelector('#logout').addEventListener('click', logout);
+// Ensure that the script is executed after the DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelector('#logout').addEventListener('click', logout);
+});

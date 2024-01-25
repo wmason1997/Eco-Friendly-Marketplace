@@ -14,6 +14,9 @@ const app = express();
 //app.use(passport.initialize());
 //app.use(passport.session());
 
+// Middleware
+
+
 const PORT = process.env.PORT || 3001;
 
 // Set up Handlebars.js engine with custom helpers
@@ -47,6 +50,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(searchRoute);
 
 app.use(routes);
+
+app.post('/api/users/logout', (req, res) => {
+  if (req.session.logged_in) {
+    req.session.destroy(() => {
+      res.status(204).end();
+    });
+  } else {
+    res.status(404).end();
+  }
+});
 
 
 sequelize.sync({ alter: true, force: false }).then(() => {

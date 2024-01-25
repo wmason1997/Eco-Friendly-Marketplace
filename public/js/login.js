@@ -13,9 +13,12 @@ const loginFormHandler = async (event) => {
       headers: { 'Content-Type': 'application/json' },
     });
 
+    console.log(response.status); // Log the status code
+    console.log(await response.text()); // Log the response body
+
     if (response.ok) {
       // If successful, redirect the browser to the profile page
-      document.location.replace('/profile');
+      document.location.replace('/');
     } else {
       alert(response.statusText);
     }
@@ -36,9 +39,14 @@ const signupFormHandler = async (event) => {
       body: JSON.stringify({ name, email, password }),
       headers: { 'Content-Type': 'application/json' },
     });
+
     console.log("String after fetch", response);
+    console.log(response.status);
+    console.log(await response.text());
+
+
     if (response.ok) {
-      document.location.replace('/searchpage'); // this is where I want it to reroute to search page upon successful login
+      document.location.replace('/'); // this is where I want it to reroute to search page upon successful n
     } else {
       alert(response.statusText);
     }

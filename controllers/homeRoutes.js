@@ -64,7 +64,7 @@ router.get('/profile', withAuth, async (req, res) => {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.userID, {
       attributes: { exclude: ['password'] },
-      include: [{ model: Project }],
+      include: [{ model: Item }],
     });
 
     const user = userData.get({ plain: true });
@@ -81,7 +81,7 @@ router.get('/profile', withAuth, async (req, res) => {
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
-    res.redirect('/profile');
+    res.redirect('/'); // was '/profile' but instead I want to be redirected to homepage
     return;
   }
 
