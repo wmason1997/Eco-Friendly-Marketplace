@@ -8,7 +8,7 @@ router.use('/users', userRoutes);
 // add all the new Routes once configured
 router.use('/cart', cartRoute);
 router.use('/reviews', reviewRoutes);
-router.use('/item',itemRoute);
+router.use('/item', itemRoute);
 
 
 module.exports = router;
