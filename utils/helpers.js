@@ -10,6 +10,10 @@ module.exports = {
 
   'lt': function (a, b) {
     return a < b;
+  },
+
+ jsonHelper(context) {
+  return JSON.stringify(context)
   }
   // get_emoji: () => {
   //   const randomNum = Math.random();
