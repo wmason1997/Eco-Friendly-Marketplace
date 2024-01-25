@@ -79,4 +79,29 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+router.get('/items/:category', async (req, res) => {
+  try {
+      const category = req.params.category;
+
+     // Find all items in db that match the specified category
+      const items = await Item.findAll({
+          attributes: ['subcategory'],
+          where: { category: category },
+          group: ['subcategory'] // Group by subcategory to get distinct values
+      });
+      console.log(items);
+      // Extract subcategories and filter out duplicates
+      const subcategories = [...new Set(items.map(item => item.subcategory))];
+
+      res.render('subcategoriesPg', {
+          category: category,
+          subcategories: subcategories
+      });
+
+  } catch (error) {
+      console.error('Error:', error);
+      res.status(500).send('Internal Server Error');
+  }
+});
+
 module.exports = router;

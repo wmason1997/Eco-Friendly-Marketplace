@@ -14,7 +14,7 @@ router.get('/items/:category', async (req, res) => {
             where: { category: category },
             group: ['subcategory'] // Group by subcategory to get distinct values
         });
-
+        console.log(items);
         // Extract subcategories and filter out duplicates
         const subcategories = [...new Set(items.map(item => item.subcategory))];
 
