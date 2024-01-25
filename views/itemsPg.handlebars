@@ -1,9 +1,11 @@
-  {{> navbar}}
- <h4> Items in "{{subcategory}}" of "{{category}}"</h4>
+{{> navbar}}
+  <h4> Items in "{{subcategory}}" of "{{category}}"</h4>
   <div class="items">
     {{#each itemData as |items|}}
       <div class="item">
-        <img src="{{items.imageUrl}}" alt="{{items.name}}">
+        <p>{{items.category}}</p>
+        <img src="{{items.imageURL}}" alt="{{items.name}}">
+        <p>{{items.name}}</p>
         <!-- Add more details as needed -->
       </div>
     {{/each}}
