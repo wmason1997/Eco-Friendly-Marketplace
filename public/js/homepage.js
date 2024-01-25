@@ -45,3 +45,17 @@ document.getElementById('back-button').addEventListener('click', function () {
 
 // Load the first set of categories on page load
 document.addEventListener('DOMContentLoaded', showCategories);
+
+
+
+document.getElementById('myaccount-btn').addEventListener('click', function () {
+  if (isLoggedIn()) {
+    window.location.href = '/profile'
+  } else {
+    window.location.href = '/login'
+  }
+});
+
+function isLoggedIn() {
+  
+}

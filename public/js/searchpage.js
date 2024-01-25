@@ -14,14 +14,16 @@ const searchFormHandler = async (event) => {
     //         },
     //     });
 
-    //     if (response.ok) {
+        if (response.ok) {
+            document.location.replace('/itemsPg');
+            // here I want to filter through the items to return only the items that match what the user searched
             
     //         // here I want to filter through the items to return only the items that match what the user searched
             
     //     } else {
     //         alert('Could not perform search');
     //     }
-    //}
+    }
 };
 
 // Need to add according to the id
