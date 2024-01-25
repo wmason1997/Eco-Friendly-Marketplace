@@ -3,25 +3,34 @@ const { Item, User } = require('../models');
 const withAuth = require('../utils/auth');
 
 
+const categoryImageMap = {
+  "Cleaning": "/path/to/default.jpg",
+  "Personal Care": "/path/to/default.jpg",
+  // add other categories
+};
+
 // Get route to find category property in Item model and then display categories on the home page per the wireframe
 router.get('/', async (req, res) => {
-  console.log("We are at the slash route.")
   try {
-       const itemData = await Item.findAll({
-        attributes: ['category'],
-        group: ['category']          
-    });
-  
-    // Serialize data so the template can read it
-    const categories = itemData.map((category) => category.get({ plain: true }));
+      const categories = await Item.findAll({
+          attributes: ['category'],
+          group: ['category']
+      });
 
-    // Pass serialized data and session flag into template
-    res.render('homepage', { // was homepage to switch back to
-      categories, 
-      logged_in: req.session.logged_in 
+      const categoriesWithImages = categories.map(item => {
+        return {
+            name: item.category,
+            image: categoryImageMap[item.category] || '/path/to/default.jpg' // Fallback to a generic default image(need to change to actual path once images are uploaded)
+        };
     });
-  } catch (err) {
-    res.status(500).json(err);
+
+      res.render('homepage', {
+        categories: categoriesWithImages
+              });
+  
+  } catch (error) {
+      console.error('Error:', error);
+      res.status(500).send('Internal Server Error');
   }
 });
 
