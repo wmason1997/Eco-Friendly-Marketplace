@@ -31,7 +31,7 @@ router.get('/items/:category', async (req, res) => {
 
 
 // find all items from a specific category and subcategory AKA category >> subcategory >> Items
-router.get('/items/:category/:subcategory/itemsPg', async (req, res) => {
+router.get('/items/:category/:subcategory', async (req, res) => {
     try {
       let finditembyCategory = {
         where: { category: req.params.category }

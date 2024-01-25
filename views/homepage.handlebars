@@ -1,11 +1,23 @@
+ {{> navbar}}
+ <figure class='header-container'>
+           <h1 class='header-title'>Taiga</h1>
+            <h3> You're Eco-Conscious Marketplace</h3>
+          <p id='header-p'>
+            Welcome to Taiga, where sustainable shopping is revolutionized for the
+            eco-conscious consumer. Effortlessly browse categories or search items, each
+            with clear carbon, energy, and waste footprints. Our platform empowers you
+            with eco-scores on products, making your choices both informed and
+            impactful. Join our journey to a greener future with every purchase.
+          </p>
+  </figure>
+<div id="category-container">
+    <!-- Categories will be dynamically loaded here -->
+</div>
+<button id="back-button" style="display: none;">Back</button>
+<button id="load-more">Load More</button>
 
-{{#each categories as |category index|}}
-  {{#if (lt index 4)}}
-    <a href='/items/{{category}}'>
-      <div class='category'>
-        <h2>{{category.name}}</h2>
-        <img src='{{category.imageUrl}}' alt='{{category.name}}' />
-      </div>
-    </a>
-  {{/if}}
-{{/each}}
+<script>
+    var categories = {{{json categories}}}; // Convert categories to JSON so i can send the category data from server side to client side for homepage.js functions. do i need this tho?
+</script>
+
+{{!-- <script src="/path/to/homepage.js"></script> --}}
