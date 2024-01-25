@@ -104,4 +104,25 @@ router.get('/items/:category', async (req, res) => {
   }
 });
 
+
+router.get('/items/', async (req, res) => {
+  try {
+
+     // Find all items in db that match the specified category
+      const items = await Item.findAll({
+
+      });
+      const itemData = items.map(item => item.get({plain: true}));
+      console.log(itemData);
+
+      res.render('itemsPg', 
+    {itemData}
+      );
+
+  } catch (error) {
+      console.error('Error:', error);
+      res.status(500).send('Internal Server Error');
+  }
+});
+
 module.exports = router;

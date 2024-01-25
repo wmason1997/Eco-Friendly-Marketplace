@@ -1,8 +1,9 @@
- <h4> Items in "{{subcategory}}" of "{{category}}"</h4>
+ {{!-- <h4> Items in "{{subcategory}}" of "{{category}}"</h4> --}}
   <div class="items">
     {{#each itemData as |items|}}
       <div class="item">
-        <img src="{{items.imageUrl}}" alt="{{items.name}}">
+        <p>{{items.category}}</p>
+        <img src="{{items.imageURL}}" alt="{{items.name}}">
         <!-- Add more details as needed -->
       </div>
     {{/each}}
