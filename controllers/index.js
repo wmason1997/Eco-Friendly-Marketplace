@@ -5,10 +5,10 @@ const homeRoutes = require('./homeRoutes');
 const cartRoute = require('./cartRoute');
 const itemRoute = require('./itemRoute');
 
-router.use('/', homeRoutes);
 router.use('/api', apiRoutes);
 router.use('/items', itemRoute);
 router.use('/cart', cartRoute);
+router.use('/', homeRoutes);
 
 
 module.exports = router;

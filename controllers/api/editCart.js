@@ -1,31 +1,26 @@
 const router = require('express').Router();
-const { Cart } = require("../../models");
+const { Cart, Item } = require("../../models");
+
+// /api/cart
 
 // Add a new item to the user's cart
 router.post('/add/item', async (req, res) => {
     try {
-      const { itemID, price, imageURL } = req.body;
-      let { quantity } = req.body; // extract quantity to modify it if needed
+      const { itemID } = req.body;
+      
       const userID = req.session.userID;
   
-      // Set default quantity to 1 if it's not provided or less than 1
-      if (!quantity || quantity < 1) {
-        quantity = 1;
-      }
-      // Find the user's cart or create a new one if it doesn't exist
+//       // Find the user's cart or create a new one if it doesn't exist
       let userCart = await Cart.findOne({ where: { userID } });
       if (!userCart) {
         userCart = await Cart.create({ userID });
       }
   
       // Add item to cart
+      // Does the cart model have an addItem method?
       const cartData = await Cart.addItem({
-        // ensure this method is correctly implemented, does it only work with many to many relationships?
         cartID: userCart.id,
-        itemID: itemID,
-        price: price,
-        quantity: quantity,
-        itemImage: imageURL,
+        itemID: itemID
       });
   
       res

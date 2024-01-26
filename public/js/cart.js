@@ -4,18 +4,19 @@
 
 let cartItems = {};
 
-function addToCart(itemID, quantity, price, imageURL) { 
+// function addToCart(itemID, quantity, price, imageURL) { 
+function addToCart(itemID) { 
 
-    const itemData = {  // fill in more properties we want posted to server
-        itemID: itemID,
-        quantity: quantity,
-        price: price,
-        imageURL: imageURL
-    };
+    // const itemData = {  // fill in more properties we want posted to server
+    //     itemID: itemID,
+    //     quantity: quantity,
+    //     price: price,
+    //     imageURL: imageURL
+    // };
 
     fetch('/cart/add/item', { // makes request to backend
         method: 'POST',
-        body: JSON.stringify({itemData}), // fill out rest 
+        body: JSON.stringify({itemId}), // fill out rest 
         headers: { 'Content-Type': 'application/json' }
     })
  

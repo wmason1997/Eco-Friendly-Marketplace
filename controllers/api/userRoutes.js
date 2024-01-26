@@ -2,10 +2,10 @@ const router = require('express').Router();
 const { User } = require('../../models');
 
 router.post('/', async (req, res) => {
-  console.log('This is our signup route.');
+  // console.log('This is our signup route.');
   try {
     const userData = await User.create(req.body);
-    console.log(userData, "###");
+    // console.log(userData, "###");
     req.session.save(() => {
       req.session.userID = userData.id;
       req.session.logged_in = true;
@@ -30,7 +30,7 @@ router.post('/login', async (req, res) => {
     const userData = await User.findOne({ where: { email: req.body.email } });
 
     if (!userData) {
-      console.log('this is for no userdata');
+      // console.log('this is for no userdata');
       res
         .status(400)
         .json({ message: 'Incorrect email or password, please try again' });
@@ -40,7 +40,7 @@ router.post('/login', async (req, res) => {
     const validPassword = await userData.checkPassword(req.body.password);
 
     if (!validPassword) {
-      console.log("this is for no valid password");
+      // console.log("this is for no valid password");
       res
         .status(400)
         .json({ message: 'Incorrect email or password, please try again' });
