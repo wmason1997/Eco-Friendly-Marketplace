@@ -38,6 +38,11 @@ const sess = {
 
 app.use(session(sess));
 
+app.use((req, res, next) => {
+  console.log(`${req.method} request heard at ${req.url}`)
+  next()
+})
+
 // Inform Express.js on which template engine to use
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
@@ -61,6 +66,13 @@ app.post('/api/users/logout', (req, res) => {
   }
 });
 
+// sequelize.sync({alter: true})
+/*
+    force: true
+      overwrite all tables
+    alter: true
+      only make changes where necessary
+*/
 sequelize.sync().then(() => {
   app.listen(PORT, () => console.log(`Now listening on port ${PORT}`));
 });

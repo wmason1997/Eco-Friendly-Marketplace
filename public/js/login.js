@@ -13,8 +13,8 @@ const loginFormHandler = async (event) => {
       headers: { 'Content-Type': 'application/json' },
     });
 
-    console.log(response.status); // Log the status code
-    console.log(await response.text()); // Log the response body
+    // console.log(response.status); // Log the status code
+    // console.log(await response.text()); // Log the response body
 
     if (response.ok) {
       // If successful, redirect the browser to the profile page
@@ -27,7 +27,7 @@ const loginFormHandler = async (event) => {
 
 const signupFormHandler = async (event) => {
   event.preventDefault();
-  console.log("You tried to sign up");
+  // console.log("You tried to sign up");
 
   const name = document.querySelector('#name-signup').value.trim();
   const email = document.querySelector('#email-signup').value.trim();
@@ -40,9 +40,9 @@ const signupFormHandler = async (event) => {
       headers: { 'Content-Type': 'application/json' },
     });
 
-    console.log("String after fetch", response);
-    console.log(response.status);
-    console.log(await response.text());
+    // console.log("String after fetch", response);
+    // console.log(response.status);
+    // console.log(await response.text());
 
 
     if (response.ok) {

@@ -5,7 +5,7 @@ const { Cart, cartItem, Item } = require('../models');
 router.get('/', async (req, res) => {
   try {
     const userID = req.session.userID;
-    console.log(req.session);
+    // console.log(req.session);
     const userCartItems = await Cart.findAll({
       where: { userID: req.session.userID },
       include: [{ model: cartItem, include: [{ model: Item }] }],
