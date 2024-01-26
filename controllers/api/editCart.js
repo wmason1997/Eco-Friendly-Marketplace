@@ -1,8 +1,8 @@
 const router = require('express').Router();
-const { Cart, cartItem, Item } = require('../models');
+const { Cart } = require("../../models");
 
 // Add a new item to the user's cart
-router.post('/cart/add/item', async (req, res) => {
+router.post('/add/item', async (req, res) => {
     try {
       const { itemID, price, imageURL } = req.body;
       let { quantity } = req.body; // extract quantity to modify it if needed
@@ -40,7 +40,7 @@ router.post('/cart/add/item', async (req, res) => {
   });
   
   
-  router.delete('/cart/delete/:itemId', async (req, res) => {
+  router.delete('/:itemId', async (req, res) => {
     // delete an item in the cart by its `id` value and 'userid' value match
     try {
       const cartItemData = await Cart.destroy({

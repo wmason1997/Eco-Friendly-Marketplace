@@ -14,7 +14,7 @@ console.log("route has been hit")
       attributes: ['subcategory'],
     }); //go plain: text 
     // console.log plain version
-
+console.log(items)
     const subcategoryData = items.map((item) => item.get({ plain: true }));
     const formattedSubcategories = [...new Set(subcategoryData.map((item) => item.subcategory))];
  

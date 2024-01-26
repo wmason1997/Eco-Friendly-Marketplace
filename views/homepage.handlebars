@@ -37,7 +37,7 @@
       </div class = "categories">
       {{#each categories }}
         
-        <div class="category-link" data-set-id="Cleaning">
+        <div class="category-link" data-set-id={{this.name}}>
         <a href ="/items/{{this.name}}"> <img data-set-id={{this.name}} id="categories" src={{this.imageUrl}}alt="Description"> 
             <p id="text-overlay">{{this.name}}</p> 
         </a>
