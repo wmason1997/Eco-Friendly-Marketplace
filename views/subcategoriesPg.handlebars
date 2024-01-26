@@ -1,10 +1,16 @@
 {{> navbar}}
+<a href=""></a>
  <h1>Subcategories in "{{category}}"</h1>
   <div class="subcategories">
+    {{log "logging this" subcategories}}
+   
     {{#each subcategories}}
+      {{log "log this" category}}
+     <a href='/items/{{../category}}/{{this}}'>
       <div class="subcategory">
-        <img src="{{subcategoryimageUrl}}" alt="{{subcategory}}">
-        <h2>{{subcategory}}</h2>
+        <h2>{{this}}</h2>
       </div>
+      </a>
     {{/each}}
   </div>
+

@@ -1,22 +1,12 @@
-document.addEventListener('DOMContentLoaded', function() {
-    initializeEventListeners();
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//     initializeEventListeners();
+// });
 
-function initializeEventListeners() {
-    document.querySelectorAll('.add-to-cart').forEach(button => {
-        button.addEventListener('click', function(event) {
-            const itemID = event.target.dataset.itemID;
-            addToCart(itemID);
-        });
-    });
+let cartItems = {};
 
-    // Other event listeners for cart page...
-}
+function addToCart(itemID, quantity, price, imageURL) { 
 
-function addToCart(itemID, quantity, price, imageURL) { // addToCart function will get called in handlebars html when the button is clicked
-
-// item data to send to server 
-    const itemData = {  // fill in more properties
+    const itemData = {  // fill in more properties we want posted to server
         itemID: itemID,
         quantity: quantity,
         price: price,
@@ -29,17 +19,9 @@ function addToCart(itemID, quantity, price, imageURL) { // addToCart function wi
         headers: { 'Content-Type': 'application/json' }
     })
  
-    .then(response => {response.json()
-    //window.reload to get backend to update the cart.
-    })
-    // .then(cartData => { // cartData is whatever gets sent back from the fetch request from backend
-    //     updateCartUI(cartData);
-    //     updateTotalPrice(cartData);
-    //     updateQuantity(cartData); // how would i do this with button dropdown? Comes from Bootstrap or wherever i get button icon from(michael)
-    // })
-    
-    .catch(error => console.error('Error:', error));
-}
+    .then(response => response.json())
+    .thenwindow.location.reload()
+};
 
 
 function updateTotalPrice(cartData) {
@@ -50,3 +32,17 @@ function updateTotalPrice(cartData) {
     // Update the total price on the UI
     document.getElementById('total-price').innerText = totalPrice.toFixed(2); // rounds to 2 decimal places (i.e. $10.9934 to $10.99)
 }
+
+function initializeEventListener() {
+    document.querySelector('.add-to-cart').addEventListener('click', function(event) {
+            const itemID = event.target.dataset.itemID;
+            addToCart(itemID);
+        });
+    }
+
+// Go to cart page when cart in navbar is clicked
+document.addEventListener('DOMContentLoaded', function() {
+        const cartIcon = document.getElementById('my-cart-page').addEventListener('click', function() {
+                window.location.href = '/api/cart'; 
+            });
+        });

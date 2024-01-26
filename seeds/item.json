@@ -2,7 +2,7 @@
   {
     "name": "Best Soap",
     "price": 3.99,
-    "description": "High-quality dish soap for effective cleaning",
+    "description": "High-quality dish soap for effective Cleaning",
     "carbon": 0.2,
     "userID": 1,
     "category": "Cleaning",
@@ -38,7 +38,7 @@
   {
     "name": "FreshFiber Dish Towel",
     "price": 5.99,
-    "description": "High-quality reusable dish towel for efficient cleaning",
+    "description": "High-quality reusable dish towel for efficient Cleaning",
     "carbon": 0.3,
     "userID": 1,
     "category": "Cleaning",
@@ -50,7 +50,7 @@
   {
     "name": "CleanSweep Bamboo Cloth",
     "price": 4.99,
-    "description": "Eco-friendly bamboo dish cloth for sustainable cleaning",
+    "description": "Eco-friendly bamboo dish cloth for sustainable Cleaning",
     "carbon": 0.25,
     "userID": 1,
     "category": "Cleaning",
@@ -74,7 +74,7 @@
   {
     "name": "CleanWave Dish Scrubber",
     "price": 2.99,
-    "description": "Effective dish scrubber for tough cleaning tasks",
+    "description": "Effective dish scrubber for tough Cleaning tasks",
     "carbon": 0.15,
     "userID": 1,
     "category": "Cleaning",
@@ -86,7 +86,7 @@
   {
     "name": "GreenGrove Eco Sponge",
     "price": 3.49,
-    "description": "sponge for gentle and efficient cleaning",
+    "description": "sponge for gentle and efficient Cleaning",
     "carbon": 0.2,
     "userID": 1,
     "category": "Cleaning",
@@ -98,7 +98,7 @@
   {
     "name": "CleanSlate Bamboo Scrubber",
     "price": 2.79,
-    "description": "Bamboo scrubber for eco-conscious cleaning enthusiasts",
+    "description": "Bamboo scrubber for eco-conscious Cleaning enthusiasts",
     "carbon": 0.15,
     "userID": 1,
     "category": "Cleaning",
@@ -182,7 +182,7 @@
   {
     "name": "SweepMaster Broom",
     "price": 14.99,
-    "description": "broom for effective cleaning",
+    "description": "broom for effective Cleaning",
     "carbon": 0.6,
     "userID": 1,
     "category": "Cleaning",
@@ -206,7 +206,7 @@
   {
     "name": "QuickSweep Multi-Surface Broom",
     "price": 13.99,
-    "description": "Multi-surface broom for quick cleaning",
+    "description": "Multi-surface broom for quick Cleaning",
     "carbon": 0.5,
     "userID": 1,
     "category": "Cleaning",
@@ -218,7 +218,7 @@
   {
     "name": "CleanWave Microfiber Mop",
     "price": 18.99,
-    "description": "Microfiber mop for effective cleaning",
+    "description": "Microfiber mop for effective Cleaning",
     "carbon": 0.7,
     "userID": 1,
     "category": "Cleaning",
@@ -242,7 +242,7 @@
   {
     "name": "AquaGlide Wet Mop System",
     "price": 19.99,
-    "description": "Wet mop system for thorough cleaning",
+    "description": "Wet mop system for thorough Cleaning",
     "carbon": 0.8,
     "userID": 1,
     "category": "Cleaning",
@@ -290,7 +290,7 @@
   {
     "name": "EcoShield Reusable Cleaning Gloves",
     "price": 3.99,
-    "description": "Reusable cleaning gloves for eco-conscious users",
+    "description": "Reusable Cleaning gloves for eco-conscious users",
     "carbon": "0.2",
     "userID": 1,
     "category": "Cleaning",
@@ -302,7 +302,7 @@
   {
     "name": "Latex-Free EcoGrip Gloves",
     "price": 4.99,
-    "description": "Latex-free cleaning gloves",
+    "description": "Latex-free Cleaning gloves",
     "carbon": "0.2",
     "userID": 1,
     "category": "Cleaning",
@@ -314,7 +314,7 @@
   {
     "name": "EcoComfort Household Gloves",
     "price": 5.99,
-    "description": "Household gloves for comfortable cleaning",
+    "description": "Household gloves for comfortable Cleaning",
     "carbon": 0.3,
     "userID": 1,
     "category": "Cleaning",
@@ -437,7 +437,7 @@
     "description": "Exfoliating green soap",
     "carbon": 5,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15,
     "waste": 20,
     "imageURL": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
@@ -448,7 +448,7 @@
     "description": "Exfoliating green soap",
     "carbon": 5,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15,
     "waste": 20,
     "imageURL": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
@@ -459,7 +459,7 @@
     "description": "Gentle and dish soap",
     "carbon": 4,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 12,
     "waste": 18,
     "imageURL": "https://example.com/natures-choice-dish-soap.jpg"
@@ -470,7 +470,7 @@
     "description": "Plant-based and biodegradable",
     "carbon": 3,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 10,
     "waste": 16,
     "imageURL": "https://example.com/ecosuds-dishwashing-liquid.jpg"
@@ -481,7 +481,7 @@
     "description": "and absorbent dish towel",
     "carbon": 4.8,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.5,
     "waste": 19.7,
     "imageURL": "https://example.com/freshfiber-dish-towel.jpg"
@@ -489,10 +489,10 @@
   {
     "name:": "CleanSweep Bamboo Cloth",
     "price:": 10.75,
-    "description": "Bamboo-based eco cloth for efficient cleaning",
+    "description": "Bamboo-based eco cloth for efficient Cleaning",
     "carbon": 4.2,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.2,
     "waste": 18.5,
     "imageURL": "https://example.com/cleansweep-bamboo-cloth.jpg"
@@ -503,7 +503,7 @@
     "description": "Stylish and dish linen",
     "carbon": 5.0,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.2,
     "waste": 20.3,
     "imageURL": "https://example.com/ecochic-dish-linen.jpg"
@@ -514,7 +514,7 @@
     "description": "Effective and dish scrubber",
     "carbon": 4.5,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.0,
     "waste": 19.0,
     "imageURL": "https://example.com/cleanwave-dish-scrubber.jpg"
@@ -522,10 +522,10 @@
   {
     "name:": "GreenGrove Eco Sponge",
     "price:": 8.49,
-    "description": "Sustainable and cleaning sponge",
+    "description": "Sustainable and Cleaning sponge",
     "carbon": 4.0,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.0,
     "waste": 18.0,
     "imageURL": "https://example.com/greengrove-eco-sponge.jpg"
@@ -533,10 +533,10 @@
   {
     "name:": "CleanSlate Bamboo Scrubber",
     "price:": 10.25,
-    "description": "Bamboo-based scrubber for eco-conscious cleaning",
+    "description": "Bamboo-based scrubber for eco-conscious Cleaning",
     "carbon": 4.2,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.2,
     "waste": 18.5,
     "imageURL": "https://example.com/cleanslate-bamboo-scrubber.jpg"
@@ -547,7 +547,7 @@
     "description": "Versatile all-purpose cleaner for your kitchen",
     "carbon": 4.2,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.5,
     "waste": 19.0,
     "imageURL": "https://example.com/kitchenmagic-all-purpose-cleaner.jpg"
@@ -558,7 +558,7 @@
     "description": "Powerful degreaser for stubborn kitchen grease",
     "carbon": 4.5,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.0,
     "waste": 18.7,
     "imageURL": "https://example.com/greasebuster-kitchen-degreaser.jpg"
@@ -569,7 +569,7 @@
     "description": "cleaner for a sparkling kitchen",
     "carbon": 4.0,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.2,
     "waste": 18.2,
     "imageURL": "https://example.com/ecoshine-kitchen-surface-cleaner.jpg"
@@ -580,7 +580,7 @@
     "description": "Powerful disinfectant for a sparkling clean bathroom",
     "carbon": 4.3,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.7,
     "waste": 19.5,
     "imageURL": "https://example.com/bathgleam-bathroom-disinfectant.jpg"
@@ -588,10 +588,10 @@
   {
     "name:": "TileTide Bathroom Cleaner Spray",
     "price:": 8.75,
-    "description": "Efficient spray for tile and bathroom cleaning",
+    "description": "Efficient spray for tile and bathroom Cleaning",
     "carbon": 4.1,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.0,
     "waste": 18.3,
     "imageURL": "https://example.com/tiletide-bathroom-cleaner-spray.jpg"
@@ -602,7 +602,7 @@
     "description": "Citrus-scented cleaner for a fresh bathroom experience",
     "carbon": 4.0,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.2,
     "waste": 18.0,
     "imageURL": "https://example.com/freshbloom-bathroom-citrus-cleaner.jpg"
@@ -610,10 +610,10 @@
   {
     "name:": "SweepMaster Broom",
     "price:": 12.99,
-    "description": "broom for efficient cleaning",
+    "description": "broom for efficient Cleaning",
     "carbon": 4.8,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.5,
     "waste": 19.2,
     "imageURL": "https://example.com/sweepmaster-eco-friendly-broom.jpg"
@@ -621,10 +621,10 @@
   {
     "name:": "DustAway Bamboo Broom",
     "price:": 11.25,
-    "description": "Bamboo-based broom for dust-free cleaning",
+    "description": "Bamboo-based broom for dust-free Cleaning",
     "carbon": 4.5,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.2,
     "waste": 18.8,
     "imageURL": "https://example.com/dustaway-bamboo-broom.jpg"
@@ -632,10 +632,10 @@
   {
     "name:": "QuickSweep Multi-Surface Broom",
     "price:": 10.99,
-    "description": "Versatile broom for multi-surface cleaning",
+    "description": "Versatile broom for multi-surface Cleaning",
     "carbon": 4.3,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.3,
     "waste": 18.7,
     "imageURL": "https://example.com/quicksweep-multi-surface-broom.jpg"
@@ -643,10 +643,10 @@
   {
     "name:": "CleanWave Microfiber Mop",
     "price:": 15.99,
-    "description": "Efficient microfiber mop for spotless cleaning",
+    "description": "Efficient microfiber mop for spotless Cleaning",
     "carbon": 5.0,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.5,
     "waste": 20.0,
     "imageURL": "https://example.com/cleanwave-microfiber-mop.jpg"
@@ -654,10 +654,10 @@
   {
     "name:": "MopMist Deluxe Floor Mop",
     "price:": 14.25,
-    "description": "Deluxe floor mop with misting feature for easy cleaning",
+    "description": "Deluxe floor mop with misting feature for easy Cleaning",
     "carbon": 4.8,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.2,
     "waste": 19.5,
     "imageURL": "https://example.com/mopmist-deluxe-floor-mop.jpg"
@@ -665,10 +665,10 @@
   {
     "name:": "AquaGlide Wet Mop System",
     "price:": 17.49,
-    "description": "Wet mop system with aqua-glide technology for effortless cleaning",
+    "description": "Wet mop system with aqua-glide technology for effortless Cleaning",
     "carbon": 5.2,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 16.0,
     "waste": 21.0,
     "imageURL": "https://example.com/aquaglide-wet-mop-system.jpg"
@@ -679,7 +679,7 @@
     "description": "Compostable trash bags for eco-conscious disposal",
     "carbon": 4.5,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.8,
     "waste": 19.2,
     "imageURL": "https://example.com/ecoguard-compostable-trash-bags.jpg"
@@ -690,7 +690,7 @@
     "description": "Heavy-duty trash can liners for maximum strength",
     "carbon": 4.7,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.0,
     "waste": 19.8,
     "imageURL": "https://example.com/ultrastrength-trash-can-liners.jpg"
@@ -701,7 +701,7 @@
     "description": "Recycling bags made with materials",
     "carbon": 4.3,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.5,
     "waste": 18.7,
     "imageURL": "https://example.com/greenearth-recycling-bags.jpg"
@@ -709,13 +709,13 @@
   {
     "name:": "EcoShield Reusable Cleaning Gloves",
     "price:": 7.99,
-    "description": "Reusable and cleaning gloves for household tasks",
+    "description": "Reusable and Cleaning gloves for household tasks",
     "carbon": 4.0,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.2,
     "waste": 18.3,
-    "imageURL": "https://example.com/ecoshield-reusable-cleaning-gloves.jpg"
+    "imageURL": "https://example.com/ecoshield-reusable-Cleaning-gloves.jpg"
   },
   {
     "name:": "Latex-Free EcoGrip Gloves",
@@ -723,7 +723,7 @@
     "description": "Latex-free and grip gloves for various uses",
     "carbon": 4.2,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.5,
     "waste": 18.7,
     "imageURL": "https://example.com/latex-free-ecogrip-gloves.jpg"
@@ -734,7 +734,7 @@
     "description": "Comfortable and household gloves for daily chores",
     "carbon": 3.8,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 13.9,
     "waste": 17.8,
     "imageURL": "https://example.com/ecocomfort-household-gloves.jpg"
@@ -745,7 +745,7 @@
     "description": "All-natural floor cleaner for a fresh and clean floor",
     "carbon": 4.5,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.2,
     "waste": 19.5,
     "imageURL": "https://example.com/freshstep-all-natural-floor-cleaner.jpg"
@@ -756,7 +756,7 @@
     "description": "Enhancer for a shiny and spotless floor finish",
     "carbon": 4.2,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.0,
     "waste": 19.0,
     "imageURL": "https://example.com/shineguard-floor-shine-enhancer.jpg"
@@ -767,7 +767,7 @@
     "description": "Stain remover to tackle tough floor stains",
     "carbon": 4.0,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 14.8,
     "waste": 18.7,
     "imageURL": "https://example.com/grimeblast-floor-stain-remover.jpg"
@@ -778,7 +778,7 @@
     "description": "Stackable storage containers for organization",
     "carbon": 4.8,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.2,
     "waste": 19.7,
     "imageURL": "https://example.com/ecobins-stackable-storage-containers.jpg"
@@ -789,7 +789,7 @@
     "description": "storage bins with clear view for easy identification",
     "carbon": 4.5,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.0,
     "waste": 19.5,
     "imageURL": "https://example.com/clearview-eco-friendly-storage-bins.jpg"
@@ -800,7 +800,7 @@
     "description": "storage solutions made from sustainable bamboo",
     "carbon": 5.0,
     "userID": 1,
-    "category": "cleaning",
+    "category": "Cleaning",
     "energy": 15.5,
     "waste": 20.0,
     "imageURL": "https://example.com/bamboobox-eco-storage-solutions.jpg"
@@ -1964,7 +1964,7 @@
   {
     "name": "DishGenius SmartSet",
     "price": 59.99,
-    "description": "Smart dishwasher set for easy cleaning",
+    "description": "Smart dishwasher set for easy Cleaning",
     "carbon": 0.6,
     "userID": 1,
     "category": "Home",
