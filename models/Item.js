@@ -11,14 +11,7 @@ Item.init(
             primaryKey: true,
             autoIncrement: true
         },
-        userID: {
-            type: DataTypes.INTEGER,
-            allowNull: false,
-            references: {
-                model: 'user',
-                key: 'id',
-            },
-        },
+       
         description: {
             type: DataTypes.STRING,
         },

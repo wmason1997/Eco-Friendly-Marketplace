@@ -2,13 +2,14 @@ const router = require('express').Router();
 const { Wishlist, Item, User} = require('../models'); // What else needs to be imported??
 
 // POST route to add an item to the wishlist
-router.post('/wishlist/add', async (req, res) => {
+router.post('/add', async (req, res) => {
     try {
         const { itemId, userId } = req.body; // Replace with actual data from the request
         const newItem = await Wishlist.create({ 
             itemId: itemId, 
             userId: userId 
         });
+        
         res.status(201).json(newItem);
 
     } catch (error) {

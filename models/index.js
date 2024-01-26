@@ -126,15 +126,15 @@ cartItem.belongsTo(Cart, {
 // Many-to-Many relations
 
 // User - Item
-User.belongsToMany(Item, {
-    through: 'UserItem', // Sequelize creates a junction table named UserItem
-    foreignKey: 'userID',
-});
+// User.belongsToMany(Item, {
+//     through: 'UserItem', // Sequelize creates a junction table named UserItem
+//     foreignKey: 'userID',
+// });
 
-Item.belongsToMany(User, {
-    through: 'UserItem', 
-    foreignKey: 'userID',
-});
+// Item.belongsToMany(User, {
+//     through: 'UserItem', 
+//     foreignKey: 'userID',
+// });
 
 
 

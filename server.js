@@ -3,6 +3,7 @@ const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers'); // Make sure to adjust the path if needed
+const searchRoute = require('./controllers/searchRoute');
 const helpers = require('./utils/helpers');
 //const passport = require('passport'); // Import Passport if needed
 
@@ -12,6 +13,8 @@ const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const app = express();
 //app.use(passport.initialize());
 //app.use(passport.session());
+
+// Middleware
 
 const PORT = process.env.PORT || 3001;
 
@@ -42,10 +45,22 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
+// app.use(express.static(path.join(__dirname, 'js')));
+
+app.use(searchRoute);
 
 app.use(routes);
 
+app.post('/api/users/logout', (req, res) => {
+  if (req.session.logged_in) {
+    req.session.destroy(() => {
+      res.status(204).end();
+    });
+  } else {
+    res.status(404).end();
+  }
+});
 
-sequelize.sync({ force: false }).then(() => {
+sequelize.sync().then(() => {
   app.listen(PORT, () => console.log(`Now listening on port ${PORT}`));
 });

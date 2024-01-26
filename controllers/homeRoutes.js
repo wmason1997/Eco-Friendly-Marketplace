@@ -1,39 +1,55 @@
 const router = require('express').Router();
 const { Item, User } = require('../models');
 const withAuth = require('../utils/auth');
+const categories = [
+  {
+    name: 'Cleaning',
+    imageUrl:
+      'https://localhost:3001/public/images/categoryImages/Cleaning-category.jpg',
+  },
+  {
+    name: 'Clothing',
+    imageUrl:
+      'https://localhost:3001/public/images/categoryImages/Clothes-category.jpg',
+  },
+  {
+    name: 'Electronics',
+    imageUrl:
+      'https://localhost:3001/public/images/categoryImages/Electronics-category.jpg',
+  },
+  {
+    name: 'Home',
+    imageUrl:
+      'https://localhost:3001/public/images/categoryImages/Home-category.jpg',
+  },
+  {
+    name: 'Personal Care',
+    imageUrl:
+      'https://localhost:3001/public/images/categoryImages/PersonalCare-category.jpg',
+  },
+  {
+    name: 'Luggage',
+    imageUrl:
+      'https://localhost:3001/public/images/categoryImages/Luggage-category.jpg',
+  },
+  {
+    name: 'Toy',
+    imageUrl:
+      'https://localhost:3001/public/images/categoryImages/Toy-category.jpg',
+  },
+  {
+    name: 'Crafting',
+    imageUrl:
+      'https://localhost:3001/public/images/categoryImages/Crafting-category.jpg',
+  },
+];
 
 router.get('/', async (req, res) => {
-  console.log("We are at the slash route.")
   try {
-    // Get all projects and JOIN with user data
-    //const projectData = await Project.findAll({
-      // include: [
-      //   {
-      //     model: User,
-      //     attributes: ['name'],
-      //   },
-      // ],
-      
-
-      
-    //});
-
-    const itemData = await Item.findAll({
-      include: User, // would include related models
-        
-      
-    });
-    console.log(itemData);
-    // Serialize data so the template can read it
-    const items = itemData.map((item) => item.get({ plain: true }));
-
-    // Pass serialized data and session flag into template
-    res.render('searchpage', { // was homepage to switch back to
-      items, 
-      logged_in: req.session.logged_in 
-    });
-  } catch (err) {
-    res.status(500).json(err);
+    res.render('homepage', { categories });
+  } catch (error) {
+    console.error('Error:', error);
+    res.status(500).send('Internal Server Error');
   }
 });
 
@@ -52,7 +68,7 @@ router.get('/project/:id', async (req, res) => {
 
     res.render('project', {
       ...project,
-      logged_in: req.session.logged_in
+      logged_in: req.session.logged_in,
     });
   } catch (err) {
     res.status(500).json(err);
@@ -65,14 +81,14 @@ router.get('/profile', withAuth, async (req, res) => {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.userID, {
       attributes: { exclude: ['password'] },
-      include: [{ model: Project }],
+      include: [{ model: Item }],
     });
 
     const user = userData.get({ plain: true });
 
     res.render('profile', {
       ...user,
-      logged_in: true
+      logged_in: true,
     });
   } catch (err) {
     res.status(500).json(err);
@@ -82,11 +98,49 @@ router.get('/profile', withAuth, async (req, res) => {
 router.get('/login', (req, res) => {
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
-    res.redirect('/profile');
+    res.redirect('/'); // was '/profile' but instead I want to be redirected to homepage
     return;
   }
 
   res.render('login');
+});
+
+// router.get('/items/:category', async (req, res) => {
+//   try {
+//     const category = req.params.category;
+
+//     // Find all items in db that match the specified category
+//     const items = await Item.findAll({
+//       attributes: ['subcategory'],
+//       where: { category: category },
+//       group: ['subcategory'], // Group by subcategory to get distinct values
+//     });
+//     console.log(items);
+//     // Extract subcategories and filter out duplicates
+//     const subcategories = [...new Set(items.map((item) => item.subcategory))];
+
+//     res.render('', {
+//       category: category,
+//       subcategories: subcategories,
+//     });
+//   } catch (error) {
+//     console.error('Error:', error);
+//     res.status(500).send('Internal Server Error');
+//   }
+// });
+
+router.get('/items/', async (req, res) => {
+  try {
+    // Find all items in db that match the specified category
+    const items = await Item.findAll({});
+    const itemData = items.map((item) => item.get({ plain: true }));
+    console.log(itemData);
+
+    res.render('itemsPg', { itemData });
+  } catch (error) {
+    console.error('Error:', error);
+    res.status(500).send('Internal Server Error');
+  }
 });
 
 module.exports = router;

@@ -1,15 +1,53 @@
+ {{> navbar}}
+  <div class="main-section">
+      <div class="main-content">
+        <h1>Taiga</h1>
+        <h3>You're Eco-Concious Marketplace</h3>
+        <p>
+          Welcome to Taiga, where sustainable shopping is revolutionized for the
+          eco-conscious consumer. Effortlessly browse categories or search
+          items, each with clear carbon, energy, and waste footprints. Our
+          platform empowers you with eco-scores on products, making your choices
+          both informed and impactful. Join our journey to a greener future with
+          every purchase.
+        </p>
+        <div class="row mt-4">
+          <div class="search-items">
+            <!-- <h3>Search our comprehensive database</h3> -->
+            <form class="form new-search-form">
+              <div class="form-input-div">
+                <input
+                  class="form-input"
+                  type="text"
+                  id="project-name"
+                  name="project-name"
+                  placeholder="(i.e. Exfoliator)"
+                />
+              </div>
+              <div class="form-button-div">
+                <button type="submit" class="btn btn-primary" id="search-bar-search-btn">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+  <div class = "search-categories">
+      <div id="category-container">
+        <h3>Search by Category</h3>
+      </div class = "categories">
+      {{#each categories }}
+        
+        <div class="category-link" data-set-id={{this.name}}>
+        <a href ="/items/{{this.name}}"> <img data-set-id={{this.name}} id="categories" src={{this.imageUrl}}alt="Description"> 
+            <p id="text-overlay">{{this.name}}</p> 
+        </a>
+       </div>
 
-  <figure class="header-container">
-            <h2 class="header-title">Palette Pair</h2>
-            <p id="header-p"> Elevate your hosting experience by effortlessly planning and organizing unforgettable
-                evenings. Set themes, explore curated recipes, and simplify the party planning process to create lasting
-                dining memories. </p>
-        </figure>
-  {{#each categories as |category index|}}
-    {{#if (lt index 5)}}
-      <div class="category">
-        <h2>{{category.name}}</h2>
-        <img src="{{category.imageUrl}}" alt="{{category.name}}">
+        {{/each}}
+        <i class="fa-solid fa-arrow-left" id="back-button" style="display: none;"></i>
+        <i class="fa-solid fa-arrow-right" id="load-more"></i>
       </div>
-    {{/if}}
-  {{/each}}
+    </div>
+  </div>
+
+
