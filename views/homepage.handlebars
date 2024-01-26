@@ -1,46 +1,53 @@
  {{> navbar}}
- <figure class='header-container'>
-           <h1 class='header-title'>Taiga</h1>
-            <h3> You're Eco-Conscious Marketplace</h3>
-          <p id='header-p'>
-            Welcome to Taiga, where sustainable shopping is revolutionized for the
-            eco-conscious consumer. Effortlessly browse categories or search items, each
-            with clear carbon, energy, and waste footprints. Our platform empowers you
-            with eco-scores on products, making your choices both informed and
-            impactful. Join our journey to a greener future with every purchase.
-          </p>
-  </figure>
-<div class="row">
-  <div class="col-auto">
-    <h2>Search below!</h2>
-  </div>
-</div>
+  <div class="main-section">
+      <div class="main-content">
+        <h1>Taiga</h1>
+        <h3>You're Eco-Concious Marketplace</h3>
+        <p>
+          Welcome to Taiga, where sustainable shopping is revolutionized for the
+          eco-conscious consumer. Effortlessly browse categories or search
+          items, each with clear carbon, energy, and waste footprints. Our
+          platform empowers you with eco-scores on products, making your choices
+          both informed and impactful. Join our journey to a greener future with
+          every purchase.
+        </p>
+        <div class="row mt-4">
+          <div class="search-items">
+            <!-- <h3>Search our comprehensive database</h3> -->
+            <form class="form new-search-form">
+              <div class="form-input-div">
+                <input
+                  class="form-input"
+                  type="text"
+                  id="project-name"
+                  name="project-name"
+                  placeholder="(i.e. Exfoliator)"
+                />
+              </div>
+              <div class="form-button-div">
+                <button type="submit" class="btn btn-primary" id="search-bar-search-btn">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+  <div class = "search-categories">
+      <div id="category-container">
+        <h3>Search by Category</h3>
+      </div class = "categories">
+      {{#each categories }}
+        
+        <div class="category-link" data-set-id="Cleaning">
+        <a href ="/items/{{this.name}}"> <img data-set-id={{this.name}} id="categories" src={{this.imageUrl}}alt="Description"> 
+            <p id="text-overlay">{{this.name}}</p> 
+        </a>
+       </div>
 
-<div class="row mt-4">
-  <div class="col-md-6">
-    <h3>Search our comprehensive database</h3>
-
-    <form class="form new-search-form">
-      <div class="form-group">
-        <label for="search-bar">Search:</label>
-        <input class="form-input" type="text" id="project-name" name="project-name" />
+        {{/each}}
+        <i class="fa-solid fa-arrow-left" id="back-button" style="display: none;"></i>
+        <i class="fa-solid fa-arrow-right" id="load-more"></i>
       </div>
-
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Search</button>
-      </div>
-    </form>
+    </div>
   </div>
 
-</div>
-<div id="category-container">
-    <!-- Categories will be dynamically loaded here -->
-</div>
-<button id="back-button" style="display: none;">Back</button>
-<button id="load-more">Load More</button>
 
-{{!-- <script>
-    var categories = {{{json categories}}}; // Convert categories to JSON so i can send the category data from server side to client side for homepage.js functions. do i need this tho?
-</script> --}}
-
-{{!-- <script src="/path/to/homepage.js"></script> --}}

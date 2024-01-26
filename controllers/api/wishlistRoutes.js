@@ -9,6 +9,7 @@ router.post('/wishlist/add', async (req, res) => {
             itemId: itemId, 
             userId: userId 
         });
+        
         res.status(201).json(newItem);
 
     } catch (error) {

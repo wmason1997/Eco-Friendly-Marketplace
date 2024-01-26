@@ -1,4 +1,8 @@
-<h1>Your Cart</h1>
+{{> navbar}}
+    <a href ="{{this.name}}"> <img data-set-id={{this.name}} id="categories" src={{this.imageUrl}}alt="Description"> 
+        <h1>Your Cart</h1>
+        <p id="text-overlay">{{this.name}}</p> 
+        </a>
 {{#if logged_in}}
     {{#if cartItem.length}}
         <ul>

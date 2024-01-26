@@ -1,10 +1,13 @@
 {{> navbar}}
  <h1>Subcategories in "{{category}}"</h1>
   <div class="subcategories">
+    {{log "logging this" subcategories}}
     {{#each subcategories}}
       <div class="subcategory">
-        <img src="{{subcategoryimageUrl}}" alt="{{subcategory}}">
-        <h2>{{subcategory}}</h2>
+        <h2>{{this}}</h2>
       </div>
     {{/each}}
   </div>
+
+
+  {{!-- each item displayed needs to have an {{$itemid}} --}}
