@@ -80,7 +80,7 @@ router.get('/profile', withAuth, async (req, res) => {
     // Find the logged in user based on the session ID
     const userData = await User.findByPk(req.session.userID, {
       attributes: { exclude: ['password'] },
-      include: [{ model: Item }],
+      include: [{ model: Item, as: 'items' }],
     });
 
     const user = userData.get({ plain: true });
@@ -90,6 +90,7 @@ router.get('/profile', withAuth, async (req, res) => {
       logged_in: true,
     });
   } catch (err) {
+    console.log('Error: ', err); // Add this line for logging
     res.status(500).json(err);
   }
 });
