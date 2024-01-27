@@ -142,4 +142,5 @@ Item.belongsTo(User);
 
 
 
+
 module.exports = { User, Cart, cartItem, Item, Review, Wishlist, wishlistItem, orderItem, Order };
