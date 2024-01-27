@@ -1,8 +1,9 @@
 const router = require('express').Router();
 const { Cart, cartItem, Item } = require('../../models');
+const withAuth = require('../../utils/auth');
 
 // GET user's shopping cart
-router.get('/', async (req, res) => {
+router.get('/', withAuth, async (req, res) => {
   try {
     // const userID = req.session.userID;
     // console.log(req.session);
