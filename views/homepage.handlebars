@@ -34,18 +34,20 @@
   <div class = "search-categories">
       <div id="category-container">
         <h3>Search by Category</h3>
-      </div class = "categories">
+      <div class = "categories">
       {{#each categories }}
-        
+    
         <div class="category-link" data-set-id={{this.name}}>
-        <a href ="/items/{{this.name}}"> <img data-set-id={{this.name}} id="categories" src={{this.imageUrl}}alt="Description"> 
+    
+        <a href ="/items/{{this.name}}"> <img data-set-id={{this.name}} id="categories" src="{{this.imageUrl}}" alt="Description"> 
             <p id="text-overlay">{{this.name}}</p> 
         </a>
+      
        </div>
 
         {{/each}}
-        <i class="fa-solid fa-arrow-left" id="back-button" style="display: none;"></i>
-        <i class="fa-solid fa-arrow-right" id="load-more"></i>
+        {{!-- <i class="fa-solid fa-arrow-left" id="back-button" style="display: none;"></i>
+        <i class="fa-solid fa-arrow-right" id="load-more"></i> --}}
       </div>
     </div>
   </div>

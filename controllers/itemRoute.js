@@ -45,8 +45,7 @@ router.get('/:category', async (req, res) => {
     const formattedSubcategories = [...new Set(subcategoryData.map((item) => item.subcategory))];
  
     // create object where each key is a subcategory name and each property is an image
-
-    res.render('subcategoriesPg', {subcategories: formattedSubcategories, category});
+    res.render('subcategoriesPg', {subcategories: formattedSubcategories, category}); 
   } catch (error) {
     console.error('Error:', error);
     res.status(500).send('Internal Server Error');

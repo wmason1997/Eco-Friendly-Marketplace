@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.navbar-brand {
+  margin-top: 5px;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
-  font-family: "Libre Baskerville";
+  font-family: 'Libre Baskerville';
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -23,7 +27,6 @@
 
 .navbar-brand img {
   width: 150px;
-
 }
 
 .navbar-nav a {
@@ -41,7 +44,7 @@
 .main-section {
   background-image: url('http://localhost:3001/images/HomePage-backgroundimage.png');
   background-size: cover;
-  height: 600px;
+  height: 700px;
 }
 
 .main-content {
@@ -60,27 +63,31 @@
 }
 
 .main-content h1 {
+  margin-top: 15px;
   font-family: Raleway;
-  font-size: 150px;
-  font-weight: 600;
+  font-size: 175px;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 
 .main-content h3 {
   font-size: 35px;
-  font-weight: 500;
+  font-weight: 300;
+  font-style: italic;
 }
 
 .main-content p {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
+letter-spacing: 1px;
 }
 .search-items {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: 60px auto 0;
+  width: 60%;
+  margin: 100px auto 0;
 }
 
 .search-items h3 {
@@ -106,13 +113,12 @@
   background-color: #fff;
   width: 100%;
   border-radius: 30px;
-  background: #FBD50D; 
-  border: none; 
+  background: #fbd50d;
+  border: none;
   font-size: 20px;
   font-family: 'Raleway';
   font-style: normal;
   line-height: normal;
-    
 }
 
 .new-search-form input {
@@ -120,7 +126,8 @@
   border-top-left-radius: 35px;
   border-bottom-left-radius: 35px;
   width: 100%;
-  border: none; 
+  border: none;
+  padding: 15px;
 }
 
 .form-button-div {
@@ -128,77 +135,137 @@
   transform: translateX(-20px);
 }
 
-.search-categories {
+#category-container h3 {
+  font-size: 25px;
+  font-family: "Libre Baskerville";
+  letter-spacing: 2px;
+  margin-left: 50px;
   margin-top: 20px;
-  display:flex;
-  flex-direction: row;
-  gap: 60px;
+  transform: translateY(10px);
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  padding: 0 15px;
 }
 
+.categories div {
+  position: relative;
+  aspect-ratio: 1 / 1;
+}
+
+.categories a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.categories p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Libre Baskerville";
+  letter-spacing: 2px;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  z-index: 6;
+}
 .search-categories img {
   border-radius: 35px;
-  height: auto;
-  width: 300px;
-  margin-top: 60px;
- align-content: center;
+  width: 90%;
+  box-shadow: 4px 4px 8px 12px rgba(0, 0, 0, 0.1);
 
+}
+
+.categories div a::before  {
+  content: "";
+  width: 90%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 35px;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  z-index: 5;
+  }
+
+  @media screen and (max-width: 900px) {
+  .categories {
+    margin-top: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    color: #000;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: yellow;
+  }
 }
 
 
 @media screen and (max-width: 576px) {
   .navbar {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-family: "Libre Baskerville";
-      font-size: 10px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      gap: 5px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Libre Baskerville';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 5px;
   }
- 
+
   .navbar-brand img {
-      width: 100px;
-      margin-top: 8px;
+    width: 100px;
+    margin-top: 8px;
   }
   .navbar-nav {
-      display: flex;
-      list-style: none;
-      gap: 5px;
-      margin-right: 10px;
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    margin-right: 10px;
   }
   .navbar-nav .my-account {
-      font-size: 10px;
-      background-color: #122823;
-      border-radius: 20px;
-      padding: 5px 8px;
-      color: white;
+    font-size: 10px;
+    background-color: #122823;
+    border-radius: 20px;
+    padding: 5px 8px;
+    color: white;
   }
   .main-content h1 {
-      font-family: Raleway;
-      font-size: 75px;
-      font-weight: 600;
+    font-family: Raleway;
+    font-size: 75px;
+    font-weight: 600;
   }
-  
-  .main-content h3 {
-      font-size: 20px;
-      font-weight: 500;
-  }
-  
-  .main-content p {
-      font-size: 12px;
-      font-weight: 400;
-      padding: 0 60px;
-  } 
-}
 
+  .main-content h3 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .main-content p {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 60px;
+  }
+
+}
 /* #header-p {
   margin-left: 57px;
   max-width: 50%;
