@@ -136,6 +136,9 @@ cartItem.belongsTo(Cart, {
 //     foreignKey: 'userID',
 // });
 
+User.hasMany(Item);
+Item.belongsTo(User);
+
 
 
 
