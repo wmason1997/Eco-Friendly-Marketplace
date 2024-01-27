@@ -6,8 +6,8 @@ const { Cart, Item } = require("../../models");
 // Add a new item to the user's cart
 router.post('/add/item', async (req, res) => {
     try {
-      const { itemID } = req.body;
-      
+      const {itemData} = req.body;
+      const {itemID} = itemData;
       const userID = req.session.userID;
   
 //       // Find the user's cart or create a new one if it doesn't exist
