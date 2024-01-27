@@ -5,7 +5,7 @@ const categories = [
   {
     name: 'Cleaning',
     imageUrl:
-      'http://localhost:3001/images/Cleaning-category.jpg', // can i replace local host with the heroku domain?
+      'http://localhost:3001/images/Cleaning-category.jpg',
   },
   {
     name: 'Clothing',
