@@ -5,42 +5,41 @@ const categories = [
   {
     name: 'Cleaning',
     imageUrl:
-      'https://localhost:3001/public/images/categoryImages/Cleaning-category.jpg',
+      'http://localhost:3001/images/Cleaning-category.jpg', // can i replace local host with the heroku domain?
   },
   {
     name: 'Clothing',
-    imageUrl:
-      'https://localhost:3001/public/images/categoryImages/Clothes-category.jpg',
+    imageUrl:'http://localhost:3001/images/Clothes-category.jpg',
   },
   {
     name: 'Electronics',
     imageUrl:
-      'https://localhost:3001/public/images/categoryImages/Electronics-category.jpg',
+      'http://localhost:3001/images/Electronics-category.jpg',
   },
   {
     name: 'Home',
     imageUrl:
-      'https://localhost:3001/public/images/categoryImages/Home-category.jpg',
+      'http://localhost:3001/images/Home-category.jpg',
   },
   {
     name: 'Personal Care',
     imageUrl:
-      'https://localhost:3001/public/images/categoryImages/PersonalCare-category.jpg',
+      'http://localhost:3001/images/PersonalCare-category.jpg',
   },
   {
     name: 'Luggage',
     imageUrl:
-      'https://localhost:3001/public/images/categoryImages/Luggage-category.jpg',
+      'http://localhost:3001/images/Luggage-category.jpg',
   },
   {
     name: 'Toy',
     imageUrl:
-      'https://localhost:3001/public/images/categoryImages/Toy-category.jpg',
+      'http://localhost:3001/images/Toy-category.jpg',
   },
   {
     name: 'Crafting',
     imageUrl:
-      'https://localhost:3001/public/images/categoryImages/Crafting-category.jpg',
+      'http://localhost:3001/images/Crafting-category.jpg',
   },
 ];
 

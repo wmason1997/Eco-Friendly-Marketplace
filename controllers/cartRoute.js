@@ -2,10 +2,11 @@ const router = require('express').Router();
 const { Cart, cartItem, Item } = require('../models');
 
 // GET user's shopping cart
-router.get('/', async (req, res) => {
+router.get('/cart', async (req, res) => {
   try {
-    const userID = req.session.userID;
+    // const userID = req.session.userID;
     // console.log(req.session);
+
     const userCartItems = await Cart.findAll({
       where: { userID: req.session.userID },
       include: [{ model: cartItem, include: [{ model: Item }] }],

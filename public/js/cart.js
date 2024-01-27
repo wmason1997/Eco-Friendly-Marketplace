@@ -2,7 +2,7 @@
 //     initializeEventListeners();
 // });
 
-let cartItems = {};
+// let cartItems = {};
 
 // function addToCart(itemID, quantity, price, imageURL) { 
 function addToCart(itemID) { 
@@ -16,7 +16,7 @@ function addToCart(itemID) {
 
     fetch('/cart/add/item', { // makes request to backend
         method: 'POST',
-        body: JSON.stringify({itemId}), // fill out rest 
+        body: JSON.stringify({itemID}), // fill out rest 
         headers: { 'Content-Type': 'application/json' }
     })
  
@@ -43,7 +43,7 @@ function initializeEventListener() {
 
 // Go to cart page when cart in navbar is clicked
 document.addEventListener('DOMContentLoaded', function() {
-        const cartIcon = document.getElementById('my-cart-page').addEventListener('click', function() {
-                window.location.href = '/api/cart'; 
+         document.getElementById('my-cart-page').addEventListener('click', function() {
+                window.location.href = `/cart`; 
             });
         });
