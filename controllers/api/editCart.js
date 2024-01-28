@@ -62,12 +62,15 @@ const { Cart, Item } = require("../../models");
 
         res.status(200).json({ message: 'Item added to cart', cartItem });
     } catch (error) {
-        console.error(error);
-        res.status(500).send('Error adding item to cart');
+      console.error(error);
+      res
+        .status(500)
+        .json({ message: 'An error occurred while adding the item to the cart' });
     }
-});
+  });
   
-  router.delete('/:itemId', async (req, res) => {
+  
+  router.delete('/:itemID', async (req, res) => {
     // delete an item in the cart by its `id` value and 'userid' value match
     try {
       const cartItemData = await Cart.destroy({

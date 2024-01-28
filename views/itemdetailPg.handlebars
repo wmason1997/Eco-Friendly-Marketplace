@@ -1,28 +1,35 @@
  {{> navbar}}
-  <div class="item-details">
+  <div class="item-details" id="name">
     <h1>{{item.name}}</h1>
+    
 
-    <div class="item-image">
+    <div class="item-image" id = "imageURL">
       <img src="{{item.imageUrl}}" alt="{{item.name}}">
+    
     </div>
 
     <div class="item-description">
       <p>{{item.description}}</p>
     </div>
 
-    <div class="item-price">
+    <div class="item-price" id="price">
       <p>Price: ${{item.price}}</p>
     </div>
 
-    <div class="item-quantity">
+    <div class="item-quantity" id="quantity">
       <p>Quantity: {{item.quantity}}</p>
     </div>
 
     <div class="item-footprint">
-      <p>Carbon Footprint: {{item.carbon}}</p>
-      <p>Energy Footprint: {{item.energy}}</p>
-      <p>Waste Footprint: {{item.waste}}</p>
+      <p id = "carbon">Carbon Footprint: {{item.carbon}}</p>
+      <p id = "energy">Energy Footprint: {{item.energy}}</p>
+      <p id = "waste">Waste Footprint: {{item.waste}}</p>
     </div>
 
-    <button class="add-to-cart" data-item-id="{{item.ID}}">Add to Cart</button>
+    
+
+    <button class="add-to-cart" data-item-id="{{item.id}}">Add to Cart</button>
   </div>
+
+  <script src="/js/logout.js"></script>
+  <script src="/js/cart.js"></script>

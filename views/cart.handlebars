@@ -5,9 +5,13 @@
     <p> cartData is the right name</p>
         <ul>
             {{#each items}}
-                <li>
-                    {{this.name}} - ${{this.price}}
+                <li id="name">
+                    {{this.name}}
+
                     <!-- Add other item details here -->
+                </li>
+                <li id="price">
+                    ${{this.price}}
                 </li>
             {{/each}}
         </ul>
