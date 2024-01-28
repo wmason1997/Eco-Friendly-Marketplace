@@ -1,5 +1,16 @@
 [
   {
+    "name": "Biodegradable Body Scrub / Change",
+    "price": 6.99,
+    "description": "Biodegradable body scrub ",
+    "carbon": 0.3,
+    "category": "Personal Care",
+    "subcategory": "Bath and Body",
+    "energy": 3,
+    "waste": 0.08,
+    "imageURL": "https://cdn11.bigcommerce.com/s-a62cb/images/stencil/1280x1280/attribute_rule_images/120_source_1700827715.png"
+  },
+  {
     "name": "Best Soap",
     "price": 3.99,
     "description": "High-quality dish soap for effective Cleaning",
@@ -1940,7 +1951,7 @@
     "subcategory": "Bath and Body",
     "energy": 3,
     "waste": 0.08,
-    "imageURL": "[Image URL]"
+    "imageURL": "https://cdn11.bigcommerce.com/s-a62cb/images/stencil/1280x1280/attribute_rule_images/120_source_1700827715.png"
   },
   {
     "name": "GreenGlow Natural Vegan Lotion",
@@ -1951,7 +1962,7 @@
     "subcategory": "Bath and Body",
     "energy": 2,
     "waste": 0.06,
-    "imageURL": "[Image URL]"
+    "imageURL": "https://cdn11.bigcommerce.com/s-a62cb/images/stencil/1280x1280/attribute_rule_images/120_source_1700827715.png"
   },
   {
     "name": "Ocean Breeze EcoSoap Bar",
@@ -1962,7 +1973,7 @@
     "subcategory": "Bath and Body",
     "energy": 1,
     "waste": 0.04,
-    "imageURL": "[Image URL]"
+    "imageURL": "https://cdn11.bigcommerce.com/s-a62cb/images/stencil/1280x1280/attribute_rule_images/120_source_1700827715.png"
   },
   {
     "name": "LeafyFresh Bamboo Toothbrush",

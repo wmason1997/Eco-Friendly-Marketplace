@@ -3,7 +3,7 @@ const router = require('express').Router();
 const apiRoutes = require('./api');
 const homeRoutes = require('./homeRoutes');
 const cartRoute = require('./cartRoute');
-const cartEdit = require('./api/editCart')
+// const cartEdit = require('./api/editCart')
 const itemRoute = require('./itemRoute');
 
 router.use('/api', apiRoutes);

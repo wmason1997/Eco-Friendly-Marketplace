@@ -5,21 +5,21 @@ const categories = [
   {
     name: 'Cleaning',
     imageUrl:
-      'http://localhost:3001/images/Cleaning-category.jpg',
+      'https://i.ibb.co/kg75xMm/Cleaning-category.jpg',
   },
   {
     name: 'Clothing',
-    imageUrl:'http://localhost:3001/images/Clothes-category.jpg',
+    imageUrl:'https://i.ibb.co/mR7pwm8/Clothes-category.jpg',
   },
   {
     name: 'Electronics',
     imageUrl:
-      'http://localhost:3001/images/Electronics-category.jpg',
+      'https://i.ibb.co/MBqpwSg/Electronics-category.jpg',
   },
   {
     name: 'Home',
     imageUrl:
-      'http://localhost:3001/images/Home-category.jpg',
+      'https://i.ibb.co/7yt1wL5/Home-category.jpg',
   },
   {
     name: 'Personal Care',
@@ -34,12 +34,12 @@ const categories = [
   {
     name: 'Toy',
     imageUrl:
-      'http://localhost:3001/images/Toy-category.jpg',
+      'https://i.ibb.co/Fgz2yRq/Toy-category.jpg',
   },
   {
     name: 'Crafting',
     imageUrl:
-      'http://localhost:3001/images/Crafting-category.jpg',
+      'https://i.ibb.co/m97B18d/Crafting-category.jpg',
   },
 ];
 

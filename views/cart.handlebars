@@ -1,20 +1,31 @@
 {{> navbar}}
+<div class = "cart-container">
 <h1>Your Cart</h1>
 {{#if logged_in}}
     {{#if items.length}} 
-    <p> cartData is the right name</p>
         <ul>
             {{#each items as |item|}}
-                <li id="name">
+            <li>
+                <div>
+                 {{!-- <img id="imageURL" src="{{item.item.imageURL}}"> --}}
+                 <img src="https://images.pexels.com/photos/19795102/pexels-photo-19795102/free-photo-of-fources.jpeg">
+                </div> 
+                <div class="item-decriptions-cart">
+                <p id="name">
                     {{item.item.name}}
-
-                    <!-- Add other item details here -->
-                </li>
-                <li id="price">
+                </p>
+                <p id="description">
+                    {{item.item.description}}
+                </p>
+                <p id="price">
                     ${{item.item.price}}
-                </li>
+                </p>
+                <button>Delete</button>
+                </div>
+            </li>
             {{/each}}
         </ul>
+</div>
     {{else}}
         <p>Your cart is empty.</p>
     {{/if}}
