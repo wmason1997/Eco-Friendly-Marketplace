@@ -396,51 +396,12 @@
     "imageURL": "[Image URL]"
   },
   {
-    "name": "Best soap",
-    "price": 10,
-    "description": "Exfoliating green soap",
-    "carbon": 5,
-    "category": "cleaning",
-    "energy": 15,
-    "waste": 20,
-    "imageURL": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
-  },
-  {
-    "name:": "GreenClean Dish Soap",
-    "price:": 10,
-    "description": "Exfoliating green soap",
-    "carbon": 5,
-    "category": "cleaning",
-    "energy": 15,
-    "waste": 20,
-    "imageURL": "https://www.zaaina.com/cdn/shop/files/4893FCA4-F594-443B-90C1-93723DE7AFE5_1_105_c.jpg?v=1691085065"
-  },
-  {
-    "name:": "Nature's Choice Dish Soap",
-    "price:": 8,
-    "description": "Gentle and dish soap",
-    "carbon": 4,
-    "category": "cleaning",
-    "energy": 12,
-    "waste": 18,
-    "imageURL": "https://example.com/natures-choice-dish-soap.jpg"
-  },
-  {
-    "name:": "EcoSuds Dishwashing Liquid",
-    "price:": 7,
-    "description": "Plant-based and biodegradable",
-    "carbon": 3,
-    "category": "cleaning",
-    "energy": 10,
-    "waste": 16,
-    "imageURL": "https://example.com/ecosuds-dishwashing-liquid.jpg"
-  },
-  {
     "name:": "FreshFiber Dish Towel",
     "price:": 12.5,
-    "description": "and absorbent dish towel",
+    "description": "High absorbent dish towel from recycled materials",
     "carbon": 4.8,
     "category": "cleaning",
+    "subcategory": "Paper Towel",
     "energy": 14.5,
     "waste": 19.7,
     "imageURL": "https://example.com/freshfiber-dish-towel.jpg"
@@ -451,6 +412,7 @@
     "description": "Bamboo-based eco cloth for efficient Cleaning",
     "carbon": 4.2,
     "category": "cleaning",
+    "subcategory": "Paper Towel",
     "energy": 14.2,
     "waste": 18.5,
     "imageURL": "https://example.com/cleansweep-bamboo-cloth.jpg"
@@ -461,6 +423,7 @@
     "description": "Stylish and dish linen",
     "carbon": 5.0,
     "category": "cleaning",
+    "subcategory": "Paper Towel",
     "energy": 15.2,
     "waste": 20.3,
     "imageURL": "https://example.com/ecochic-dish-linen.jpg"
@@ -471,6 +434,7 @@
     "description": "Effective and dish scrubber",
     "carbon": 4.5,
     "category": "cleaning",
+    "subcategory": "Sponges",
     "energy": 15.0,
     "waste": 19.0,
     "imageURL": "https://example.com/cleanwave-dish-scrubber.jpg"
@@ -481,6 +445,7 @@
     "description": "Sustainable and Cleaning sponge",
     "carbon": 4.0,
     "category": "cleaning",
+    "subcategory": "Sponges",
     "energy": 14.0,
     "waste": 18.0,
     "imageURL": "https://example.com/greengrove-eco-sponge.jpg"
@@ -491,6 +456,7 @@
     "description": "Bamboo-based scrubber for eco-conscious Cleaning",
     "carbon": 4.2,
     "category": "cleaning",
+    "subcategory": "Sponges",
     "energy": 14.2,
     "waste": 18.5,
     "imageURL": "https://example.com/cleanslate-bamboo-scrubber.jpg"
@@ -501,6 +467,7 @@
     "description": "Versatile all-purpose cleaner for your kitchen",
     "carbon": 4.2,
     "category": "cleaning",
+    "subcategory": "Kitchen Cleaner",
     "energy": 14.5,
     "waste": 19.0,
     "imageURL": "https://example.com/kitchenmagic-all-purpose-cleaner.jpg"
@@ -511,6 +478,7 @@
     "description": "Powerful degreaser for stubborn kitchen grease",
     "carbon": 4.5,
     "category": "cleaning",
+    "subcategory": "Kitchen Cleaner",
     "energy": 15.0,
     "waste": 18.7,
     "imageURL": "https://example.com/greasebuster-kitchen-degreaser.jpg"
@@ -521,6 +489,7 @@
     "description": "cleaner for a sparkling kitchen",
     "carbon": 4.0,
     "category": "cleaning",
+    "subcategory": "Kitchen Cleaner",
     "energy": 14.2,
     "waste": 18.2,
     "imageURL": "https://example.com/ecoshine-kitchen-surface-cleaner.jpg"
@@ -531,6 +500,7 @@
     "description": "Powerful disinfectant for a sparkling clean bathroom",
     "carbon": 4.3,
     "category": "cleaning",
+    "subcategory": "Bathroom Cleaner",
     "energy": 14.7,
     "waste": 19.5,
     "imageURL": "https://example.com/bathgleam-bathroom-disinfectant.jpg"
@@ -541,6 +511,7 @@
     "description": "Efficient spray for tile and bathroom Cleaning",
     "carbon": 4.1,
     "category": "cleaning",
+    "subcategory": "Bathroom Cleaner",
     "energy": 14.0,
     "waste": 18.3,
     "imageURL": "https://example.com/tiletide-bathroom-cleaner-spray.jpg"
@@ -551,6 +522,7 @@
     "description": "Citrus-scented cleaner for a fresh bathroom experience",
     "carbon": 4.0,
     "category": "cleaning",
+    "subcategory": "Bathroom Cleaner",
     "energy": 14.2,
     "waste": 18.0,
     "imageURL": "https://example.com/freshbloom-bathroom-citrus-cleaner.jpg"
@@ -561,6 +533,7 @@
     "description": "broom for efficient Cleaning",
     "carbon": 4.8,
     "category": "cleaning",
+    "subcategory": "Brooms",
     "energy": 14.5,
     "waste": 19.2,
     "imageURL": "https://example.com/sweepmaster-eco-friendly-broom.jpg"
@@ -571,6 +544,7 @@
     "description": "Bamboo-based broom for dust-free Cleaning",
     "carbon": 4.5,
     "category": "cleaning",
+    "subcategory": "Brooms",
     "energy": 14.2,
     "waste": 18.8,
     "imageURL": "https://example.com/dustaway-bamboo-broom.jpg"
@@ -581,6 +555,7 @@
     "description": "Versatile broom for multi-surface Cleaning",
     "carbon": 4.3,
     "category": "cleaning",
+    "subcategory": "Brooms",
     "energy": 14.3,
     "waste": 18.7,
     "imageURL": "https://example.com/quicksweep-multi-surface-broom.jpg"
@@ -591,6 +566,7 @@
     "description": "Efficient microfiber mop for spotless Cleaning",
     "carbon": 5.0,
     "category": "cleaning",
+    "subcategory": "Mops",
     "energy": 15.5,
     "waste": 20.0,
     "imageURL": "https://example.com/cleanwave-microfiber-mop.jpg"
@@ -601,6 +577,7 @@
     "description": "Deluxe floor mop with misting feature for easy Cleaning",
     "carbon": 4.8,
     "category": "cleaning",
+    "subcategory": "Mops",
     "energy": 15.2,
     "waste": 19.5,
     "imageURL": "https://example.com/mopmist-deluxe-floor-mop.jpg"
@@ -611,6 +588,7 @@
     "description": "Wet mop system with aqua-glide technology for effortless Cleaning",
     "carbon": 5.2,
     "category": "cleaning",
+    "subcategory": "Mops",
     "energy": 16.0,
     "waste": 21.0,
     "imageURL": "https://example.com/aquaglide-wet-mop-system.jpg"
@@ -621,6 +599,7 @@
     "description": "Compostable trash bags for eco-conscious disposal",
     "carbon": 4.5,
     "category": "cleaning",
+    "subcategory": "Trash Bags",
     "energy": 14.8,
     "waste": 19.2,
     "imageURL": "https://example.com/ecoguard-compostable-trash-bags.jpg"
@@ -631,6 +610,7 @@
     "description": "Heavy-duty trash can liners for maximum strength",
     "carbon": 4.7,
     "category": "cleaning",
+    "subcategory": "Trash Bags",
     "energy": 15.0,
     "waste": 19.8,
     "imageURL": "https://example.com/ultrastrength-trash-can-liners.jpg"
@@ -641,6 +621,7 @@
     "description": "Recycling bags made with materials",
     "carbon": 4.3,
     "category": "cleaning",
+    "subcategory": "Trash Bags",
     "energy": 14.5,
     "waste": 18.7,
     "imageURL": "https://example.com/greenearth-recycling-bags.jpg"
@@ -651,6 +632,7 @@
     "description": "Reusable and Cleaning gloves for household tasks",
     "carbon": 4.0,
     "category": "cleaning",
+    "subcategory": "Gloves",
     "energy": 14.2,
     "waste": 18.3,
     "imageURL": "https://example.com/ecoshield-reusable-Cleaning-gloves.jpg"
@@ -661,6 +643,7 @@
     "description": "Latex-free and grip gloves for various uses",
     "carbon": 4.2,
     "category": "cleaning",
+    "subcategory": "Gloves",
     "energy": 14.5,
     "waste": 18.7,
     "imageURL": "https://example.com/latex-free-ecogrip-gloves.jpg"
@@ -671,6 +654,7 @@
     "description": "Comfortable and household gloves for daily chores",
     "carbon": 3.8,
     "category": "cleaning",
+    "subcategory": "Gloves",
     "energy": 13.9,
     "waste": 17.8,
     "imageURL": "https://example.com/ecocomfort-household-gloves.jpg"
@@ -681,6 +665,7 @@
     "description": "All-natural floor cleaner for a fresh and clean floor",
     "carbon": 4.5,
     "category": "cleaning",
+    "subcategory": "Floor Cleaner",
     "energy": 15.2,
     "waste": 19.5,
     "imageURL": "https://example.com/freshstep-all-natural-floor-cleaner.jpg"
@@ -691,6 +676,7 @@
     "description": "Enhancer for a shiny and spotless floor finish",
     "carbon": 4.2,
     "category": "cleaning",
+    "subcategory": "Floor Cleaner",
     "energy": 15.0,
     "waste": 19.0,
     "imageURL": "https://example.com/shineguard-floor-shine-enhancer.jpg"
@@ -701,46 +687,18 @@
     "description": "Stain remover to tackle tough floor stains",
     "carbon": 4.0,
     "category": "cleaning",
+    "subcategory": "Floor Cleaner",
     "energy": 14.8,
     "waste": 18.7,
     "imageURL": "https://example.com/grimeblast-floor-stain-remover.jpg"
-  },
-  {
-    "name:": "EcoBins Stackable Storage Containers",
-    "price:": 12.49,
-    "description": "Stackable storage containers for organization",
-    "carbon": 4.8,
-    "category": "cleaning",
-    "energy": 15.2,
-    "waste": 19.7,
-    "imageURL": "https://example.com/ecobins-stackable-storage-containers.jpg"
-  },
-  {
-    "name:": "ClearView Storage Bins",
-    "price:": 11.99,
-    "description": "storage bins with clear view for easy identification",
-    "carbon": 4.5,
-    "category": "cleaning",
-    "energy": 15.0,
-    "waste": 19.5,
-    "imageURL": "https://example.com/clearview-eco-friendly-storage-bins.jpg"
-  },
-  {
-    "name:": "BambooBox Eco Storage Solutions",
-    "price:": 13.25,
-    "description": "storage solutions made from sustainable bamboo",
-    "carbon": 5.0,
-    "category": "cleaning",
-    "energy": 15.5,
-    "waste": 20.0,
-    "imageURL": "https://example.com/bamboobox-eco-storage-solutions.jpg"
   },
   {
     "name:": "CozyCuddle Baby Onesie",
     "price:": 19.99,
     "description": "Cozy and cuddly baby onesie for maximum comfort",
     "carbon": 2.5,
-    "category": "baby",
+    "category": "Clothes",
+    "subcategory": "Baby",
     "energy": 3.2,
     "waste": 1.5,
     "imageURL": "https://example.com/cozycuddle-baby-onesie.jpg"
@@ -750,7 +708,8 @@
     "price:": 22.95,
     "description": "Adorable starry nights infant romper for bedtime",
     "carbon": 2.8,
-    "category": "baby",
+    "category": "Clothes",
+    "subcategory": "Baby",
     "energy": 3.5,
     "waste": 1.8,
     "imageURL": "https://example.com/starry-nights-infant-romper.jpg"
@@ -760,7 +719,8 @@
     "price:": 20.99,
     "description": "Jumpsuit for the little explorer in your family",
     "carbon": 2.6,
-    "category": "baby",
+    "category": "Clothes",
+    "subcategory": "Baby",
     "energy": 3.3,
     "waste": 1.6,
     "imageURL": "https://example.com/little-explorer-baby-jumpsuit.jpg"
@@ -770,7 +730,8 @@
     "price:": 18.95,
     "description": "Colorful rainbow bliss baby top for happy days",
     "carbon": 2.4,
-    "category": "baby",
+    "category": "Clothes",
+    "subcategory": "Baby",
     "energy": 3.0,
     "waste": 1.4,
     "imageURL": "https://example.com/rainbow-bliss-baby-top.jpg"
@@ -780,7 +741,8 @@
     "price:": 16.99,
     "description": "Infant tee that spreads sunshine and smiles",
     "carbon": 2.2,
-    "category": "baby",
+    "category": "Clothes",
+    "subcategory": "Baby",
     "energy": 2.8,
     "waste": 1.3,
     "imageURL": "https://example.com/sunshine-smiles-infant-tee.jpg"
@@ -790,7 +752,8 @@
     "price:": 21.95,
     "description": "Baby shirt for jungle-themed adventures",
     "carbon": 2.7,
-    "category": "baby",
+    "category": "Clothes",
+    "subcategory": "Baby",
     "energy": 3.4,
     "waste": 1.7,
     "imageURL": "https://example.com/jungle-adventure-baby-shirt.jpg"
@@ -800,7 +763,8 @@
     "price:": 24.99,
     "description": "Denim dreams baby jeans for a stylish look",
     "carbon": 3.0,
-    "category": "baby",
+    "category": "Clothes",
+    "subcategory": "Baby",
     "energy": 3.7,
     "waste": 1.9,
     "imageURL": "https://example.com/denim-dreams-baby-jeans.jpg"
@@ -810,7 +774,8 @@
     "price:": 17.99,
     "description": "Twinkle toes infant leggings for little ones",
     "carbon": 2.3,
-    "category": "baby",
+    "category": "Clothes",
+    "subcategory": "Baby",
     "energy": 2.9,
     "waste": 1.4,
     "imageURL": "https://example.com/twinkle-toes-infant-leggings.jpg"
@@ -820,7 +785,8 @@
     "price:": 19.95,
     "description": "Essential baby pants for playtime adventures",
     "carbon": 2.5,
-    "category": "baby",
+    "category": "Clothes",
+    "subcategory": "Baby",
     "energy": 3.1,
     "waste": 1.5,
     "imageURL": "https://example.com/playtime-essentials-baby-pants.jpg"
@@ -830,7 +796,8 @@
     "price:": 29.99,
     "description": "Floral delight girls' dress for special occasions",
     "carbon": 3.6,
-    "category": "kids",
+    "category": "Clothes",
+    "subcategory": "Kids",
     "energy": 4.2,
     "waste": 2.1,
     "imageURL": "https://example.com/floral-delight-girls-dress.jpg"
@@ -840,7 +807,8 @@
     "price:": 27.95,
     "description": "Kids' dress with rainbow ruffles for fun times",
     "carbon": 3.4,
-    "category": "kids",
+    "category": "Clothes",
+    "subcategory": "Kids",
     "energy": 4.0,
     "waste": 2.0,
     "imageURL": "https://example.com/rainbow-ruffles-kids-dress.jpg"
@@ -850,7 +818,8 @@
     "price:": 32.99,
     "description": "Children's dress that sparkles like starlight",
     "carbon": 3.8,
-    "category": "kids",
+    "category": "Clothes",
+    "subcategory": "Kids",
     "energy": 4.4,
     "waste": 2.2,
     "imageURL": "https://example.com/sparkling-starlight-childrens-dress.jpg"
@@ -860,7 +829,8 @@
     "price:": 24.95,
     "description": "Girls' top that brings sunshine and dreams",
     "carbon": 3.3,
-    "category": "kids",
+    "category": "Clothes",
+    "subcategory": "Kids",
     "energy": 3.9,
     "waste": 1.9,
     "imageURL": "https://example.com/sunshine-dreams-girls-top.jpg"
@@ -870,7 +840,8 @@
     "price:": 26.99,
     "description": "Polka dot princess kids' top for stylish kids",
     "carbon": 3.5,
-    "category": "kids",
+    "category": "Clothes",
+    "subcategory": "Kids",
     "energy": 4.1,
     "waste": 2.0,
     "imageURL": "https://example.com/polka-dot-princess-kids-top.jpg"
@@ -880,7 +851,8 @@
     "price:": 23.95,
     "description": "Children's top inspired by the ocean breeze",
     "carbon": 3.2,
-    "category": "kids",
+    "category": "Clothes",
+    "subcategory": "Kids",
     "energy": 3.7,
     "waste": 1.8,
     "imageURL": "https://example.com/ocean-breeze-childrens-top.jpg"
@@ -890,7 +862,8 @@
     "price:": 34.99,
     "description": "Girls' jeans with a touch of denim dazzle",
     "carbon": 4.0,
-    "category": "kids",
+    "category": "Clothes",
+    "subcategory": "Kids",
     "energy": 4.6,
     "waste": 2.3,
     "imageURL": "https://example.com/denim-dazzle-girls-jeans.jpg"
@@ -900,7 +873,8 @@
     "price:": 29.95,
     "description": "Kids' skirt designed for twirling fun",
     "carbon": 3.6,
-    "category": "kids",
+    "category": "Clothes",
+    "subcategory": "Kids",
     "energy": 4.2,
     "waste": 2.1,
     "imageURL": "https://example.com/twirl-time-kids-skirt.jpg"
@@ -910,7 +884,8 @@
     "price:": 26.99,
     "description": "Adventure shorts for active and adventurous children",
     "carbon": 3.4,
-    "category": "kids",
+    "category": "Clothes",
+    "subcategory": "Kids",
     "energy": 3.9,
     "waste": 1.9,
     "imageURL": "https://example.com/adventure-shorts-for-children.jpg"
@@ -920,7 +895,8 @@
     "price:": 79.99,
     "description": "Elegant evening women's dress for formal events",
     "carbon": 5.2,
-    "category": "women",
+    "category": "Clothes",
+    "subcategory": "Women",
     "energy": 6.8,
     "waste": 3.4,
     "imageURL": "https://example.com/elegant-evening-womens-dress.jpg"
@@ -930,7 +906,8 @@
     "price:": 69.95,
     "description": "Ladies' dress with a floral fantasy design",
     "carbon": 4.7,
-    "category": "women",
+    "category": "Clothes",
+    "subcategory": "Women",
     "energy": 6.2,
     "waste": 3.1,
     "imageURL": "https://example.com/floral-fantasy-ladies-dress.jpg"
@@ -940,7 +917,8 @@
     "price:": 59.99,
     "description": "Elegant dress with classic charm for women",
     "carbon": 4.2,
-    "category": "women",
+    "category": "Clothes",
+    "subcategory": "Women",
     "energy": 5.8,
     "waste": 2.9,
     "imageURL": "https://example.com/classic-charm-womens-dress.jpg"
@@ -950,7 +928,8 @@
     "price:": 44.95,
     "description": "Comfortable and chic blouse for ladies",
     "carbon": 3.6,
-    "category": "women",
+    "category": "Clothes",
+    "subcategory": "Women",
     "energy": 4.8,
     "waste": 2.4,
     "imageURL": "https://example.com/chic-comfort-ladies-blouse.jpg"
@@ -960,7 +939,8 @@
     "price:": 39.99,
     "description": "Light and breezy women's top for summer",
     "carbon": 3.0,
-    "category": "women",
+    "category": "Clothes",
+    "subcategory": "Women",
     "energy": 4.0,
     "waste": 2.0,
     "imageURL": "https://example.com/summer-breeze-womens-top.jpg"
@@ -970,7 +950,8 @@
     "price:": 49.95,
     "description": "Sophisticated striped shirt for women",
     "carbon": 3.8,
-    "category": "women",
+    "category": "Clothes",
+    "subcategory": "Women",
     "energy": 4.5,
     "waste": 2.2,
     "imageURL": "https://example.com/striped-sophistication-womens-shirt.jpg"
@@ -980,7 +961,8 @@
     "price:": 54.99,
     "description": "Chic trousers for a stylish office look",
     "carbon": 4.0,
-    "category": "women",
+    "category": "Clothes",
+    "subcategory": "Women",
     "energy": 5.2,
     "waste": 2.6,
     "imageURL": "https://example.com/office-chic-womens-trousers.jpg"
@@ -990,7 +972,8 @@
     "price:": 59.95,
     "description": "Jeans for the weekend warrior in ladies",
     "carbon": 4.2,
-    "category": "women",
+    "category": "Clothes",
+    "subcategory": "Women",
     "energy": 5.4,
     "waste": 2.7,
     "imageURL": "https://example.com/weekend-warrior-ladies-jeans.jpg"
@@ -1000,7 +983,8 @@
     "price:": 45.99,
     "description": "Flowy and elegant skirt for women",
     "carbon": 3.6,
-    "category": "women",
+    "category": "Clothes",
+    "subcategory": "Women",
     "energy": 4.7,
     "waste": 2.3,
     "imageURL": "https://example.com/flowy-elegance-womens-skirt.jpg"
@@ -1010,7 +994,8 @@
     "price:": 69.99,
     "description": "Comfortable sneakers for men with classic style",
     "carbon": 4.5,
-    "category": "men",
+    "category": "Clothes",
+    "subcategory": "Men",
     "energy": 5.6,
     "waste": 2.8,
     "imageURL": "https://example.com/classic-comfort-mens-sneakers.jpg"
@@ -1020,7 +1005,8 @@
     "price:": 79.95,
     "description": "Formal oxfords for men with an elegant touch",
     "carbon": 4.8,
-    "category": "men",
+    "category": "Clothes",
+    "subcategory": "Men",
     "energy": 5.9,
     "waste": 3.0,
     "imageURL": "https://example.com/formal-elegance-mens-oxfords.jpg"
@@ -1030,7 +1016,8 @@
     "price:": 89.99,
     "description": "Running shoes for men built for athletic adventures",
     "carbon": 5.0,
-    "category": "men",
+    "category": "Clothes",
+    "subcategory": "Men",
     "energy": 6.1,
     "waste": 3.1,
     "imageURL": "https://example.com/athletic-adventure-mens-running-shoes.jpg"
@@ -1040,7 +1027,8 @@
     "price:": 29.99,
     "description": "Cool and casual t-shirt for men",
     "carbon": 2.8,
-    "category": "men",
+    "category": "Clothes",
+    "subcategory": "Men",
     "energy": 3.5,
     "waste": 1.8,
     "imageURL": "https://example.com/casual-cool-mens-t-shirt.jpg"
@@ -1050,7 +1038,8 @@
     "price:": 39.95,
     "description": "Business-class shirt for men's professional attire",
     "carbon": 3.5,
-    "category": "men",
+    "category": "Clothes",
+    "subcategory": "Men",
     "energy": 4.2,
     "waste": 2.1,
     "imageURL": "https://example.com/business-class-mens-shirt.jpg"
@@ -1060,7 +1049,8 @@
     "price:": 34.99,
     "description": "Polo shirt for sports enthusiasts",
     "carbon": 3.2,
-    "category": "men",
+    "category": "Clothes",
+    "subcategory": "Men",
     "energy": 3.9,
     "waste": 2.0,
     "imageURL": "https://example.com/sports-enthusiast-mens-polo.jpg"
@@ -1070,7 +1060,8 @@
     "price:": 49.99,
     "description": "Classic denim jeans for men",
     "carbon": 3.7,
-    "category": "men",
+    "category": "Clothes",
+    "subcategory": "Men",
     "energy": 4.6,
     "waste": 2.3,
     "imageURL": "https://example.com/denim-classic-mens-jeans.jpg"
@@ -1080,7 +1071,8 @@
     "price:": 34.95,
     "description": "Shorts for an active lifestyle in men",
     "carbon": 3.1,
-    "category": "men",
+    "category": "Clothes",
+    "subcategory": "Men",
     "energy": 3.8,
     "waste": 1.9,
     "imageURL": "https://example.com/active-lifestyle-mens-shorts.jpg"
@@ -1090,7 +1082,8 @@
     "price:": 59.99,
     "description": "Professional pants tailored for men",
     "carbon": 4.2,
-    "category": "men",
+    "category": "Clothes",
+    "subcategory": "Men",
     "energy": 5.0,
     "waste": 2.5,
     "imageURL": "https://example.com/professional-pants-for-men.jpg"
@@ -1100,7 +1093,8 @@
     "price:": 99.99,
     "description": "Elegant vintage charm gold band for special occasions",
     "carbon": 3.8,
-    "category": "jewelry",
+    "category": "Clothes",
+    "subcategory": "Jewelry",
     "energy": 5.5,
     "waste": 2.7,
     "imageURL": "https://example.com/vintage-charm-gold-band.jpg"
@@ -1110,7 +1104,8 @@
     "price:": 89.95,
     "description": "Dazzling gemstone glamour cocktail ring for glamorous nights",
     "carbon": 4.2,
-    "category": "jewelry",
+    "category": "Clothes",
+    "subcategory": "Jewelry",
     "energy": 5.8,
     "waste": 2.9,
     "imageURL": "https://example.com/gemstone-glamour-cocktail-ring.jpg"
@@ -1120,7 +1115,8 @@
     "price:": 129.99,
     "description": "Timeless elegance ladies' watch with exquisite design",
     "carbon": 4.5,
-    "category": "watches",
+    "category": "Clothes",
+    "subcategory": "Jewelry",
     "energy": 6.0,
     "waste": 3.1,
     "imageURL": "https://example.com/timeless-elegance-ladies-watch.jpg"
@@ -1130,7 +1126,8 @@
     "price:": 149.95,
     "description": "Precision crafted men's watch for the modern gentleman",
     "carbon": 4.8,
-    "category": "watches",
+    "category": "Clothes",
+    "subcategory": "Jewelry",
     "energy": 6.2,
     "waste": 3.3,
     "imageURL": "https://example.com/precision-crafted-mens-watch.jpg"
@@ -1140,7 +1137,8 @@
     "price:": 199.99,
     "description": "Luxury timepiece chronograph watch with exceptional features",
     "carbon": 5.0,
-    "category": "watches",
+    "category": "Clothes",
+    "subcategory": "Jewelry",
     "energy": 6.5,
     "waste": 3.5,
     "imageURL": "https://example.com/luxury-timepiece-chronograph-watch.jpg"
@@ -1150,7 +1148,8 @@
     "price:": 59.99,
     "description": "Exquisite crystal cascade pendant necklace for a touch of sparkle",
     "carbon": 3.5,
-    "category": "jewelry",
+    "category": "Clothes",
+    "subcategory": "Jewelry",
     "energy": 5.2,
     "waste": 2.5,
     "imageURL": "https://example.com/crystal-cascade-pendant-necklace.jpg"
@@ -1160,7 +1159,8 @@
     "price:": 79.95,
     "description": "Pearl perfection strand necklace for classic elegance",
     "carbon": 3.7,
-    "category": "jewelry",
+    "category": "Clothes",
+    "subcategory": "Jewelry",
     "energy": 5.4,
     "waste": 2.6,
     "imageURL": "https://example.com/pearl-perfection-strand-necklace.jpg"
@@ -1170,7 +1170,8 @@
     "price:": 69.99,
     "description": "Statement sparkle collar necklace to steal the spotlight",
     "carbon": 3.6,
-    "category": "jewelry",
+    "category": "Clothes",
+    "subcategory": "Jewelry",
     "energy": 5.3,
     "waste": 2.6,
     "imageURL": "https://example.com/statement-sparkle-collar-necklace.jpg"
@@ -1180,7 +1181,8 @@
     "price:": 129.99,
     "description": "Trendy handbag for the fashion-forward individuals",
     "carbon": 4.2,
-    "category": "accessories",
+    "category": "Clothes",
+    "subcategory": "Bags",
     "energy": 5.7,
     "waste": 2.8,
     "imageURL": "https://example.com/fashionistas-favorite-handbag.jpg"
@@ -1190,7 +1192,8 @@
     "price:": 79.95,
     "description": "Trendy tote bag designed for women on the go",
     "carbon": 3.9,
-    "category": "accessories",
+    "category": "Clothes",
+    "subcategory": "Bags",
     "energy": 5.4,
     "waste": 2.7,
     "imageURL": "https://example.com/trendy-tote-bag-for-women.jpg"
@@ -1200,7 +1203,8 @@
     "price:": 49.99,
     "description": "Elegant evening clutch purse for special occasions",
     "carbon": 3.4,
-    "category": "accessories",
+    "category": "Clothes",
+    "subcategory": "Bags",
     "energy": 5.0,
     "waste": 2.4,
     "imageURL": "https://example.com/elegant-evening-clutch-purse.jpg"
@@ -1210,7 +1214,8 @@
     "price:": 39.95,
     "description": "Classic leather belt designed for men's style",
     "carbon": 3.2,
-    "category": "accessories",
+    "category": "Clothes",
+    "subcategory": "Belts",
     "energy": 4.8,
     "waste": 2.3,
     "imageURL": "https://example.com/classic-leather-belt-for-men.jpg"
@@ -1220,7 +1225,8 @@
     "price:": 34.99,
     "description": "Stylish waist belt to complement women's fashion",
     "carbon": 3.1,
-    "category": "accessories",
+    "category": "Clothes",
+    "subcategory": "Belts",
     "energy": 4.7,
     "waste": 2.2,
     "imageURL": "https://example.com/stylish-waist-belt-for-women.jpg"
@@ -1230,7 +1236,8 @@
     "price:": 29.95,
     "description": "Casual canvas belt for everyday comfort",
     "carbon": 2.9,
-    "category": "accessories",
+    "category": "Clothes",
+    "subcategory": "Belts",
     "energy": 4.5,
     "waste": 2.1,
     "imageURL": "https://example.com/casual-canvas-belt.jpg"
@@ -1240,7 +1247,8 @@
     "price:": 49.99,
     "description": "Retro glam sunglasses for a vintage look",
     "carbon": 3.4,
-    "category": "accessories",
+    "category": "Clothes",
+    "subcategory": "sunglasses",
     "energy": 5.0,
     "waste": 2.4,
     "imageURL": "https://example.com/retro-glam-sunglasses.jpg"
@@ -1250,7 +1258,8 @@
     "price:": 54.95,
     "description": "Sporty aviator shades for an active lifestyle",
     "carbon": 3.6,
-    "category": "accessories",
+    "category": "Clothes",
+    "subcategory": "sunglasses",
     "energy": 5.2,
     "waste": 2.6,
     "imageURL": "https://example.com/sporty-aviator-shades.jpg"
@@ -1260,7 +1269,8 @@
     "price:": 47.99,
     "description": "Chic cat-eye sunglasses for a trendy appearance",
     "carbon": 3.3,
-    "category": "accessories",
+    "category": "Clothes",
+    "subcategory": "sunglasses",
     "energy": 4.9,
     "waste": 2.3,
     "imageURL": "https://example.com/chic-cat-eye-sunglasses.jpg"
@@ -1271,6 +1281,7 @@
     "description": "Advanced technology fusion device",
     "carbon": 3,
     "category": "Electronics",
+    "subcategory": "Computers",
     "energy": 8,
     "waste": 5,
     "imageURL": "https://example.com/techfusion-pro.jpg"
@@ -1281,6 +1292,7 @@
     "description": "High-speed internet router",
     "carbon": 2,
     "category": "Electronics",
+    "subcategory": "Computers",
     "energy": 7,
     "waste": 4,
     "imageURL": "https://example.com/speedbyte-nexus.jpg"
@@ -1290,7 +1302,8 @@
     "price": 799.99,
     "description": "Powerful quantum computing workstation",
     "carbon": 4,
-    "category": "Computers",
+    "category": "Electronics",
+    "subcategory": "Computers",
     "energy": 9,
     "waste": 6,
     "imageURL": "https://example.com/quantumedge-workstation.jpg"
@@ -1300,7 +1313,8 @@
     "price": 129.99,
     "description": "Versatile camera and photography tool",
     "carbon": 2,
-    "category": "Photography",
+    "category": "Electronics",
+    "subcategory": "Camera",
     "energy": 7,
     "waste": 4,
     "imageURL": "https://example.com/snapmaster-x1.jpg"
@@ -1311,6 +1325,7 @@
     "description": "High-resolution focus and vision enhancement",
     "carbon": 4,
     "category": "Electronics",
+    "subcategory": "Camera",
     "energy": 9,
     "waste": 6,
     "imageURL": "https://example.com/focusvision-elite.jpg"
@@ -1320,7 +1335,8 @@
     "price": 79.99,
     "description": "Professional-grade camera shutter controller",
     "carbon": 1,
-    "category": "Photography",
+    "category": "Electronics",
+    "subcategory": "Camera",
     "energy": 6,
     "waste": 3,
     "imageURL": "https://example.com/shutterpro-ultra.jpg"
@@ -1331,6 +1347,7 @@
     "description": "Fast-charging turbo charger for devices",
     "carbon": 1,
     "category": "Electronics",
+    "subcategory": "Chargers",
     "energy": 5,
     "waste": 2,
     "imageURL": "https://example.com/powerblitz-turbo-charger.jpg"
@@ -1341,6 +1358,7 @@
     "description": "Compact and efficient device charger",
     "carbon": 1,
     "category": "Electronics",
+    "subcategory": "Chargers",
     "energy": 4,
     "waste": 1,
     "imageURL": "https://example.com/chargemate-max.jpg"
@@ -1351,6 +1369,7 @@
     "description": "High-performance voltage booster",
     "carbon": 1,
     "category": "Electronics",
+    "subcategory": "Chargers",
     "energy": 3,
     "waste": 0,
     "imageURL": "https://example.com/voltboost-pro.jpg"
@@ -1361,6 +1380,7 @@
     "description": "HD audio synchronization system",
     "carbon": 3,
     "category": "Electronics",
+    "subcategory": "Headphones",
     "energy": 8,
     "waste": 5,
     "imageURL": "https://example.com/sonicsync-hd.jpg"
@@ -1371,6 +1391,7 @@
     "description": "Professional bass and beats headphones",
     "carbon": 2,
     "category": "Electronics",
+    "subcategory": "Headphones",
     "energy": 7,
     "waste": 4,
     "imageURL": "https://example.com/bassbeats-pro.jpg"
@@ -1381,6 +1402,7 @@
     "description": "Elite-level audio equipment",
     "carbon": 3,
     "category": "Electronics",
+    "subcategory": "Headphones",
     "energy": 6,
     "waste": 3,
     "imageURL": "https://example.com/audiowave-elite.jpg"
@@ -1391,6 +1413,7 @@
     "description": "Ultra high-definition television experience",
     "carbon": 4,
     "category": "Electronics",
+    "subcategory": "TVs",
     "energy": 9,
     "waste": 6,
     "imageURL": "https://example.com/ultravision-hdx.jpg"
@@ -1401,6 +1424,7 @@
     "description": "Pro-level home cinema system",
     "carbon": 5,
     "category": "Electronics",
+    "subcategory": "TVs",
     "energy": 10,
     "waste": 7,
     "imageURL": "https://example.com/cinemamax-pro.jpg"
@@ -1411,6 +1435,7 @@
     "description": "Smart streaming device for entertainment",
     "carbon": 1,
     "category": "Electronics",
+    "subcategory": "TVs",
     "energy": 5,
     "waste": 2,
     "imageURL": "https://example.com/smartstream-elite.jpg"
@@ -1421,6 +1446,7 @@
     "description": "Environmentally friendly power technology",
     "carbon": 2,
     "category": "Electronics",
+    "subcategory": "Batteries",
     "energy": 6,
     "waste": 3,
     "imageURL": "https://example.com/ecopower-lithiumtech.jpg"
@@ -1431,6 +1457,7 @@
     "description": "Maximized energy core for devices",
     "carbon": 1,
     "category": "Electronics",
+    "subcategory": "Batteries",
     "energy": 4,
     "waste": 1,
     "imageURL": "https://example.com/energycore-max.jpg"
@@ -1441,6 +1468,7 @@
     "description": "Long-lasting Duracell batteries",
     "carbon": 0,
     "category": "Electronics",
+    "subcategory": "Batteries",
     "energy": 3,
     "waste": 0,
     "imageURL": "https://example.com/longlife-duracell.jpg"
@@ -1451,6 +1479,7 @@
     "description": "Immersive audio experience with SonicWave",
     "carbon": 3,
     "category": "Electronics",
+    "subcategory": "Speakers",
     "energy": 8,
     "waste": 5,
     "imageURL": "https://example.com/sonicwave-xperience.jpg"
@@ -1461,6 +1490,7 @@
     "description": "Pro-level acoustic mastery equipment",
     "carbon": 4,
     "category": "Electronics",
+    "subcategory": "Speakers",
     "energy": 9,
     "waste": 6,
     "imageURL": "https://example.com/acousticmaster-pro.jpg"
@@ -1471,6 +1501,7 @@
     "description": "Fusion of sound streaming technologies",
     "carbon": 2,
     "category": "Electronics",
+    "subcategory": "Speakers",
     "energy": 7,
     "waste": 4,
     "imageURL": "https://example.com/soundstream-fusion.jpg"
@@ -1481,6 +1512,7 @@
     "description": "Pro-level touch interface technology",
     "carbon": 3,
     "category": "Electronics",
+    "subcategory": "Phones",
     "energy": 8,
     "waste": 5,
     "imageURL": "https://example.com/infinitytouch-pro.jpg"
@@ -1491,6 +1523,7 @@
     "description": "Pure and high-performance connectivity",
     "carbon": 3,
     "category": "Electronics",
+    "subcategory": "Phones",
     "energy": 8,
     "waste": 5,
     "imageURL": "https://example.com/pureconnect-x1.jpg"
@@ -1501,6 +1534,7 @@
     "description": "Stellar-quality conference calling",
     "carbon": 1,
     "category": "Electronics",
+    "subcategory": "Phones",
     "energy": 5,
     "waste": 2,
     "imageURL": "https://example.com/stellarcall-plus.jpg"
@@ -1511,6 +1545,7 @@
     "description": "Maximum performance printer",
     "carbon": 2,
     "category": "Electronics",
+    "subcategory": "Printers",
     "energy": 6,
     "waste": 3,
     "imageURL": "https://example.com/printpro-max.jpg"
@@ -1521,6 +1556,7 @@
     "description": "Elite precision printing technology",
     "carbon": 1,
     "category": "Electronics",
+    "subcategory": "Printers",
     "energy": 4,
     "waste": 1,
     "imageURL": "https://example.com/precisionprint-elite.jpg"
@@ -1531,6 +1567,7 @@
     "description": "Professional color crafting equipment",
     "carbon": 3,
     "category": "Electronics",
+    "subcategory": "Printers",
     "energy": 7,
     "waste": 4,
     "imageURL": "https://example.com/colorcraft-pro.jpg"
@@ -1541,7 +1578,7 @@
     "description": "Convenient laundry storage",
     "carbon": 0.3,
     "category": "Home",
-    "subcategory": "Laundry Detergent",
+    "subcategory": "LaundryDetergent",
     "energy": 3,
     "waste": 0.08,
     "imageURL": "[Image URL]"
@@ -1552,7 +1589,7 @@
     "description": "Advanced stain removal formula",
     "carbon": 0.4,
     "category": "Home",
-    "subcategory": "Laundry Detergent",
+    "subcategory": "LaundryDetergent",
     "energy": 4,
     "waste": 0.1,
     "imageURL": "[Image URL]"
@@ -1563,7 +1600,7 @@
     "description": "Environmentally friendly detergent",
     "carbon": 0.5,
     "category": "Home",
-    "subcategory": "Laundry Detergent",
+    "subcategory": "LaundryDetergent",
     "energy": 5,
     "waste": 0.12,
     "imageURL": "[Image URL]"
@@ -1574,7 +1611,7 @@
     "description": "Flexible and spacious laundry basket",
     "carbon": 0.6,
     "category": "Home",
-    "subcategory": "Laundry Baskets",
+    "subcategory": "LaundryBaskets",
     "energy": 6,
     "waste": 0.14,
     "imageURL": "[Image URL]"
@@ -1585,7 +1622,7 @@
     "description": "Maximize laundry sorting with stackable baskets",
     "carbon": 0.7,
     "category": "Home",
-    "subcategory": "Laundry Baskets",
+    "subcategory": "LaundryBaskets",
     "energy": 7,
     "waste": 0.16,
     "imageURL": "[Image URL]"
@@ -1596,7 +1633,7 @@
     "description": "Space-saving laundry basket",
     "carbon": 0.8,
     "category": "Home",
-    "subcategory": "Laundry Baskets",
+    "subcategory": "LaundryBaskets",
     "energy": 8,
     "waste": 0.18,
     "imageURL": "[Image URL]"
@@ -1838,7 +1875,7 @@
     "description": "Warm and cozy knit throw blanket",
     "carbon": 0.3,
     "category": "Home",
-    "subcategory": "Throw Blankets",
+    "subcategory": "ThrowBlankets",
     "energy": 3,
     "waste": 0.06,
     "imageURL": "[Image URL]"
@@ -1849,7 +1886,7 @@
     "description": "Plush velvet touch throw blanket",
     "carbon": 0.4,
     "category": "Home",
-    "subcategory": "Throw Blankets",
+    "subcategory": "ThrowBlankets",
     "energy": 4,
     "waste": 0.08,
     "imageURL": "[Image URL]"
@@ -1860,7 +1897,7 @@
     "description": "Fleece throw blanket for warmth and comfort",
     "carbon": 0.5,
     "category": "Home",
-    "subcategory": "Throw Blankets",
+    "subcategory": "ThrowBlankets",
     "energy": 5,
     "waste": 0.1,
     "imageURL": "[Image URL]"
@@ -1936,8 +1973,8 @@
     "price": 12.99,
     "description": "Biodegradable body scrub with natural ingredients",
     "carbon": 0.3,
-    "category": "Personal Care",
-    "subcategory": "Bath and Body",
+    "category": "PersonalCare",
+    "subcategory": "BathAndBody",
     "energy": 3,
     "waste": 0.08,
     "imageURL": "[Image URL]"
@@ -1947,8 +1984,8 @@
     "price": 9.99,
     "description": "Natural vegan lotion for glowing skin",
     "carbon": 0.2,
-    "category": "Personal Care",
-    "subcategory": "Bath and Body",
+    "category": "PersonalCare",
+    "subcategory": "BathAndBody",
     "energy": 2,
     "waste": 0.06,
     "imageURL": "[Image URL]"
@@ -1958,8 +1995,8 @@
     "price": 4.99,
     "description": "soap bar with ocean breeze scent",
     "carbon": 0.1,
-    "category": "Personal Care",
-    "subcategory": "Bath and Body",
+    "category": "PersonalCare",
+    "subcategory": "BathAndBody",
     "energy": 1,
     "waste": 0.04,
     "imageURL": "[Image URL]"
@@ -1969,8 +2006,8 @@
     "price": 2.99,
     "description": "Bamboo toothbrush for dental care",
     "carbon": 0.05,
-    "category": "Personal Care",
-    "subcategory": "Oral Care",
+    "category": "PersonalCare",
+    "subcategory": "OralCare",
     "energy": 0.5,
     "waste": 0.01,
     "imageURL": "[Image URL]"
@@ -1980,8 +2017,8 @@
     "price": 6.99,
     "description": "Herbal toothpaste tabs for a natural smile",
     "carbon": 0.15,
-    "category": "Personal Care",
-    "subcategory": "Oral Care",
+    "category": "PersonalCare",
+    "subcategory": "OralCare",
     "energy": 1.5,
     "waste": 0.03,
     "imageURL": "[Image URL]"
@@ -1991,8 +2028,8 @@
     "price": 5.99,
     "description": "Mouthwash in recycled packaging with fresh mint flavor",
     "carbon": 0.12,
-    "category": "Personal Care",
-    "subcategory": "Oral Care",
+    "category": "PersonalCare",
+    "subcategory": "OralCare",
     "energy": 1.2,
     "waste": 0.02,
     "imageURL": "[Image URL]"
@@ -2002,8 +2039,8 @@
     "price": 7.99,
     "description": "Organic feminine wash for gentle care",
     "carbon": 0.18,
-    "category": "Personal Care",
-    "subcategory": "Intimate Care",
+    "category": "PersonalCare",
+    "subcategory": "IntimateCare",
     "energy": 1.8,
     "waste": 0.04,
     "imageURL": "[Image URL]"
@@ -2013,8 +2050,8 @@
     "price": 5.49,
     "description": "Plant-based intimate deodorant for freshness",
     "carbon": 0.14,
-    "category": "Personal Care",
-    "subcategory": "Intimate Care",
+    "category": "PersonalCare",
+    "subcategory": "IntimateCare",
     "energy": 1.4,
     "waste": 0.03,
     "imageURL": "[Image URL]"
@@ -2024,8 +2061,8 @@
     "price": 3.99,
     "description": "Biodegradable intimate wipes with love for the environment",
     "carbon": 0.08,
-    "category": "Personal Care",
-    "subcategory": "Intimate Care",
+    "category": "PersonalCare",
+    "subcategory": "IntimateCare",
     "energy": 0.8,
     "waste": 0.02,
     "imageURL": "[Image URL]"
@@ -2035,8 +2072,8 @@
     "price": 8.99,
     "description": "Bamboo hair serum for smooth and shiny hair",
     "carbon": 0.2,
-    "category": "Personal Care",
-    "subcategory": "Hair Care",
+    "category": "PersonalCare",
+    "subcategory": "HairCare",
     "energy": 2,
     "waste": 0.04,
     "imageURL": "[Image URL]"
@@ -2046,8 +2083,8 @@
     "price": 12.99,
     "description": "shampoo and conditioner for hair revival",
     "carbon": 0.3,
-    "category": "Personal Care",
-    "subcategory": "Hair Care",
+    "category": "PersonalCare",
+    "subcategory": "HairCare",
     "energy": 3,
     "waste": 0.06,
     "imageURL": "[Image URL]"
@@ -2057,8 +2094,8 @@
     "price": 11.99,
     "description": "Natural sunblock hair mist for sun protection",
     "carbon": 0.28,
-    "category": "Personal Care",
-    "subcategory": "Hair Care",
+    "category": "PersonalCare",
+    "subcategory": "HairCare",
     "energy": 2.8,
     "waste": 0.05,
     "imageURL": "[Image URL]"
@@ -2068,8 +2105,8 @@
     "price": 9.99,
     "description": "Organic cotton menstrual pads for eco-conscious women",
     "carbon": 0.22,
-    "category": "Personal Care",
-    "subcategory": "Feminine Care",
+    "category": "PersonalCare",
+    "subcategory": "FeminineCare",
     "energy": 2.2,
     "waste": 0.04,
     "imageURL": "[Image URL]"
@@ -2079,8 +2116,8 @@
     "price": 6.49,
     "description": "Biodegradable tampon set for eco-comfort",
     "carbon": 0.16,
-    "category": "Personal Care",
-    "subcategory": "Feminine Care",
+    "category": "PersonalCare",
+    "subcategory": "FeminineCare",
     "energy": 1.6,
     "waste": 0.03,
     "imageURL": "[Image URL]"
@@ -2090,8 +2127,8 @@
     "price": 8.99,
     "description": "Reusable menstrual cup for an period",
     "carbon": 0.2,
-    "category": "Personal Care",
-    "subcategory": "Feminine Care",
+    "category": "PersonalCare",
+    "subcategory": "FeminineCare",
     "energy": 2,
     "waste": 0.05,
     "imageURL": "[Image URL]"
@@ -2101,8 +2138,8 @@
     "price": 7.99,
     "description": "Organic cold care syrup for relief",
     "carbon": 0.18,
-    "category": "Personal Care",
-    "subcategory": "Health Care",
+    "category": "PersonalCare",
+    "subcategory": "HealthCare",
     "energy": 1.8,
     "waste": 0.04,
     "imageURL": "[Image URL]"
@@ -2112,8 +2149,8 @@
     "price": 5.99,
     "description": "Natural allergy relief for eco-conscious individuals",
     "carbon": 0.15,
-    "category": "Personal Care",
-    "subcategory": "Health Care",
+    "category": "PersonalCare",
+    "subcategory": "HealthCare",
     "energy": 1.5,
     "waste": 0.03,
     "imageURL": "[Image URL]"
@@ -2123,8 +2160,8 @@
     "price": 11.99,
     "description": "Plant-based vitamin supplements for vitality",
     "carbon": 0.28,
-    "category": "Personal Care",
-    "subcategory": "Health Care",
+    "category": "PersonalCare",
+    "subcategory": "HealthCare",
     "energy": 2.8,
     "waste": 0.05,
     "imageURL": "[Image URL]"
@@ -2134,8 +2171,8 @@
     "price": 9.99,
     "description": "Organic beard oil for men with a green touch",
     "carbon": 0.22,
-    "category": "Personal Care",
-    "subcategory": "Men's Grooming",
+    "category": "PersonalCare",
+    "subcategory": "MenGrooming",
     "energy": 2.2,
     "waste": 0.04,
     "imageURL": "[Image URL]"
@@ -2145,8 +2182,8 @@
     "price": 6.49,
     "description": "Shaving cream bar for grooming",
     "carbon": 0.16,
-    "category": "Personal Care",
-    "subcategory": "Men's Grooming",
+    "category": "PersonalCare",
+    "subcategory": "MenGrooming",
     "energy": 1.6,
     "waste": 0.03,
     "imageURL": "[Image URL]"
@@ -2156,8 +2193,8 @@
     "price": 7.99,
     "description": "Natural face wash for earthly gents",
     "carbon": 0.18,
-    "category": "Personal Care",
-    "subcategory": "Men's Grooming",
+    "category": "PersonalCare",
+    "subcategory": "MenGrooming",
     "energy": 1.8,
     "waste": 0.04,
     "imageURL": "[Image URL]"
@@ -2167,7 +2204,7 @@
     "price": 12.99,
     "description": "Botanical beauty elixir for eco-conscious women",
     "carbon": 0.3,
-    "category": "Personal Care",
+    "category": "PersonalCare",
     "subcategory": "Women's Grooming",
     "energy": 3,
     "waste": 0.06,
@@ -2178,7 +2215,7 @@
     "price": 8.99,
     "description": "makeup remover pads",
     "carbon": 0.2,
-    "category": "Personal Care",
+    "category": "PersonalCare",
     "subcategory": "Women's Grooming",
     "energy": 2,
     "waste": 0.05,
@@ -2189,7 +2226,7 @@
     "price": 19.99,
     "description": "Night cream in recyclable packaging for timeless beauty",
     "carbon": 0.5,
-    "category": "Personal Care",
+    "category": "PersonalCare",
     "subcategory": "Women's Grooming",
     "energy": 5,
     "waste": 0.12,
@@ -2200,7 +2237,7 @@
     "price": 12.99,
     "description": "Biodegradable bubble bath for kids' fun bath time",
     "carbon": 0.3,
-    "category": "Personal Care",
+    "category": "PersonalCare",
     "subcategory": "Kids' Care",
     "energy": 3,
     "waste": 0.08,
@@ -2211,7 +2248,7 @@
     "price": 9.99,
     "description": "Organic baby lotion for soft and gentle care",
     "carbon": 0.2,
-    "category": "Personal Care",
+    "category": "PersonalCare",
     "subcategory": "Kids' Care",
     "energy": 2,
     "waste": 0.06,
@@ -2222,7 +2259,7 @@
     "price": 5.99,
     "description": "Natural soap bar specially formulated for kids",
     "carbon": 0.15,
-    "category": "Personal Care",
+    "category": "PersonalCare",
     "subcategory": "Kids' Care",
     "energy": 1.5,
     "waste": 0.04,
