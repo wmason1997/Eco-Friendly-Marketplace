@@ -1,45 +1,89 @@
 const router = require('express').Router();
-const { Cart, Item } = require("../../models");
+const { Cart, cartItem, Item } = require("../../models");
 
 // /api/cart
 
 // Add a new item to the user's cart
-router.post('/:id', async (req, res) => {
-    try {
-      const {itemData} = req.body;
-      const { itemID, name, quantity, price, imageURL, carbon, energy, waste } = itemData;
+//Option #1
+// router.post('/add/item', async (req, res) => {
+//     try {
+//       const {itemData} = req.body;
+//       const {itemID} = itemData;
+//       const userID = req.session.userID;
+  
+// //       // Find the user's cart or create a new one if it doesn't exist
+//       let userCart = await Cart.findOne({ where: { userID } });
+//       if (!userCart) {
+//         userCart = await Cart.create({ userID });
+//       }
+  
+//       // Add item to cart
+//       // Does the cart model have an addItem method?
+//       const cartData = await Cart.addItem({
+//         cartID: userCart.id,
+//         itemID: itemID,
+        
 
-      // const {itemID} = itemData;
-      // const userID = req.session.userID;
-      // const itemID = req.params.id;
-      const userID = req.session.userID; // Grab userID from session
+//       });
   
-//       // Find the user's cart or create a new one if it doesn't exist
-      let userCart = await Cart.findOne({ where: { userID } });
-      if (!userCart) {
-        userCart = await Cart.create({ userID });
+//       res
+//         .status(200)
+//         .json({ message: 'Item added to cart successfully', cartData });
+//     } catch (error) {
+//       console.error(error);
+//       res
+//         .status(500)
+//         .json({ message: 'An error occurred while adding the item to the cart' });
+//     }
+//   });
+  
+//Option #2
+  router.post('/', async (req, res) => {
+    try {
+      console.log(req.body)
+      const userID = req.session.userID
+      const itemID = req.session.itemID;
+      console.log(req.session.userID)
+        const { quantity, price, name, carbon, energy, waste, imageURL } = req.body;
+
+        if (!itemID) {
+          return res.status(400).json({ message: 'Item ID is missing' });
       }
-  
-      // Add item to cart
-      // Does the cart model have an addItem method?
-      const addedItem = await Cart.addItem({
-        cartID: userCart.id,
-        itemID,
-        name,
-        quantity,
-        price,
-        imageURL,
-        carbon,
-        energy,
-        waste
-      });
-  
-      res.status(200).json({ message: 'Item added to cart successfully', addedItem });
+      if (!quantity) {
+          return res.status(400).json({ message: 'Quantity is missing' });
+      }
+
+      // Validate if the item exists in the database
+      const item = await Item.findByPk(itemID);
+      if (!item) {
+          return res.status(404).json({ message: 'Item not found' });
+      }
+        
+        // Find the user's cart or create a new one
+        let cart = await Cart.findOne({ where: { userID } });
+        if (!cart) {
+            cart = await Cart.create({ userID });
+        }
+        
+        // Add item to cart
+        const cartItems = await cartItem.create({
+            cartId: cart.id,
+            itemID,
+            quantity,
+            price,
+            name,
+            carbon,
+            energy,
+            waste,
+            imageURL
+        });
+
+        res.status(200).json({ message: 'Item added to cart', cartItems });
     } catch (error) {
       console.error(error);
-      res.status(500).json({ message: 'An error occurred while adding the item to the cart' });
     }
   });
+    
   
   
   router.delete('/:itemID', async (req, res) => {
