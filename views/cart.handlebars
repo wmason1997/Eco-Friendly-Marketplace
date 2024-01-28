@@ -1,17 +1,17 @@
 {{> navbar}}
 <h1>Your Cart</h1>
 {{#if logged_in}}
-    {{#if cartData.length}} 
+    {{#if items.length}} 
     <p> cartData is the right name</p>
         <ul>
-            {{#each items}}
+            {{#each items as |item|}}
                 <li id="name">
-                    {{this.name}}
+                    {{item.item.name}}
 
                     <!-- Add other item details here -->
                 </li>
                 <li id="price">
-                    ${{this.price}}
+                    ${{item.item.price}}
                 </li>
             {{/each}}
         </ul>
