@@ -1,6 +1,6 @@
-// document.addEventListener('DOMContentLoaded', function() {
-//     initializeEventListeners();
-// });
+document.addEventListener('DOMContentLoaded', function() {
+    initializeEventListeners();
+});
 
 // let cartItems = {};
 
@@ -12,10 +12,9 @@ function initializeEventListener() {
         });
     }
 
-// function addToCart(itemID, quantity, price, imageURL) { 
 function addToCart(itemID) { 
 
-    const itemData = {  // fill in more properties we want posted to server
+    const itemData = {  
         itemID: itemID,
         quantity: quantity,
         price: price,
@@ -26,7 +25,7 @@ function addToCart(itemID) {
 
     };
 
-    fetch('/cart/add/item', { // makes request to backend
+    fetch('/editcart/item', { // makes request to backend
         method: 'POST',
         body: JSON.stringify({itemData}), // fill out rest 
         headers: { 'Content-Type': 'application/json' }
@@ -35,6 +34,12 @@ function addToCart(itemID) {
     .then(response => response.json())
     .then (() => window.location.reload());
 };
+
+
+
+
+
+
 
 function initializeEventListener() {
     document.querySelector('.add-to-cart').addEventListener('click', function(event) {
