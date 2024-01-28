@@ -13,6 +13,7 @@ router.get('/single/:id', async (req, res) => {
       res.status(404).json({ message: 'No item found with this id! ' });
       return;
     }
+
     res.render('itemdetailPg', {
       item: itemData,
       category: req.params.category,

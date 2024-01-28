@@ -23,13 +23,11 @@ const categories = [
   },
   {
     name: 'Personal Care',
-    imageUrl:
-      'http://localhost:3001/images/PersonalCare-category.jpg',
+    imageUrl: 'https://i.ibb.co/tHbWTyr/Personal-Care-category.jpg',
   },
   {
     name: 'Luggage',
-    imageUrl:
-      'http://localhost:3001/images/Luggage-category.jpg',
+    imageUrl: 'https://i.ibb.co/FmhBjGd/Luggage-category.jpg',
   },
   {
     name: 'Toy',

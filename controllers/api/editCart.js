@@ -27,9 +27,9 @@ router.post('/:id', async (req, res) => {
 
     } catch (error) {
       console.error(error);
-      res.status(500).json({ message: 'An error occurred while adding the item to the cart' });
     }
   });
+    
   
   
   router.delete('/:itemID', async (req, res) => {

@@ -15,6 +15,7 @@ const app = express();
 //app.use(passport.session());
 
 // Middleware
+app.use(express.json());
 
 const PORT = process.env.PORT || 3001;
 
