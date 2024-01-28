@@ -40,6 +40,8 @@ const sess = {
 app.use(session(sess));
 
 app.use((req, res, next) => {
+  let ignore = ['.css', '.png', '.jpeg', '.jpg', '.js']
+  if (ignore.some(str => req.url.endsWith(str))) {next(); return}
   console.log(`${req.method} request heard at ${req.url}`)
   next()
 })

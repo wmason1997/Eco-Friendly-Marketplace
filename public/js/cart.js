@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 // Option #3
 function initializeEventListener() {
   document.querySelectorAll('.add-to-cart').forEach((button) => {
@@ -45,3 +47,4 @@ function addToCart(itemID, quantity, price, imageURL, carbon, name, energy, wast
 
 // Initialize the event listeners when the document is ready
 document.addEventListener('DOMContentLoaded', initializeEventListener);
+>>>>>>> b89b12c570d4a141c7e330e07b880eae519310f4
