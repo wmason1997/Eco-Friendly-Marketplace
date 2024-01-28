@@ -2205,7 +2205,7 @@
     "description": "Botanical beauty elixir for eco-conscious women",
     "carbon": 0.3,
     "category": "PersonalCare",
-    "subcategory": "Women's Grooming",
+    "subcategory": "WomensGrooming",
     "energy": 3,
     "waste": 0.06,
     "imageURL": "[Image URL]"
@@ -2216,7 +2216,7 @@
     "description": "makeup remover pads",
     "carbon": 0.2,
     "category": "PersonalCare",
-    "subcategory": "Women's Grooming",
+    "subcategory": "WomensGrooming",
     "energy": 2,
     "waste": 0.05,
     "imageURL": "[Image URL]"
@@ -2227,7 +2227,7 @@
     "description": "Night cream in recyclable packaging for timeless beauty",
     "carbon": 0.5,
     "category": "PersonalCare",
-    "subcategory": "Women's Grooming",
+    "subcategory": "WomensGrooming",
     "energy": 5,
     "waste": 0.12,
     "imageURL": "[Image URL]"
@@ -2238,7 +2238,7 @@
     "description": "Biodegradable bubble bath for kids' fun bath time",
     "carbon": 0.3,
     "category": "PersonalCare",
-    "subcategory": "Kids' Care",
+    "subcategory": "KidCare",
     "energy": 3,
     "waste": 0.08,
     "imageURL": "[Image URL]"
@@ -2249,7 +2249,7 @@
     "description": "Organic baby lotion for soft and gentle care",
     "carbon": 0.2,
     "category": "PersonalCare",
-    "subcategory": "Kids' Care",
+    "subcategory": "KidCare",
     "energy": 2,
     "waste": 0.06,
     "imageURL": "[Image URL]"
@@ -2260,7 +2260,7 @@
     "description": "Natural soap bar specially formulated for kids",
     "carbon": 0.15,
     "category": "PersonalCare",
-    "subcategory": "Kids' Care",
+    "subcategory": "KidCare",
     "energy": 1.5,
     "waste": 0.04,
     "imageURL": "[Image URL]"
@@ -2403,7 +2403,7 @@
     "description": "Laptop carrier with a carbon-conscious design",
     "carbon": 0.5,
     "category": "Luggage",
-    "subcategory": "Laptop Bags",
+    "subcategory": "LaptopBags",
     "energy": 5,
     "waste": 0.1,
     "imageURL": "[Image URL]"
@@ -2414,7 +2414,7 @@
     "description": "Executive laptop bag made from eco-suede",
     "carbon": 0.6,
     "category": "Luggage",
-    "subcategory": "Laptop Bags",
+    "subcategory": "LaptopBags",
     "energy": 6,
     "waste": 0.12,
     "imageURL": "[Image URL]"
@@ -2425,7 +2425,7 @@
     "description": "Leather laptop tote with an elegant touch",
     "carbon": 0.7,
     "category": "Luggage",
-    "subcategory": "Laptop Bags",
+    "subcategory": "LaptopBags",
     "energy": 7,
     "waste": 0.14,
     "imageURL": "[Image URL]"
@@ -2436,7 +2436,7 @@
     "description": "Garment guardian with a touch of green glamour",
     "carbon": 0.4,
     "category": "Luggage",
-    "subcategory": "Garment Bags",
+    "subcategory": "GarmentBags",
     "energy": 4,
     "waste": 0.08,
     "imageURL": "[Image URL]"
@@ -2447,7 +2447,7 @@
     "description": "Couture garment bag made from bamboo bliss",
     "carbon": 0.5,
     "category": "Luggage",
-    "subcategory": "Garment Bags",
+    "subcategory": "GarmentBags",
     "energy": 5,
     "waste": 0.1,
     "imageURL": "[Image URL]"
@@ -2458,7 +2458,7 @@
     "description": "Sustainable wardrobe carrier with pure silk elegance",
     "carbon": 0.6,
     "category": "Luggage",
-    "subcategory": "Garment Bags",
+    "subcategory": "GarmentBags",
     "energy": 6,
     "waste": 0.12,
     "imageURL": "[Image URL]"
@@ -2502,7 +2502,7 @@
     "description": "stuffed creatures",
     "carbon": 0.19,
     "category": "Toys",
-    "subcategory": "Stuffed Animals",
+    "subcategory": "StuffedAnimals",
     "energy": 1.9,
     "waste": 0.038,
     "imageURL": "[Image URL]"
@@ -2546,7 +2546,7 @@
     "description": "solar-powered remote control car",
     "carbon": 0.48,
     "category": "Toys",
-    "subcategory": "Remote Control Cars",
+    "subcategory": "RemoteControlCars",
     "energy": 4.8,
     "waste": 0.096,
     "imageURL": "[Image URL]"
@@ -2557,7 +2557,7 @@
     "description": "Electric remote control cruiser car",
     "carbon": 0.4,
     "category": "Toys",
-    "subcategory": "Remote Control Cars",
+    "subcategory": "RemoteControlCars",
     "energy": 4,
     "waste": 0.08,
     "imageURL": "[Image URL]"
@@ -2568,7 +2568,7 @@
     "description": "Solar-powered remote control vehicle",
     "carbon": 0.44,
     "category": "Toys",
-    "subcategory": "Remote Control Cars",
+    "subcategory": "RemoteControlCars",
     "energy": 4.4,
     "waste": 0.088,
     "imageURL": "[Image URL]"
@@ -2645,7 +2645,7 @@
     "description": "baby toy collection",
     "carbon": 0.22,
     "category": "Toys",
-    "subcategory": "Baby Toys",
+    "subcategory": "BabyToys",
     "energy": 2.2,
     "waste": 0.044,
     "imageURL": "[Image URL]"
@@ -2656,7 +2656,7 @@
     "description": "Sensory play set for babies",
     "carbon": 0.18,
     "category": "Toys",
-    "subcategory": "Baby Toys",
+    "subcategory": "BabyToys",
     "energy": 1.8,
     "waste": 0.036,
     "imageURL": "[Image URL]"
@@ -2667,7 +2667,7 @@
     "description": "toys for infants",
     "carbon": 0.2,
     "category": "Toys",
-    "subcategory": "Baby Toys",
+    "subcategory": "BabyToys",
     "energy": 2,
     "waste": 0.04,
     "imageURL": "[Image URL]"
