@@ -4,19 +4,22 @@ const withAuth = require('../utils/auth');
 const categories = [
   {
     name: 'Cleaning',
-    imageUrl: 'https://i.ibb.co/kg75xMm/Cleaning-category.jpg',
+    imageUrl:
+      'https://i.ibb.co/kg75xMm/Cleaning-category.jpg',
   },
   {
     name: 'Clothing',
-    imageUrl: 'https://i.ibb.co/mR7pwm8/Clothes-category.jpg',
+    imageUrl:'https://i.ibb.co/mR7pwm8/Clothes-category.jpg',
   },
   {
     name: 'Electronics',
-    imageUrl: 'https://i.ibb.co/MBqpwSg/Electronics-category.jpg',
+    imageUrl:
+      'https://i.ibb.co/MBqpwSg/Electronics-category.jpg',
   },
   {
     name: 'Home',
-    imageUrl: 'https://i.ibb.co/7yt1wL5/Home-category.jpg',
+    imageUrl:
+      'https://i.ibb.co/7yt1wL5/Home-category.jpg',
   },
   {
     name: 'Personal Care',
@@ -28,11 +31,13 @@ const categories = [
   },
   {
     name: 'Toy',
-    imageUrl: 'https://i.ibb.co/Fgz2yRq/Toy-category.jpg',
+    imageUrl:
+      'https://i.ibb.co/Fgz2yRq/Toy-category.jpg',
   },
   {
     name: 'Crafting',
-    imageUrl: 'https://i.ibb.co/m97B18d/Crafting-category.jpg',
+    imageUrl:
+      'https://i.ibb.co/m97B18d/Crafting-category.jpg',
   },
 ];
 
@@ -98,29 +103,6 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
-// router.get('/items/:category', async (req, res) => {
-//   try {
-//     const category = req.params.category;
-
-//     // Find all items in db that match the specified category
-//     const items = await Item.findAll({
-//       attributes: ['subcategory'],
-//       where: { category: category },
-//       group: ['subcategory'], // Group by subcategory to get distinct values
-//     });
-//     console.log(items);
-//     // Extract subcategories and filter out duplicates
-//     const subcategories = [...new Set(items.map((item) => item.subcategory))];
-
-//     res.render('', {
-//       category: category,
-//       subcategories: subcategories,
-//     });
-//   } catch (error) {
-//     console.error('Error:', error);
-//     res.status(500).send('Internal Server Error');
-//   }
-// });
 
 router.get('/items/', async (req, res) => {
   try {

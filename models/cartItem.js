@@ -3,7 +3,17 @@ const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
 const Cart = require('./Cart');
 
-class cartItem extends Model {}
+class cartItem extends Model {
+    // async addItem(cartItemData, res) {
+    //     try {
+    //         await cartItem.create(cartItemData)
+    //         res.status(200).json({ message: 'Item added to cart successfully', addedItem });
+    //     } catch (error) {
+    //         console.log(error)
+    //         res.status(500).send("failed creating cart item")
+    //     }
+    // }
+}
 
 cartItem.init(
     {  
@@ -27,7 +37,7 @@ cartItem.init(
         },
         quantity: {
             type: DataTypes.INTEGER,
-            allowNull: false
+            default: 1
         }
     },
     {

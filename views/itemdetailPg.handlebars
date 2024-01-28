@@ -1,4 +1,53 @@
  {{> navbar}}
+<<<<<<< HEAD
+  <div class="item-details-container" id="name">
+    <div class = "item-detail-box">
+      <div class="item-image-detail" id = "imageURL">
+        <img src="{{item.imageURL}}" alt="{{item.name}}">
+      </div>
+      <div class="item-detail-card">
+        <h1>{{item.name}}</h1> 
+        <div class="item-description-detail">
+          <p>{{item.description}}</p>
+        </div>
+        <div class="item-price-detail" id="price">
+          <p>
+          <span>List Price:</span>${{item.price}}
+          </p>
+        </div>
+        <div class="item-quantity" id="quantity">
+          <p>{{item.quantity}}</p>
+        </div>
+        <div class="item-footprint">
+          <h3> Your Environmental Impact </h3>
+          <div class = "footprints">
+            <p> <span id = "carbon"> Carbon Footprint:</span> {{item.carbon}}</p>
+            <p> <span id = "energy">Energy Footprint:</span> {{item.energy}}</p>
+            <p> <span id = "waste"> Waste Footprint:</span> {{item.waste}}</p>
+          </div>
+          <button class="add-to-cart" data-item-id="{{item.id}}">Add to Cart</button>
+         </div>
+      </div>
+    </div>
+    <div class = "reviews">
+      <div class = "add-review">
+        <h2>Customer Reviews</h2>
+        <button> Write a review </button>
+      </div>
+      <div class = "review-container">
+        <h3 class ="review-title"></h3>
+        <p class = "review-text">I'm thrilled with GreenGlow exfoliating soap! It's eco-friendly, gentle on my sensitive skin, and leaves it feeling wonderfully smooth. Love that it's chemical-free and smells naturally great. A perfect choice for anyone seeking eco-conscious skincare!</p>
+      </div>
+       <div class = "review-container">
+        <h3 class ="review-title"></h3>
+        <p class = "review-text">I'm thrilled with GreenGlow exfoliating soap! It's eco-friendly, gentle on my sensitive skin, and leaves it feeling wonderfully smooth. Love that it's chemical-free and smells naturally great. A perfect choice for anyone seeking eco-conscious skincare!</p>
+      </div>
+       <div class = "review-container">
+        <h3 class ="review-title"></h3>
+        <p class = "review-text">I'm thrilled with GreenGlow exfoliating soap! It's eco-friendly, gentle on my sensitive skin, and leaves it feeling wonderfully smooth. Love that it's chemical-free and smells naturally great. A perfect choice for anyone seeking eco-conscious skincare!</p>
+      </div>
+    </div>
+=======
   <div class="item-details">
     <div class="item-container">
       <h1 class="name">{{item.name}}</h1>
@@ -32,7 +81,8 @@
 
       <button class="add-to-cart" data-item-id="{{item.id}}">Add to Cart</button>
     </div>
+>>>>>>> b89b12c570d4a141c7e330e07b880eae519310f4
   </div>
 
   <script src="/js/logout.js"></script>
-  <script src="/js/cart.js"></script>
+  <script src="/js/itemdetailsPg.js"></script>
