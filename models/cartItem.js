@@ -20,10 +20,10 @@ cartItem.init(
         cartID: {
             type: DataTypes.INTEGER,
             allowNull: false,
-            // references: {
-            //     model: 'cart',
-            //     key: 'id'
-            // }
+            references: {
+                model: 'cart',
+                key: 'id'
+            }
         },
         quantityOfCartItemInCart: {
             type: DataTypes.INTEGER,
