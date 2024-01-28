@@ -85,7 +85,7 @@
     "subcategory": "Sponges",
     "energy": 2,
     "waste": 0.04,
-    "imageURL": "[Image URL]"
+    "imageURL": "https://i.ebayimg.com/images/g/zFwAAOSwfQdiZI4x/s-l1600.webp"
   },
   {
     "name": "CleanSlate Bamboo Scrubber",
@@ -96,7 +96,7 @@
     "subcategory": "Sponges",
     "energy": 1.5,
     "waste": 0.03,
-    "imageURL": "[Image URL]"
+    "imageURL": "https://static.wixstatic.com/media/d21b16_c776d3f2d8e247fd8835805a33b4547d~mv2.jpg/v1/fill/w_520,h_520,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d21b16_c776d3f2d8e247fd8835805a33b4547d~mv2.jpg"
   },
   {
     "name": "KitchenMagic All-Purpose Cleaner",
@@ -107,7 +107,7 @@
     "subcategory": "Kitchen Cleaner",
     "energy": 3,
     "waste": 0.06,
-    "imageURL": "[Image URL]"
+    "imageURL": "https://sc04.alicdn.com/kf/HTB1qcmaaqSs3KVjSZPiq6AsiVXaG.jpg"
   },
   {
     "name": "GreaseBuster Kitchen Degreaser",
@@ -118,7 +118,7 @@
     "subcategory": "Kitchen Cleaner",
     "energy": 4,
     "waste": 0.08,
-    "imageURL": "[Image URL]"
+    "imageURL": "https://img.fruugo.com/product/0/14/261195140_max.jpg"
   },
   {
     "name": "EcoShine Kitchen Surface Cleaner",
@@ -129,7 +129,7 @@
     "subcategory": "Kitchen Cleaner",
     "energy": 3,
     "waste": 0.05,
-    "imageURL": "[Image URL]"
+    "imageURL": "https://www.czystysklep.pl/images/5fe5468b4cff16212b9d3bc3ae648d4a.jpg"
   },
   {
     "name": "BathGleam Bathroom Disinfectant",
@@ -140,7 +140,7 @@
     "subcategory": "Bathroom Cleaner",
     "energy": 3,
     "waste": 0.06,
-    "imageURL": "[Image URL]"
+    "imageURL": "https://images.thdstatic.com/productImages/1959774b-4f47-4a8c-8039-de8837a0af81/svn/scrubbing-bubbles-shower-bathtub-cleaners-315938-64_1000.jpg"
   },
   {
     "name": "TileTide Bathroom Cleaner Spray",
