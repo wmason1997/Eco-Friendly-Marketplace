@@ -4,10 +4,10 @@ const { Wishlist, Item, User} = require('../models'); // What else needs to be i
 // POST route to add an item to the wishlist
 router.post('/add', async (req, res) => {
     try {
-        const { itemId, userId } = req.body; // Replace with actual data from the request
+        const { itemID, userID } = req.body; // Replace with actual data from the request
         const newItem = await Wishlist.create({ 
-            itemId: itemId, 
-            userId: userId 
+            itemId: itemID, 
+            userId: userID 
         });
         
         res.status(201).json(newItem);

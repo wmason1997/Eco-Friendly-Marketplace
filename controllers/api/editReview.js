@@ -50,7 +50,7 @@ router.delete('/delete/review/:reviewId', async (req, res) => {
         const deleteReview = await Review.destroy({
             where: {
                 id: reviewId,
-                userId: userId // UserId check so user can only delete their own reviews
+                userID: userID // UserId check so user can only delete their own reviews
             }
         });
             res.status(200).json({message: "Review deleted successfully"})
