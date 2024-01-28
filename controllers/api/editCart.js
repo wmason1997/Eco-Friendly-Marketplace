@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Cart, Item } = require("../../models");
+const { Cart, cartItem, Item } = require("../../models");
 
 // /api/cart
 
@@ -38,36 +38,52 @@ const { Cart, Item } = require("../../models");
 //   });
   
 //Option #2
-  router.post('/items', async (req, res) => {
+  router.post('/', async (req, res) => {
     try {
-        const { userId, itemId, quantity, price, name, carbon, energy,waste } = req.body;
+      console.log(req.body)
+      const userID = req.session.userID
+      const itemID = req.session.itemID;
+      console.log(req.session.userID)
+        const { quantity, price, name, carbon, energy, waste, imageURL } = req.body;
+
+        if (!itemID) {
+          return res.status(400).json({ message: 'Item ID is missing' });
+      }
+      if (!quantity) {
+          return res.status(400).json({ message: 'Quantity is missing' });
+      }
+
+      // Validate if the item exists in the database
+      const item = await Item.findByPk(itemID);
+      if (!item) {
+          return res.status(404).json({ message: 'Item not found' });
+      }
         
         // Find the user's cart or create a new one
-        let cart = await Cart.findOne({ where: { userId } });
+        let cart = await Cart.findOne({ where: { userID } });
         if (!cart) {
-            cart = await Cart.create({ userId });
+            cart = await Cart.create({ userID });
         }
-
+        
         // Add item to cart
-        const cartItem = await CartItem.create({
+        const cartItems = await cartItem.create({
             cartId: cart.id,
-            itemId,
+            itemID,
             quantity,
             price,
             name,
             carbon,
             energy,
             waste,
+            imageURL
         });
 
-        res.status(200).json({ message: 'Item added to cart', cartItem });
+        res.status(200).json({ message: 'Item added to cart', cartItems });
     } catch (error) {
       console.error(error);
-      res
-        .status(500)
-        .json({ message: 'An error occurred while adding the item to the cart' });
     }
   });
+    
   
   
   router.delete('/:itemID', async (req, res) => {

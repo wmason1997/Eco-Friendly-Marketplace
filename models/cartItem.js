@@ -25,7 +25,7 @@ cartItem.init(
                 key: 'id'
             }
         },
-        quantityOfCartItemInCart: {
+        quantity: {
             type: DataTypes.INTEGER,
             allowNull: false
         }

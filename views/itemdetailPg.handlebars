@@ -1,34 +1,37 @@
  {{> navbar}}
-  <div class="item-details" id="name">
-    <h1>{{item.name}}</h1>
-    
+  <div class="item-details">
+    <div class="item-container">
+      <h1 class="name">{{item.name}}</h1>
+      
 
-    <div class="item-image" id = "imageURL">
-      <img src="{{item.imageUrl}}" alt="{{item.name}}">
-    
+      <div class="item-image">
+        <img class= "imageURL" src="{{item.imageURL}}" alt="{{item.name}}">    
+      </div>
+
+      <div class="item-description">
+        <p>{{item.description}}</p>
+      </div>
+
+      <div class="item-price">
+        <p class="price">Price: ${{item.price}}</p>
+      </div>
+
+      <div class="item-quantity">
+        <label for="quantity-input-{{item.id}}">Quantity:</label>
+        <input type="number" id="quantity-input-{{item.id}}" class="quantity-input" value="1" min="1">
+      </div>
+
+
+      <div class="item-footprint">
+        <p class = "carbon">Carbon Footprint: {{item.carbon}}</p>
+        <p class= "energy">Energy Footprint: {{item.energy}}</p>
+        <p class = "waste">Waste Footprint: {{item.waste}}</p>
+      </div>
+
+      
+
+      <button class="add-to-cart" data-item-id="{{item.id}}">Add to Cart</button>
     </div>
-
-    <div class="item-description">
-      <p>{{item.description}}</p>
-    </div>
-
-    <div class="item-price" id="price">
-      <p>Price: ${{item.price}}</p>
-    </div>
-
-    <div class="item-quantity" id="quantity">
-      <p>Quantity: {{item.quantity}}</p>
-    </div>
-
-    <div class="item-footprint">
-      <p id = "carbon">Carbon Footprint: {{item.carbon}}</p>
-      <p id = "energy">Energy Footprint: {{item.energy}}</p>
-      <p id = "waste">Waste Footprint: {{item.waste}}</p>
-    </div>
-
-    
-
-    <button class="add-to-cart" data-item-id="{{item.id}}">Add to Cart</button>
   </div>
 
   <script src="/js/logout.js"></script>
