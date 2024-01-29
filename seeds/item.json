@@ -5,7 +5,7 @@
     "description": "Biodegradable body scrub ",
     "carbon": 0.3,
     "category": "Personal Care",
-    "subcategory": "Bath and Body",
+    "subcategory": "BathAndBody",
     "energy": 3,
     "waste": 0.08,
     "imageURL": "https://cdn11.bigcommerce.com/s-a62cb/images/stencil/1280x1280/attribute_rule_images/120_source_1700827715.png"
@@ -2755,7 +2755,7 @@
     "description": "sustainable playhouse",
     "carbon": 0.72,
     "category": "Toys",
-    "subcategory": "Play House",
+    "subcategory": "PlayHouse",
     "energy": 7.2,
     "waste": 0.144,
     "imageURL": "https://www.outdoorlivingtoday.com/wp-content/uploads/2015/12/sp69.jpg"
@@ -2777,7 +2777,7 @@
     "description": "Play cottage made from recycled materials",
     "carbon": 0.6,
     "category": "Toys",
-    "subcategory": "Play House",
+    "subcategory": "PlayHouse",
     "energy": 6,
     "waste": 0.12,
     "imageURL": "https://www.getsuperspace.com/cdn/shop/products/IMG_8195copy_533acfc9-c0bc-430e-b464-1a8364c795bb.jpg?v=1704675352&width=1080"
@@ -2898,7 +2898,7 @@
     "description": "bamboo paint brush set",
     "carbon": 0.156,
     "category": "Toys",
-    "subcategory": "Paint Brushes",
+    "subcategory": "PaintBrushes",
     "energy": 1.56,
     "waste": 0.0312,
     "imageURL": "data:image/jpeg;base64,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"
@@ -2909,7 +2909,7 @@
     "description": "Brush holder made from recycled canvas",
     "carbon": 0.12,
     "category": "Toys",
-    "subcategory": "Paint Brushes",
+    "subcategory": "PaintBrushes",
     "energy": 1.2,
     "waste": 0.024,
     "imageURL": "https://m.media-amazon.com/images/I/71m+HUrdwFL.jpg"
@@ -2931,7 +2931,7 @@
     "description": "sewing machine for sustainable stitching",
     "carbon": 1.44,
     "category": "Toys",
-    "subcategory": "Sewing Machine",
+    "subcategory": "SewingMachine",
     "energy": 14.4,
     "waste": 0.288,
     "imageURL": "https://i.etsystatic.com/14228011/r/il/9cde53/4191850735/il_794xN.4191850735_c4pr.jpg"
@@ -2942,7 +2942,7 @@
     "description": "Organic fabric stitcher for eco-conscious sewing",
     "carbon": 1.32,
     "category": "Toys",
-    "subcategory": "Sewing Machine",
+    "subcategory": "SewingMachine",
     "energy": 13.2,
     "waste": 0.264,
     "imageURL": "https://i.etsystatic.com/6037299/r/il/d4a24d/938932906/il_794xN.938932906_e5nk.jpg"
@@ -2953,7 +2953,7 @@
     "description": "Recycled sewing machine with green thread",
     "carbon": 1.56,
     "category": "Toys",
-    "subcategory": "Sewing Machine",
+    "subcategory": "SewingMachine",
     "energy": 15.6,
     "waste": 0.312,
     "imageURL": "https://as2.ftcdn.net/v2/jpg/06/08/44/27/1000_F_608442796_TEHrzIRiIIScaHxYkQM6W6eM4uYuueWe.jpg"
@@ -2964,7 +2964,7 @@
     "description": "Recycled photo album for eco memories",
     "carbon": 0.24,
     "category": "Toys",
-    "subcategory": "Photo Albums",
+    "subcategory": "PhotoAlbums",
     "energy": 2.4,
     "waste": 0.048,
     "imageURL": "https://images1.novica.net/pictures/10/p402546_2_400.jpg"
@@ -2975,7 +2975,7 @@
     "description": "Album cover made from natural wood",
     "carbon": 0.18,
     "category": "Toys",
-    "subcategory": "Photo Albums",
+    "subcategory": "PhotoAlbums",
     "energy": 1.8,
     "waste": 0.036,
     "imageURL": "https://i.etsystatic.com/10591127/r/il/34e5ac/3423656007/il_794xN.3423656007_9mf0.jpg"
@@ -2986,7 +2986,7 @@
     "description": "Linen-bound keepsake album with an earthy embrace",
     "carbon": 0.3,
     "category": "Toys",
-    "subcategory": "Photo Albums",
+    "subcategory": "PhotoAlbums",
     "energy": 3,
     "waste": 0.06,
     "imageURL": "https://i.etsystatic.com/39023476/r/il/71b0a9/4780339703/il_794xN.4780339703_nxaj.jpg"
@@ -3140,7 +3140,7 @@
     "description": "Coloring book made from recycled paper",
     "carbon": 0.12,
     "category": "Toys",
-    "subcategory": "Coloring Books",
+    "subcategory": "ColoringBooks",
     "energy": 1.2,
     "waste": 0.024,
     "imageURL": "https://ecopromotionsonline.com/sites/default/files/2022-04/Mini%20Adult%20Coloring%20Book%20Set%20Recycled_0.jpg"
@@ -3151,7 +3151,7 @@
     "description": "Botanical-themed coloring book with materials",
     "carbon": 0.132,
     "category": "Toys",
-    "subcategory": "Coloring Books",
+    "subcategory": "ColoringBooks",
     "energy": 1.32,
     "waste": 0.0264,
     "imageURL": "https://m.media-amazon.com/images/I/81GoYpr4i3L._AC_UF1000,1000_QL80_.jpg"
@@ -3162,7 +3162,7 @@
     "description": "DIY jewelry kit with pure gemstones",
     "carbon": 0.324,
     "category": "Toys",
-    "subcategory": "Jewelry Making Kits",
+    "subcategory": "JewelryMakingKits",
     "energy": 3.24,
     "waste": 0.0648,
     "imageURL": "https://m.media-amazon.com/images/I/81ekXFii8nL.jpg"
@@ -3173,7 +3173,7 @@
     "description": "EcoChic wooden bead jewelry set for crafting",
     "carbon": 0.228,
     "category": "Toys",
-    "subcategory": "Jewelry Making Kits",
+    "subcategory": "JewelryMakingKits",
     "energy": 2.28,
     "waste": 0.0456,
     "imageURL": "https://i5.walmartimages.com/seo/Natural-Wooden-Beads-530pcs-Set-for-DIY-Jewelry-Making-Best-Craft-Wood-Bead-Kit-by-Incraftables_f4e544e0-f139-45d3-b35e-ccf1d779744f.53dda24d178517df053bc2f96aa3ffd7.jpeg"
@@ -3184,7 +3184,7 @@
     "description": "Recycled glass jewelry kit with an elegant touch",
     "carbon": 0.3,
     "category": "Toys",
-    "subcategory": "Jewelry Making Kits",
+    "subcategory": "JewelryMakingKits",
     "energy": 3,
     "waste": 0.06,
     "imageURL": "https://www.vivaterra.com/images/seaglass-jewelry-collection.jpg_1200Wx1200H.jpg?format=1200Wx1200H"
