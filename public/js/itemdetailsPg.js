@@ -27,14 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {});
 document.querySelectorAll('.delete-from-cart').forEach((button) => {
   button.addEventListener('click', function () {
     console.log('clicked delete button');
-    // const updatedCartItems = Cart.items.filter(item => item.id !== itemId);
-    // Cart.items = updatedCartItems;
+
     const itemID = this.dataset.itemId;
-    // const itemElement = this.closest('li');
-    // if (!itemElement) {
-    //   console.log('Item element not found');
-    //   return;
-    // }
 
     deletefromCart(itemID);
 
@@ -52,54 +46,27 @@ document.querySelectorAll('.delete-from-cart').forEach((button) => {
         .then((data) => {
           console.log('delete successful', data);
           location.reload();
-          // itemElement.remove();
         })
         .catch((error) => console.error('Fetch error:', error));
     }
   });
 });
 
-/*
-  const deleteBtns = document.querySelectorAll('.delete-from-cart')
-  deleteBtns.forEach(deleteBtn => {
-    deleteBtn.addEventListener('click', () => {
-      const itemID = this.dataset.itemId;
-      deletefromCart(itemID)
-    })
-  })
-
-  async function deletefromCart(itemID) {
-
-    try {
-      let response = await fetch(`/api/editcart/${itemID}`, {
-        method: 'DELETE',
-      })
-    
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-    
-      let data = await response.json()
-    
-      console.log("delete successful", data);
-      location.reload()
-
-    } catch (error) {
-
-      console.error('Fetch error:', error)
-    }
-
-  }
-*/
-
-/*
-  Review form logic
-*/
 
 const showReviewFormBtn = document.querySelector('#show-review-form');
 const reviewForm = document.querySelector('#review-form');
 const reviewFormContainer = document.querySelector('#review-form-container');
 const closeReview = document.querySelector('#review-form-container i')
+const starsRanges = document.querySelectorAll('.stars-range')
+const starsSpans = document.querySelectorAll('.stars')
+
+starsRanges.forEach((range, i) => {
+  const span = starsSpans[i]
+  span.innerText = ("⭐").repeat(range.value)
+  range.addEventListener('input', (e) => {
+      span.innerText = ("⭐").repeat(e.target.value)
+  })
+})
 
 showReviewFormBtn.addEventListener('click', () => {
   reviewFormContainer.classList.add('review-model-active');
@@ -107,6 +74,7 @@ showReviewFormBtn.addEventListener('click', () => {
 
 reviewForm.addEventListener('submit', async (e) => {
   e.preventDefault();
+
   reviewFormContainer.classList.remove('review-model-active');
 
   let res = await fetch('/api/reviews/add/review', {
@@ -115,7 +83,7 @@ reviewForm.addEventListener('submit', async (e) => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      itemID: reviewForm.dataset['item-id'],
+      itemID: reviewForm.dataset.itemid,
       stars: reviewForm.stars.value,
       reviewText: reviewForm.reviewText.value.trim(),
     }),

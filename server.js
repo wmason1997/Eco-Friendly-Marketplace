@@ -76,6 +76,6 @@ app.post('/api/users/logout', (req, res) => {
     alter: true
       only make changes where necessary
 */
-sequelize.sync().then(() => {
+sequelize.sync({ alter: true }).then(() => {
   app.listen(PORT, () => console.log(`Now listening on port ${PORT}`));
 });

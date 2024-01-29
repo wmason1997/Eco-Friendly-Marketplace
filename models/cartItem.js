@@ -27,12 +27,19 @@ cartItem.init(
             type: DataTypes.INTEGER,
             allowNull: false
         },
-        cartID: {
+        // cartID: {
+        //     type: DataTypes.INTEGER,
+        //     allowNull: false,
+        //     references: {
+        //         model: 'cart',
+        //         key: 'id'
+        //     }
+        // },
+        userID: {
             type: DataTypes.INTEGER,
-            allowNull: false,
             references: {
-                model: 'cart',
-                key: 'id'
+                key: 'id',
+                model: 'user'
             }
         },
         quantity: {
@@ -44,7 +51,7 @@ cartItem.init(
         sequelize,
         timestamps: false,
         freezeTableName: true,
-        underscored: true,
+        underscored: false,
         modelName: "cartitem",
     }
 );

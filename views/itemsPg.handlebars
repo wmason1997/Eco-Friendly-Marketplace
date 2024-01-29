@@ -1,7 +1,7 @@
 {{> navbar}}
   <h4 class="heading"> Items in "{{subcategory}}" of "{{category}}"</h4>
   <div class="items">
-    {{log "items" itemData}}
+    {{!-- {{log "items" itemData}} --}}
     {{#each itemData as |item|}}
     <a href="/items/single/byId/{{item.id}}">
       <div class="item">

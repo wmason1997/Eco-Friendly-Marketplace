@@ -28,19 +28,14 @@
          </div>
       </div>
     </div>
-{{!-- 
-    <style>
-      .hidden {
-        display: none;
-      }
-    </style> --}}
 
     <div id="review-form-container" class="hidden">
-      <form id="review-form" data-item-id="{{item.id}}">
+      <form id="review-form" data-itemID="{{item.id}}">
         <div><i class="fa-solid fa-circle-xmark"></i></div>
         <textarea name="reviewText" cols="30" rows="10"></textarea>
         <p>Rate the item here!</p>
-        <input name="stars" type="range" min="0" max="5" step="1">
+        <input class="stars-range" name="stars" type="range" min="0" max="5" step="1">
+        <span class="stars"></span>
         <button>Submit</button>
       </form>
     </div>
@@ -50,20 +45,20 @@
         <h2>Customer Reviews</h2>
         <button id="show-review-form"> Write a review </button>
       </div>
-      <div class = "review-container">
-        <h3 class ="review-title"></h3>
-        <p class = "review-text">I'm thrilled with GreenGlow exfoliating soap! It's eco-friendly, gentle on my sensitive skin, and leaves it feeling wonderfully smooth. Love that it's chemical-free and smells naturally great. A perfect choice for anyone seeking eco-conscious skincare!</p>
-      </div>
-       <div class = "review-container">
-        <h3 class ="review-title"></h3>
-        <p class = "review-text">I'm thrilled with GreenGlow exfoliating soap! It's eco-friendly, gentle on my sensitive skin, and leaves it feeling wonderfully smooth. Love that it's chemical-free and smells naturally great. A perfect choice for anyone seeking eco-conscious skincare!</p>
-      </div>
-       <div class = "review-container">
-        <h3 class ="review-title"></h3>
-        <p class = "review-text">I'm thrilled with GreenGlow exfoliating soap! It's eco-friendly, gentle on my sensitive skin, and leaves it feeling wonderfully smooth. Love that it's chemical-free and smells naturally great. A perfect choice for anyone seeking eco-conscious skincare!</p>
-      </div>
+      {{#if reviews.length}}  
+        {{#each reviews as |review|}}
+          <div class = "review-container">
+            <p class = "review-text">{{review.user.name}}</p>
+            <p class = "review-text">{{review.reviewText}}</p>
+            <p class="review-stars">{{review.stars}} of 5 stars</p>
+          </div>
+        {{/each}}
+        {{else}}
+          <p> There are no reviews for this product yet.</p>
+      {{/if}}
     </div>
   </div>
+
 
   <script src="/js/logout.js"></script>
   <script src="/js/itemdetailsPg.js"></script>

@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Cart, cartItem, Item } = require("../../models");
+const { cartItem, Item } = require("../../models");
 
 // /api/cart
 
@@ -13,13 +13,13 @@ router.post('/:id', async (req, res) => {
       const userID = req.session.userID; // Grab userID from session
   
       // Find the user's cart or create a new one if it doesn't exist
-      let userCart = await Cart.findOne({ where: { userID } });
-      if (!userCart) {
-        userCart = await Cart.create({ userID });
-      }
+      // let userCart = await Cart.findOne({ where: { userID } });
+      // if (!userCart) {
+      //   userCart = await Cart.create({ userID });
+      // }
   
      const addedItem = await cartItem.create({
-        cartID: userCart.id,
+        userID,
         itemID: itemID
      })
 
@@ -35,7 +35,7 @@ router.post('/:id', async (req, res) => {
   router.delete('/:id', async (req, res) => {
     // delete an item in the cart by its `id` value and 'userid' value match
     try {
-      const cartItemData = await Cart.destroy({
+      const cartItemData = await cartItem.destroy({
         where: {
           id: req.params.id,
           userID: req.session.userID,

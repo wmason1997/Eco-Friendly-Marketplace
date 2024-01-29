@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const { Item , Cart } = require('../models');
-const withAuth = require('../utils/auth');
+const { Item } = require('../models');
+
 
 
 router.get('/searchpage/:query', async (req, res) => {

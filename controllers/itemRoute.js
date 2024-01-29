@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Item } = require('../models');
+const { Item, Review, User } = require('../models');
 
 // find one item by its 'id' value - for search bar functionality? - redirect user to itemdetailsPg
 router.get('/single/byId/:id', async (req, res) => {
@@ -14,10 +14,24 @@ router.get('/single/byId/:id', async (req, res) => {
       return;
     }
 
+    const reviews = await Review.findAll({
+      where: {itemID: req.params.id},
+      raw: true
+    })
+    
+    // attatch the user to their respective reviews
+    for (let i = 0; i < reviews.length; i ++) {
+      reviews[i].user = await User.findByPk(reviews[i].userID, {raw: true})
+    }
+  
+    // console.log("--- reviews @ /single/byId ---")
+    // console.log(reviews)
+
     res.render('itemdetailPg', {
       item: itemData,
       category: req.params.category,
       subcategory: req.params.subcategory,
+      reviews
     });
 
     // res.status(200).json(itemData);
