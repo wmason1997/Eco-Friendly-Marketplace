@@ -20,7 +20,7 @@
                 <p id="price">
                     ${{item.item.price}}
                 </p>
-                <button>Delete</button>
+                <button class="delete-from-cart" data-item-id="{{item.id}}">Delete</button>
                 </div>
             </li>
             {{/each}}
@@ -33,4 +33,5 @@
 </div>
 
 
-<script src="/js/cart.js"></script>
+{{!-- <script src="/js/cart.js"></script> --}}
+<script src="/js/itemdetailsPg.js"></script>
