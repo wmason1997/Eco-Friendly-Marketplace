@@ -2,17 +2,18 @@ const express = require('express');
 const router = express.Router();
 const { Review } = require('../../models');
 
+// /api/reviews/
 
 // POST route to add a item review to the database only if the user is logged in
-router.post('/add/review/:userID', async (req, res) => {
+router.post('/add/review', async (req, res) => {
         try {
-            const userID = req.params.userID; 
+            const userID = req.session.userID; 
             const { itemID, stars, reviewText } = req.body;
             const addReview = await Review.create({
-                itemID, 
-                userID,
+                itemID,
                 stars, 
-                reviewText
+                reviewText,
+                userID
             });
 
             res.status(201).json({ review: addReview, message: 'Review added successfully'});

@@ -28,10 +28,27 @@
          </div>
       </div>
     </div>
+{{!-- 
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style> --}}
+
+    <div id="review-form-container" class="hidden">
+      <form id="review-form" data-item-id="{{item.id}}">
+        <div><i class="fa-solid fa-circle-xmark"></i></div>
+        <textarea name="reviewText" cols="30" rows="10"></textarea>
+        <p>Rate the item here!</p>
+        <input name="stars" type="range" min="0" max="5" step="1">
+        <button>Submit</button>
+      </form>
+    </div>
+
     <div class = "reviews">
       <div class = "add-review">
         <h2>Customer Reviews</h2>
-        <button> Write a review </button>
+        <button id="show-review-form"> Write a review </button>
       </div>
       <div class = "review-container">
         <h3 class ="review-title"></h3>

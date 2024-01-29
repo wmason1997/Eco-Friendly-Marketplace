@@ -12,7 +12,7 @@ router.get('/', withAuth, async (req, res) => {
 
     // Check if userCartItems is not null or undefined before mapping
     let cartItems = userCartItems
-      ? userCartItems.map((item) => item.get({ plain: true }))[0].cartitems
+      ? (userCartItems.map((item) => item.get({ plain: true }))[0]?.cartitems || [])
       : [];
       
 

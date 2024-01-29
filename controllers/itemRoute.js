@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Item } = require('../models');
 
 // find one item by its 'id' value - for search bar functionality? - redirect user to itemdetailsPg
-router.get('/single/:id', async (req, res) => {
+router.get('/single/byId/:id', async (req, res) => {
   try {
     const itemData = await Item.findByPk(req.params.id, {raw: true});
 
@@ -22,11 +22,12 @@ router.get('/single/:id', async (req, res) => {
 
     // res.status(200).json(itemData);
   } catch (err) {
-    console.log("Something went wrong at /single/:id")
+    console.log("Something went wrong at /single/byId/:id")
     console.log(err)
     res.status(500).json(err);
   }
 });
+
 
 // The '/item' endpoint
 

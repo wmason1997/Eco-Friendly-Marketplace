@@ -3,7 +3,7 @@
   <div class="items">
     {{log "items" itemData}}
     {{#each itemData as |item|}}
-    <a href="/items/single/{{item.id}}">
+    <a href="/items/single/byId/{{item.id}}">
       <div class="item">
         <img src="{{item.imageURL}}" alt="">
         <p class="item-category"> {{item.category}}</p>
