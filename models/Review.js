@@ -20,6 +20,7 @@ Review.init(
         },
         itemID: {
             type: DataTypes.INTEGER,
+            notNull: true,
             references: {
                 model: 'item',
                 key: 'id'
