@@ -5,7 +5,6 @@ const withAuth = require('../utils/auth');
 // GET user's shopping cart  /cart
 router.get('/', withAuth, async (req, res) => {
   try {
-  
     const userCartItems = await Cart.findAll({
       where: { userID: req.session.userID },
       include: [{ model: cartItem, include: [{ model: Item }] }]
