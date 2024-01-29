@@ -37,7 +37,7 @@ Item.init(
             type: DataTypes.DECIMAL(4,2),
         },
         imageURL: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
         },
     },
     {
