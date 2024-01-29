@@ -6,13 +6,14 @@ router.get('/single/:id', async (req, res) => {
   try {
     const itemData = await Item.findByPk(req.params.id, {raw: true});
 
-    console.log("--- itemData from /single/:id ---")
-    console.log(itemData)
+    // console.log("--- itemData from /single/:id ---")
+    // console.log(itemData)
 
     if (!itemData) {
       res.status(404).json({ message: 'No item found with this id! ' });
       return;
     }
+
     res.render('itemdetailPg', {
       item: itemData,
       category: req.params.category,

@@ -1,0 +1,87 @@
+.heading {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 18px;
+  font-family: 'Raleway';
+  font-weight: 200;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 0 50px;
+}
+
+.items a {
+  text-decoration: none;
+  color: black;
+}
+
+.items a img {
+  width: 100%;
+  border-radius: 35px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* padding: 15px; */
+}
+
+.item div {
+  display: flex;
+  gap: 10px;
+}
+
+.item-category {
+  font-size: 12px;
+  font-family: 'Raleway';
+}
+.item-name {
+  font-size: 22px;
+  font-family: 'Libre Baskerville';
+  font-weight: 200px;
+}
+
+.item-price {
+  font-weight: bold;
+  font-family: 'Raleway';
+}
+.item-description {
+  font-family: 'Raleway';
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .items {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 30px;
+  }
+  .item {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .item-name {
+    font-size: 18px;
+    font-family: 'Libre Baskerville';
+    font-weight: 200px;
+  }
+
+  .item-price {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Raleway';
+  }
+  .item-description {
+    font-family: 'Raleway';
+    font-size: 12px;
+  }
+}

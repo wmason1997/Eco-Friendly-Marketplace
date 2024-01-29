@@ -1,25 +1,23 @@
 const router = require('express').Router();
-const { Cart, cartItem, Item } = require('../../models');
-const withAuth = require('../../utils/auth');
+const { Cart, cartItem, Item } = require('../models');
+const withAuth = require('../utils/auth');
 
-// GET user's shopping cart
+// GET user's shopping cart  /cart
 router.get('/', withAuth, async (req, res) => {
   try {
-    // const userID = req.session.userID;
-    // console.log(req.session);
-
     const userCartItems = await Cart.findAll({
       where: { userID: req.session.userID },
-      include: [{ model: cartItem, include: [{ model: Item }] }],
+      include: [{ model: cartItem, include: [{ model: Item }] }]
     });
+
     // Check if userCartItems is not null or undefined before mapping
-    const cartItems = userCartItems
-      ? userCartItems.map((item) => item.get({ plain: true }))
+    let cartItems = userCartItems
+      ? userCartItems.map((item) => item.get({ plain: true }))[0].cartitems
       : [];
+      
 
     // Pass serialized data and session flag into template
     res.render('cart', {
-      // 'cart' has to correspond to cart.handlebars
       items: cartItems,
       logged_in: req.session.logged_in,
     });
@@ -30,6 +28,8 @@ router.get('/', withAuth, async (req, res) => {
       .json({ message: 'An error occurred while retrieving the cart' });
   }
 });
+
+
 
 // router.put('/update/:itemID', async (req, res) => {
 //   // Update the specified cart item's quantity

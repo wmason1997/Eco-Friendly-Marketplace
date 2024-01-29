@@ -5,41 +5,39 @@ const categories = [
   {
     name: 'Cleaning',
     imageUrl:
-      'http://localhost:3001/images/Cleaning-category.jpg',
+      'https://i.ibb.co/kg75xMm/Cleaning-category.jpg',
   },
   {
     name: 'Clothing',
-    imageUrl:'http://localhost:3001/images/Clothes-category.jpg',
+    imageUrl:'https://i.ibb.co/mR7pwm8/Clothes-category.jpg',
   },
   {
     name: 'Electronics',
     imageUrl:
-      'http://localhost:3001/images/Electronics-category.jpg',
+      'https://i.ibb.co/MBqpwSg/Electronics-category.jpg',
   },
   {
     name: 'Home',
     imageUrl:
-      'http://localhost:3001/images/Home-category.jpg',
+      'https://i.ibb.co/7yt1wL5/Home-category.jpg',
   },
   {
     name: 'Personal Care',
-    imageUrl:
-      'http://localhost:3001/images/PersonalCare-category.jpg',
+    imageUrl: 'https://i.ibb.co/tHbWTyr/Personal-Care-category.jpg',
   },
   {
     name: 'Luggage',
-    imageUrl:
-      'http://localhost:3001/images/Luggage-category.jpg',
+    imageUrl: 'https://i.ibb.co/FmhBjGd/Luggage-category.jpg',
   },
   {
     name: 'Toy',
     imageUrl:
-      'http://localhost:3001/images/Toy-category.jpg',
+      'https://i.ibb.co/Fgz2yRq/Toy-category.jpg',
   },
   {
     name: 'Crafting',
     imageUrl:
-      'http://localhost:3001/images/Crafting-category.jpg',
+      'https://i.ibb.co/m97B18d/Crafting-category.jpg',
   },
 ];
 
@@ -105,29 +103,6 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
-// router.get('/items/:category', async (req, res) => {
-//   try {
-//     const category = req.params.category;
-
-//     // Find all items in db that match the specified category
-//     const items = await Item.findAll({
-//       attributes: ['subcategory'],
-//       where: { category: category },
-//       group: ['subcategory'], // Group by subcategory to get distinct values
-//     });
-//     console.log(items);
-//     // Extract subcategories and filter out duplicates
-//     const subcategories = [...new Set(items.map((item) => item.subcategory))];
-
-//     res.render('', {
-//       category: category,
-//       subcategories: subcategories,
-//     });
-//   } catch (error) {
-//     console.error('Error:', error);
-//     res.status(500).send('Internal Server Error');
-//   }
-// });
 
 router.get('/items/', async (req, res) => {
   try {
