@@ -5,6 +5,7 @@
 
 ## Table of Contents
 * [Description](#description)
+* [Screenshots](#screenshots)
 * [Installation](#installation-instructions)
 * [Usage](#usage-instructions)
 * [Contributing](#contribution-guidelines)
@@ -13,6 +14,8 @@
 
 ## Description <a name="description"></a> 
 An e-commerce site, where sustainable shopping is revolutionized for the eco-conscious consumer. Effortlessly browse categories or search items, each with clear carbon, energy, and waste footprints. Our platform empowers you with eco-scores on products, making your choices both informed and impactful. Join our journey to a greener future with every purchase.
+
+## Screenshots 
 
 ## Installation <a name="installation-instructions"></a>
 N/A. You visit it at [https://immense-tor-19935-d43f1bf06a0b.herokuapp.com/](https://immense-tor-19935-d43f1bf06a0b.herokuapp.com/).
