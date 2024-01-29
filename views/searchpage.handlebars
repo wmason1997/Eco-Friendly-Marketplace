@@ -1,0 +1,18 @@
+{{> navbar}}
+
+ <div class="items">
+    {{!-- {{log "items" items}} --}}
+    {{#each items as |item|}}
+    <a href="/items/single/byId/{{item.id}}">
+      <div class="item">
+        <img src="{{item.imageURL}}" alt="">
+        <p class="item-category"> {{item.category}}</p>
+        <p class = "item-name">{{item.name}}</p>
+        <div>
+          <p class="item-price">${{item.price}}</p>
+          <p class ="item-description">{{item.description}}</p>
+        </div>
+      </div>
+    </a>
+    {{/each}}
+  </div>

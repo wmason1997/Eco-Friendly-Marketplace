@@ -114,13 +114,13 @@ wishlistItem.belongsTo(Wishlist, {
 
 
 // Cart - cartItem
-Cart.hasMany(cartItem, {
-    foreignKey: 'cartID'
-});
+// Cart.hasMany(cartItem, {
+//     foreignKey: 'cartID'
+// });
 
-cartItem.belongsTo(Cart, {
-    foreignKey: 'cartID'
-});
+// cartItem.belongsTo(Cart, {
+//     foreignKey: 'cartID'
+// });
 
 
 // Many-to-Many relations
