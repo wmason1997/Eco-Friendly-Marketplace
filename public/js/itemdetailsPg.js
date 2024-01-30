@@ -68,6 +68,7 @@ starsRanges.forEach((range, i) => {
 });
 
 showReviewFormBtn.addEventListener('click', () => {
+  console.log("Clicked showreview");
   reviewFormContainer.classList.add('review-model-active');
 });
 
