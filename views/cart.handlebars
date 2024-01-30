@@ -7,8 +7,7 @@
             {{#each items as |item|}}
             <li>
                 <div>
-                 {{!-- <img id="imageURL" src="{{item.item.imageURL}}"> --}}
-                 <img src="https://images.pexels.com/photos/19795102/pexels-photo-19795102/free-photo-of-fources.jpeg">
+                 <img id="imageURL" src="{{item.item.imageURL}}"> 
                 </div> 
                 <div class="item-decriptions-cart">
                 <p id="name">
@@ -25,7 +24,9 @@
             </li>
             {{/each}}
         </ul>
-
+        <h3>
+            Total: ${{total}}
+        </h3>
     {{else}}
         <p>Your cart is empty.</p>
     {{/if}}
@@ -33,5 +34,4 @@
 </div>
 
 
-{{!-- <script src="/js/cart.js"></script> --}}
 <script src="/js/itemdetailsPg.js"></script>

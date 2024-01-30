@@ -16,6 +16,9 @@
 .items a {
   text-decoration: none;
   color: black;
+  background-color: #d8d8d8;
+  border-radius: 35px;
+  padding: 20px;
 }
 
 .items a img {
@@ -27,12 +30,12 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  /* padding: 15px; */
 }
 
 .item div {
   display: flex;
   gap: 10px;
+  
 }
 
 .item-category {

@@ -25,7 +25,7 @@ const hbs = exphbs.create({ helpers });
 const sess = {
   secret: 'Super secret secret',
   cookie: {
-    maxAge: 300000,
+    // maxAge: 300000,
     httpOnly: true,
     secure: false,
     sameSite: 'strict',
@@ -76,6 +76,6 @@ app.post('/api/users/logout', (req, res) => {
     alter: true
       only make changes where necessary
 */
-sequelize.sync().then(() => {
+sequelize.sync({ alter: true }).then(() => {
   app.listen(PORT, () => console.log(`Now listening on port ${PORT}`));
 });

@@ -81,7 +81,7 @@
   font-weight: 400;
   width: 70%;
   margin: 0 auto;
-letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 .search-items {
   display: flex;
@@ -137,7 +137,7 @@ letter-spacing: 1px;
 
 #category-container h3 {
   font-size: 25px;
-  font-family: "Libre Baskerville";
+  font-family: 'Libre Baskerville';
   letter-spacing: 2px;
   margin-left: 50px;
   margin-top: 20px;
@@ -148,7 +148,7 @@ letter-spacing: 1px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   color: #000;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -175,22 +175,22 @@ letter-spacing: 1px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: "Libre Baskerville";
+  font-family: 'Libre Baskerville';
   letter-spacing: 2px;
   font-size: 35px;
   font-style: normal;
   font-weight: 600;
   z-index: 6;
+  width: max-content;
 }
 .search-categories img {
   border-radius: 35px;
   width: 90%;
   box-shadow: 4px 4px 8px 12px rgba(0, 0, 0, 0.1);
-
 }
 
-.categories div a::before  {
-  content: "";
+.categories div a::before {
+  content: '';
   width: 90%;
   height: 90%;
   background-color: rgba(0, 0, 0, 0.4);
@@ -199,24 +199,23 @@ letter-spacing: 1px;
   left: 5%;
   top: 5%;
   z-index: 5;
-  }
+}
 
-  @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .categories {
     margin-top: 20px;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     color: #000;
-    font-family: "Raleway";
+    font-family: 'Raleway';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    background-color: yellow;
+
   }
 }
-
 
 @media screen and (max-width: 576px) {
   .navbar {
@@ -264,8 +263,21 @@ letter-spacing: 1px;
     font-weight: 400;
     padding: 0 60px;
   }
-
+  .categories p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Libre Baskerville';
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    z-index: 6;
+  }
 }
+
 /* #header-p {
   margin-left: 57px;
   max-width: 50%;

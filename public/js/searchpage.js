@@ -1,32 +1,14 @@
-const searchFormHandler = async (event) => {
-    event.preventDefault();
+// const searchFormHandler = async (event) => {
+//   event.preventDefault();
 
-    // Akin to profile.js
-    // Need to intake the search info and assign to variables
-    const searchInput = document.querySelector('#search-bar').value.trim();
-    document.location.replace(`/items/${searchInput}`);
-    // if (searchInput) {
-    //     const response = await fetch(`/api/items/${searchInput}`, {
-    //         method: 'GET',
-    //         //body: JSON.stringify({ searchInput }),
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //         },
-    //     });
+//   const searchInput = document.querySelector('#search-bar').value.trim();
+//   document.location.replace(`/items/${searchInput}`);
 
-        if (response.ok) {
-            document.location.replace('/itemsPg');
-            // here I want to filter through the items to return only the items that match what the user searched
-            
-    //         // here I want to filter through the items to return only the items that match what the user searched
-            
-    //     } else {
-    //         alert('Could not perform search');
-    //     }
-    }
-};
+//   if (response.ok) {
+//     document.location.replace('/itemsPg');
+//   }
+// };
 
-// Need to add according to the id
-document
-    .querySelector('.new-search-form')
-    .addEventListener('submit', searchFormHandler)
+// document
+//   .querySelector('.new-search-form')
+//   .addEventListener('submit', searchFormHandler);

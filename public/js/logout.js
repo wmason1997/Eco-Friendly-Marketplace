@@ -11,13 +11,8 @@ const logout = async () => {
   }
 };
 
-// Ensure that the script is executed after the DOM is loaded
-// document.addEventListener('DOMContentLoaded', () => {
-//   document.querySelector('#logout').addEventListener('click', logout);
-// });
-
 document.addEventListener('DOMContentLoaded', function() {
-    const logoutButton = document.querySelector('#logout-button');
+    const logoutButton = document.querySelector('.logout-button');
     if (logoutButton) {
         logoutButton.addEventListener('click', logout);
     }
