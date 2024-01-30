@@ -22,35 +22,35 @@ function addToCart(itemID) {
     .catch((error) => console.error('Fetch error:', error));
 }
 
-//DELETE FROM CART REQUEST
-document.addEventListener('DOMContentLoaded', function () {});
-document.querySelectorAll('.delete-from-cart').forEach((button) => {
-  button.addEventListener('click', function () {
-    console.log('clicked delete button');
+// //DELETE FROM CART REQUEST
+// document.addEventListener('DOMContentLoaded', function () {});
+// document.querySelectorAll('.delete-from-cart').forEach((button) => {
+//   button.addEventListener('click', function () {
+//     console.log('clicked delete button');
 
-    const itemID = this.dataset.itemId;
+//     const itemID = this.dataset.itemId;
 
-    deletefromCart(itemID);
+//     deletefromCart(itemID);
 
-    function deletefromCart(itemID) {
-      fetch(`/api/editcart/${itemID}`, {
-        method: 'DELETE',
-      })
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error('Network response was not ok');
-          }
-          return response.json();
-        })
+//     function deletefromCart(itemID) {
+//       fetch(`/api/editcart/${itemID}`, {
+//         method: 'DELETE',
+//       })
+//         .then((response) => {
+//           if (!response.ok) {
+//             throw new Error('Network response was not ok');
+//           }
+//           return response.json();
+//         })
 
-        .then((data) => {
-          console.log('delete successful', data);
-          location.reload();
-        })
-        .catch((error) => console.error('Fetch error:', error));
-    }
-  });
-});
+//         .then((data) => {
+//           console.log('delete successful', data);
+//           location.reload();
+//         })
+//         .catch((error) => console.error('Fetch error:', error));
+//     }
+//   });
+// });
 
 const showReviewFormBtn = document.querySelector('#show-review-form');
 const reviewForm = document.querySelector('#review-form');
@@ -101,3 +101,5 @@ reviewForm.addEventListener('submit', async (e) => {
 closeReview.addEventListener('click', () => {
   reviewFormContainer.classList.remove('review-model-active');
 });
+
+
