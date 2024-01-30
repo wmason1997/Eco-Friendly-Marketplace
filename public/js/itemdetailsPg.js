@@ -1,5 +1,5 @@
+// ADD TO CART
 document.addEventListener('DOMContentLoaded', function () {});
-
 document.querySelectorAll('.add-to-cart').forEach((button) => {
   button.addEventListener('click', function () {
     console.log('test');
@@ -52,21 +52,20 @@ document.querySelectorAll('.delete-from-cart').forEach((button) => {
   });
 });
 
-
 const showReviewFormBtn = document.querySelector('#show-review-form');
 const reviewForm = document.querySelector('#review-form');
 const reviewFormContainer = document.querySelector('#review-form-container');
-const closeReview = document.querySelector('#review-form-container i')
-const starsRanges = document.querySelectorAll('.stars-range')
-const starsSpans = document.querySelectorAll('.stars')
+const closeReview = document.querySelector('#review-form-container i');
+const starsRanges = document.querySelectorAll('.stars-range');
+const starsSpans = document.querySelectorAll('.stars');
 
 starsRanges.forEach((range, i) => {
-  const span = starsSpans[i]
-  span.innerText = ("⭐").repeat(range.value)
+  const span = starsSpans[i];
+  span.innerText = '⭐'.repeat(range.value);
   range.addEventListener('input', (e) => {
-      span.innerText = ("⭐").repeat(e.target.value)
-  })
-})
+    span.innerText = '⭐'.repeat(e.target.value);
+  });
+});
 
 showReviewFormBtn.addEventListener('click', () => {
   reviewFormContainer.classList.add('review-model-active');
@@ -98,6 +97,6 @@ reviewForm.addEventListener('submit', async (e) => {
   console.log(newReview);
 });
 
-closeReview.addEventListener('click',() => {
-  reviewFormContainer.classList.remove('review-model-active')
+closeReview.addEventListener('click', () => {
+  reviewFormContainer.classList.remove('review-model-active');
 });

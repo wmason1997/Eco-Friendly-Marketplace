@@ -1,6 +1,6 @@
 .forms-container {
     width: 50%;
-    height: 400px;
+    height: 300px;
     margin: 0 auto;
     background-color: brown;
     display: flex;
@@ -10,3 +10,4 @@
     left: 50%;
     transform: translate(-50%, -50%)
 }
+
