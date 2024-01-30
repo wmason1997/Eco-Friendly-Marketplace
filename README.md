@@ -4,28 +4,43 @@ Plot a Greener Path, One Product at a Time.
 
 ## Table of Contents
 
-- [Project Name](#project-name)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Features](#features)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Usage](#usage)
-  - [Configuration](#configuration)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
+- [Table of Contents](#table-of-contents)
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Figma Wireframing](#figma-wireframing)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
 
 ## Description
 
-A marketplace for eco-friendly products and their economincal footprint.
+A marketplace for eco-friendly products and their economincal footprint. Taiga is where sustainable shopping is revolutionized for the eco-conscious consumer. Effortlessly browse categories or search items, each with clear carbon, energy, and waste footprints. Our platform empowers you with eco-scores on products, making your choices both informed and impactful. Join our journey to a greener future with every purchase.
 
-![Development Diagram](<public/images/Process Diagram.png>)
+
+## Screenshots
+![Development Diagram](/public/images/Taiga%20User%20Control%20Flow%20Diagram.png)
+![Taiga Screenshot 1](/public/images/Taiga-Screenshot-1.png)
+![Taiga Screenshot 2](/public/images/Taiga-Screenshot-2.png)
+![Taiga Screenshot 3](/public/images/Taiga-Screenshot-3.png)
+![Taiga Screenshot 4](/public/images/Taiga-Screenshot-4.png)
+![Taiga Screenshot 5](/public/images/Taiga-Screenshot-5.png)
+![Taiga Screenshot 6](/public/images/Taiga-Screenshot-6.png)
+![Taiga Screenshot 7](/public/images/Taiga-Screenshot-7.png)
+![Taiga Screenshot 8](/public/images/Taiga-Screenshot-8.png)
+![Taiga Screenshot 9](/public/images/Taiga-Screenshot-9.png)
+![Taiga Screenshot 10](/public/images/Taiga-Screenshot-10.png)
+
+## Figma Wireframing
+The [Figma Ideation](https://www.figma.com/file/XdPShwohSlsWUqvNwLLtak/Taiga?type=design&node-id=0-1&mode=design) occurred here for those interested.
+
 
 ## Features
 
-- One stop sustainability shopping
+- One-stop sustainability shopping
 - User account to save and share product browsing
 - Review product carbon, energy, an waste footprint
 
@@ -33,7 +48,7 @@ A marketplace for eco-friendly products and their economincal footprint.
 
 ### Prerequisites
  - Express.js
- - Node.js
+ - Node.js (and nodemon)
  - Handlebars.js
  - MySQL
  - Insomnia
@@ -65,6 +80,7 @@ The application can be configured by modifying the config.js file located in the
 - API Key: 55957bf446b7d4d67ca04f80971ff021bac036f5439867faa62438a3271337d0
 
 *config.js*
+```js
 const Sequelize = require('sequelize');
 require('dotenv').config();
 
@@ -91,10 +107,8 @@ if (process.env.JAWSDB_URL) {
 }
 
 module.exports = sequelize;
-
+```
 
 ## Contributing
-  *tb added*
-
-## License
+Please reach out to William Mason, Lauren Palmer, or Kianna Young at https://github.com/wmason1997, https://github.com/lepalmer01, or https://github.com/Baiyine respectively with any suggestions.
 
