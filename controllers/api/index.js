@@ -4,7 +4,7 @@ const reviewRoutes = require('./editReview.js');
 const editCart = require('./editCart.js');
 const withAuth = require('../../utils/auth.js')
 
-// add all the new Routes once configured
+// add all the new Routes
 router.use('/users', userRoutes);
 router.use('/editcart', withAuth, editCart);
 router.use('/reviews', reviewRoutes);

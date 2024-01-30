@@ -112,35 +112,8 @@ wishlistItem.belongsTo(Wishlist, {
     foreignKey: 'id'
 });
 
-
-// Cart - cartItem
-// Cart.hasMany(cartItem, {
-//     foreignKey: 'cartID'
-// });
-
-// cartItem.belongsTo(Cart, {
-//     foreignKey: 'cartID'
-// });
-
-
-// Many-to-Many relations
-
-// User - Item
-// User.belongsToMany(Item, {
-//     through: 'UserItem', // Sequelize creates a junction table named UserItem
-//     foreignKey: 'userID',
-// });
-
-// Item.belongsToMany(User, {
-//     through: 'UserItem', 
-//     foreignKey: 'userID',
-// });
-
 User.hasMany(Item);
 Item.belongsTo(User);
 
 
-
-
-
-module.exports = { User, Cart, cartItem, Item, Review, Wishlist, wishlistItem, orderItem, Order };
+module.exports = { User, cartItem, Item, Review, Wishlist, wishlistItem, orderItem, Order };

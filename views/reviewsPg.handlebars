@@ -1,38 +1,47 @@
 {{> navbar }}
 
-<div class="card-deck" class="profile-review">
-  {{#each reviews as |review|}}
-    <div class="card">
-      <img class="card-img-top" alt="Card image cap" src='{{review.item.imageURL}}' style='width: 200px;' alt=''>
-      <p>{{review.reviewText}}</p>
-      <button type="button" class='edit-review-button'> Edit reivew</button>
-      <button type="button" class="delete-review-button">Delete review</button>
-      <div class='edit-review-form-container hidden'>
-          <form class='edit-review-form' data-reviewid='{{review.item.id}}'>
-              <h5 class="card-title">Card title</h5>
-                <textarea class="card-text"
-                  name='reviewText'
-                  cols='30'
-                  rows='10'
-              >{{review.reviewText}}</textarea>
-              <p>Rate the item here!</p>
-              <input 
-                class="stars-range" 
-                name='stars' 
-                type='range' 
-                min='0' 
-                max='5' 
-                step='1' 
-                value="{{review.stars}}" />
-              <span class="stars"></span>
-              <button type="submit">Submit</button>
-          </form>
-      </div>
-      <div class="card-footer">
-      </div>
-    </div>
-  {{/each}}
-</div>
+  <h2> Your Reviews</h2>
+<div class="reviews-container">
+  {{#if reviews.length}}
+      {{#each reviews as |review|}}
+        <div class="card">
+          <div class = "card-container-reviews">
+            <img class="card-img-top" alt="Card image cap" src='{{review.item.imageURL}}' alt=''>
+            <p>{{review.reviewText}}</p>
+            <button type="button" class='edit-review-button'> Edit reivew</button>
+            <button type="button" class="delete-review-button">Delete review</button>
+            <div class='edit-review-form-container hidden'>
+                <form class='edit-review-form' data-reviewid='{{review.item.id}}'>
+                    <h5 class="card-title">Card title</h5>
+                      <textarea class="card-text"
+                        name='reviewText'
+                        cols='30'
+                        rows='10'
+                    >{{review.reviewText}}</textarea>
+                    <p>Rate the item here!</p>
+                    <input 
+                      class="stars-range" 
+                      name='stars' 
+                      type='range' 
+                      min='0' 
+                      max='5' 
+                      step='1' 
+                      value="{{review.stars}}" />
+                    <span class="stars"></span>
+                    <button type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          <div class="card-footer">
+        </div>
+          
+        </div>
+      {{/each}}
+    {{else}}
+    <p> You have not submitted any reviews.</p>
+    {{/if}}  
+  </div>
+
 
 
 
