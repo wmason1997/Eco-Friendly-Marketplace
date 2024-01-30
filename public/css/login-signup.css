@@ -2,12 +2,19 @@
     width: 50%;
     height: 300px;
     margin: 0 auto;
-    background-color: brown;
     display: flex;
     justify-content: space-evenly;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    background-color: #d8d8d8;
+    border-radius: 35px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
