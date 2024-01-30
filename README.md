@@ -1,40 +1,100 @@
-# Eco-Friendly-Marketplace
-
 # Taiga
 
+Plot a Greener Path, One Product at a Time.
 
 ## Table of Contents
-* [Description](#description)
-* [Screenshots](#screenshots)
-* [Installation](#installation-instructions)
-* [Usage](#usage-instructions)
-* [Contributing](#contribution-guidelines)
-* [Tests](#tests)
-* [Questions](#questions)
-* [Credits](#credits)
 
-## Description <a name="description"></a> 
-An e-commerce site, where sustainable shopping is revolutionized for the eco-conscious consumer. Effortlessly browse categories or search items, each with clear carbon, energy, and waste footprints. Our platform empowers you with eco-scores on products, making your choices both informed and impactful. Join our journey to a greener future with every purchase.
+- [Project Name](#project-name)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Configuration](#configuration)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
 
-## Screenshots 
+## Description
 
-## Installation <a name="installation-instructions"></a>
-N/A. You visit it at [https://immense-tor-19935-d43f1bf06a0b.herokuapp.com/](https://immense-tor-19935-d43f1bf06a0b.herokuapp.com/).
+A marketplace for eco-friendly products and their economincal footprint.
 
-## Usage <a name="usage-instructions"></a>
+![Development Diagram](<public/images/Process Diagram.png>)
 
-  
+## Features
 
-## Contributing <a name="contribution-guidelines"></a>
-Be respectful.
+- One stop sustainability shopping
+- User account to save and share product browsing
+- Review product carbon, energy, an waste footprint
 
-## Tests <a name="tests"></a> 
-N/A
+## Getting Started
 
-## Questions
-Please feel free to reach out to me with questions or suggestions for this app.<br>
-My GitHub user name is  and here is my profile: [https://github.com/](https://github.com/).<br>
-My email is 
+### Prerequisites
+ - Express.js
+ - Node.js
+ - Handlebars.js
+ - MySQL
+ - Insomnia
+ - Heroku
+ - JAWSDB
+ 
+ ### Installation
 
-## Credits 
-Thank you for the tips and suggestions from Bootcamp instructors, learning assistants, classmates, and resources. A huge thank you to the tutors Doug and Jaba for insights and input. We have used http://www.w3schools.com/ and http://www.stackoverflow.com, and https://chat.openai.com to research information. Lastly, thanks to OpenAI’s Chatgpt-4 for assistance in creating this README.md template.
+ - Clone the repository: git clone https://github.com/yourusername/your-project.git
+ - Navigate to the project directory: cd your-project
+ - Install dependencies: npm install
+ - Configure the application: cp config.example.json config.json
+ - Start the server: npm start
+
+ ## Usage
+ 
+[Deployed App](https://immense-tor-19935-d43f1bf06a0b.herokuapp.com/)
+
+ Configure settings for Database URl and API Keys.
+ Save changes and return to main page and use application. 
+ *configuration may vary if opting to use other languages*
+
+## Configuration
+
+The application can be configured by modifying the config.js file located in the project root directory. Here are the available configuration options:
+
+- Port: Set the port on which the application will listen.
+- Database URL: Specify the URL for the database connection.
+- API Key: 55957bf446b7d4d67ca04f80971ff021bac036f5439867faa62438a3271337d0
+
+*config.js*
+const Sequelize = require('sequelize');
+require('dotenv').config();
+
+let sequelize;
+
+if (process.env.JAWSDB_URL) {
+  sequelize = new Sequelize(process.env.JAWSDB_URL, {
+    define: {
+      underscored: false,
+    }
+  });
+} else {
+  sequelize = new Sequelize(
+    process.env.DB_NAME,
+    process.env.DB_USER,
+    process.env.DB_PASSWORD,
+    {
+      host: 'localhost',
+      dialect: 'mysql',
+      port: 3306,
+      logging: false
+    }
+  );
+}
+
+module.exports = sequelize;
+
+
+## Contributing
+  *tb added*
+
+## License
+
