@@ -50,7 +50,7 @@ A marketplace for eco-friendly products and their economincal footprint.
 
  ## Usage
  
-https://immense-tor-19935-d43f1bf06a0b.herokuapp.com/
+[Deployed App](https://immense-tor-19935-d43f1bf06a0b.herokuapp.com/)
 
  Configure settings for Database URl and API Keys.
  Save changes and return to main page and use application. 
@@ -92,23 +92,9 @@ if (process.env.JAWSDB_URL) {
 
 module.exports = sequelize;
 
-Hello World page example:
-https://immense-tor-19935-d43f1bf06a0b.herokuapp.com/
-![Welcome Page](<public/images/Welcome Page.png>)
-
 
 ## Contributing
   *tb added*
 
 ## License
 
-## Acknoowledgments
-
-### Lauren Palmer - *Lead Developer* 
-### William Mason - *Lead Developer*
-### Kay Young - *Peer Developer*
-
-#### Micheal P - *Instructor* and NIrav V. - *T.A.*
-#### https://app.swaggerhub.com/apis-docs/EcoCartSciences/ecocart-financial-orchestration/0.0.7#/    (API Key Builder/ Integrator)
-#### https://en.wikipedia.org/wiki/Associative_entity (Associative Entities)
-#### https://codepen.io/slead/pen/jJmVLN (PopUp with Handlebars.js templating)
