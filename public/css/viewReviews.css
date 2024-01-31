@@ -13,14 +13,6 @@
     padding: 20px;
 }
 
-/* .card-container-reviews {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: pink;
-    border-radius: 35px;
-} */
-
 .card img{
     width: 100%;
     border-radius: 35px;

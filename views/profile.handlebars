@@ -1,9 +1,41 @@
 {{> navbar}}
 
-<h1>Hello, {{name}}</h1>
-<a href="/reviews">
-  <button>View my reviews</button>
-</a>
-{{> logout}}
+<div class ="dashboard-container">
+  <div class ="side-panel">
+    <h1>Hello, {{name}}</h1>
+     <ul>
+          <li> 
+            <div>
+               <i class="fa-regular fa-star fa-lg"></i>
+            </div>
+              <a href="/reviews">
+              <button>View my reviews</button>
+              </a>
+          </li>
+          <li> 
+            <div>
+             <i class="fa-regular fa-shoe-prints fa-lg"></i>
+             </div>
+            My Footprint 
+          </li>
+          <li> 
+            <div>
+            <i class="fa-regular fa-newspaper fa-lg"></i>
+            </div>
+            My Articles 
+          </li>
+          <li>  
+            <div>
+            <i class="fa-light fa-people-group fa-lg"></i>
+            </div>
+              My Community 
+          </li>
+      </ul>
+    {{> logout}}
+    </div>
+     <div class="main-content-section">
+      <h1>Main Content Section</h1>
+  </div>
+</div>
 
 <script src="/js/logout.js"></script>
