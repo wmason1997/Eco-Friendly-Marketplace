@@ -1,0 +1,52 @@
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  margin-top: 20px;
+}
+
+.side-panel {
+  width: 20%;
+}
+
+.side-panel h1 {
+  font-size: 40x;
+  padding-left: 60px;
+  font-family: 'Raleway';
+  font-weight: 800;
+}
+
+.main-content-section {
+  background-color: #d8d8d8;
+  width: 80%;
+  border-radius: 25px;
+}
+
+.side-panel ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+
+.side-panel ul li {
+  /* padding-left: 60px;; */
+  font-size: 20px;
+  font-family: 'Raleway';
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+
+.side-panel ul li i {
+  color: black;
+  transform: translateY(3px);
+}
+
+.side-panel ul li div {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
