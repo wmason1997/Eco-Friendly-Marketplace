@@ -1,40 +1,53 @@
-<div class="forms-container">
-  <div class="login-container">
-    <h2>Login</h2>
-    <form class="form login-form">
-      <div class="form-group">
-        <label for="email-login">email:</label>
-        <input class="form-input" type="text" id="email-login" />
+<div class = "img-container">
+  <img src="https://i.ibb.co/WBWNFkC/Taiga-logo-login.png" alt="">
+  <p class ="tag-line">Buy Consciously, Live Sustainably</p>
+ </div> 
+   <div class='forms-container'>
+      <div class='login-container'>
+        <h4>Already have an account?</h4>
+        <form class='form login-form'>
+          <div class='form-group'>
+            <label for='email-login'></label>
+            <i class="fa-solid fa-square-envelope fa-lg"></i>
+            <input class='form-input' type='text' id='email-login' placeholder="Email" />
+          </div>
+          <div class='form-group'>
+            <label for='password-login'></label>
+            <i class="fa-solid fa-lock fa-lg"></i>
+            <input class='form-input' type='password' id='password-login' placeholder="Password" required />
+          </div>
+          <div class='form-group'>
+            <button class='btn btn-primary' type='submit'>LOGIN</button>
+          </div>
+        </form>
       </div>
-      <div class="form-group">
-        <label for="password-login">password:</label>
-        <input class="form-input" type="password" id="password-login" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">login</button>
-      </div>
-    </form>
-  </div>
-  <div>
-    <h2>Signup</h2>
-    <form class="form signup-form">
-      <div class="form-group">
-        <label for="name-signup">name:</label>
-        <input class="form-input" type="text" id="name-signup" />
-      </div>
-      <div class="form-group">
-        <label for="email-signup">email:</label>
-        <input class="form-input" type="text" id="email-signup" />
-      </div>
-      <div class="form-group">
-        <label for="password-signup">password:</label>
-        <input class="form-input" type="password" id="password-signup" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">signup</button>
-      </div>
-    </form>
-  </div>
-</div>
+        <div class="signup-box">
+          <div class = "signup-content">
+            <h4>Signup</h4>
+            <form class='form signup-form'>
+              <div class='form-group'>
+                <label for='name-signup'></label>
+                <i class="fa-solid fa-user fa-lg"></i>
+                <input class='form-input' type='text' id='name-signup' placeholder="Name" />
+              </div>
+              <div class='form-group'>
+                <label for='email-signup'></label>
+                <i class="fa-solid fa-square-envelope fa-lg"></i>
+                <input class='form-input' type='text' id='email-signup' placeholder="Email" />
+              </div>
+              <div class='form-group'>
+                <label for='password-signup'></label>
+                <i class="fa-solid fa-lock fa-lg"></i>
+                <input class='form-input' type='password' id='password-signup' placeholder="Password" />
+              </div>
+              <div class='form-group'>
+                <button class='btn btn-primary' type='submit'>CREATE ACCOUNT</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div> 
+    </div> 
 
-<script src="/js/login.js"></script>
+
+<script src='/js/login.js'></script>
