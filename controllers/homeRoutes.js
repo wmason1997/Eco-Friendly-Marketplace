@@ -63,15 +63,23 @@ router.get('/profile', withAuth, async (req, res) => {
 
     const reviews = await Review.findAll({ 
       where: { userID: req.session.userID }, 
-      nest: true,
-      include: { model: Item, as: 'item' },
+      // nest: true,
+      // include: { model: Item, as: 'item' },
+      /*
+        This wasn't working because, for example, if your review has an id of 2 and an itemID of 250
+        It's supposed to get the item with an id of 250, but instead gets the item with the id of 2
+      */
       raw: true 
     })
+
+    for (let i = 0; i < reviews.length; i ++) {
+      reviews[i].item = await Item.findByPk(reviews[i].itemID, {raw: true})
+    }
 
     console.log('---user---')
     // console.log(user)
     console.log('---reviews---')
-    console.log(reviews)
+    // console.log(reviews)
 
     res.render('profile', {
       ...userData,

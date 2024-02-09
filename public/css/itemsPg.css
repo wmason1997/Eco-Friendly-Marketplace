@@ -8,7 +8,7 @@
 }
 .items {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 30px;
   padding: 0 50px;
 }
@@ -19,10 +19,13 @@
   background-color: #d8d8d8;
   border-radius: 35px;
   padding: 20px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .items a img {
   width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
   border-radius: 35px;
 }
 
@@ -35,7 +38,6 @@
 .item div {
   display: flex;
   gap: 10px;
-  
 }
 
 .item-category {

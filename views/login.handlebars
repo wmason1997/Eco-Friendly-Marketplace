@@ -1,53 +1,55 @@
-<div class = "img-container">
-  <img src="https://i.ibb.co/WBWNFkC/Taiga-logo-login.png" alt="">
-  <p class ="tag-line">Buy Consciously, Live Sustainably</p>
- </div> 
-   <div class='forms-container'>
-      <div class='login-container'>
-        <h4>Already have an account?</h4>
-        <form class='form login-form'>
+{{!-- Cmd A K F --}}
+<div class="login-page">
+  <div class="img-container">
+    <img src="https://i.ibb.co/WBWNFkC/Taiga-logo-login.png" alt="">
+    <p class="tag-line">Buy Consciously, Live Sustainably</p>
+  </div>
+  <div class='forms-container'>
+    <div class='login-container form-container'>
+      <h4>Already have an account?</h4>
+      <form class='form login-form'>
+        <div class='form-group'>
+          <label for='email-login'></label>
+          <i class="fa-solid fa-square-envelope fa-lg"></i>
+          <input class='form-input' type='text' id='email-login' placeholder="Email" />
+        </div>
+        <div class='form-group'>
+          <label for='password-login'></label>
+          <i class="fa-solid fa-lock fa-lg"></i>
+          <input class='form-input' type='password' id='password-login' placeholder="Password" required />
+        </div>
+        <div class='form-group'>
+          <button class='btn btn-primary' type='submit'>LOGIN</button>
+        </div>
+      </form>
+    </div> <!-- end of .login-container -->
+    <div class="signup-box">
+      <div class="signup-content form-container">
+        <h4>Signup</h4>
+        <form class='form signup-form'>
           <div class='form-group'>
-            <label for='email-login'></label>
+            <label for='name-signup'></label>
+            <i class="fa-solid fa-user fa-lg"></i>
+            <input class='form-input' type='text' id='name-signup' placeholder="Name" />
+          </div>
+          <div class='form-group'>
+            <label for='email-signup'></label>
             <i class="fa-solid fa-square-envelope fa-lg"></i>
-            <input class='form-input' type='text' id='email-login' placeholder="Email" />
+            <input class='form-input' type='text' id='email-signup' placeholder="Email" />
           </div>
           <div class='form-group'>
-            <label for='password-login'></label>
+            <label for='password-signup'></label>
             <i class="fa-solid fa-lock fa-lg"></i>
-            <input class='form-input' type='password' id='password-login' placeholder="Password" required />
+            <input class='form-input' type='password' id='password-signup' placeholder="Password" />
           </div>
           <div class='form-group'>
-            <button class='btn btn-primary' type='submit'>LOGIN</button>
+            <button class='btn btn-primary' type='submit'>CREATE ACCOUNT</button>
           </div>
         </form>
       </div>
-        <div class="signup-box">
-          <div class = "signup-content">
-            <h4>Signup</h4>
-            <form class='form signup-form'>
-              <div class='form-group'>
-                <label for='name-signup'></label>
-                <i class="fa-solid fa-user fa-lg"></i>
-                <input class='form-input' type='text' id='name-signup' placeholder="Name" />
-              </div>
-              <div class='form-group'>
-                <label for='email-signup'></label>
-                <i class="fa-solid fa-square-envelope fa-lg"></i>
-                <input class='form-input' type='text' id='email-signup' placeholder="Email" />
-              </div>
-              <div class='form-group'>
-                <label for='password-signup'></label>
-                <i class="fa-solid fa-lock fa-lg"></i>
-                <input class='form-input' type='password' id='password-signup' placeholder="Password" />
-              </div>
-              <div class='form-group'>
-                <button class='btn btn-primary' type='submit'>CREATE ACCOUNT</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div> 
-    </div> 
+    </div> <!-- end of .signup-box -->
+  </div> <!-- end of .forms-container -->
+</div>
 
 
 <script src='/js/login.js'></script>

@@ -4,7 +4,6 @@ const router = express.Router();
 const { Review } = require('../../models');
 
 // /api/reviews/
-
 router.get('/item/:itemID', async (req, res) => {
     try {
         const reviews = await Review.findAll({

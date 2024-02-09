@@ -32,7 +32,7 @@
 }
 
 .side-panel ul li {
-  /* padding-left: 60px;; */
+  padding-left: 60px;;
   font-size: 20px;
   font-family: 'Raleway';
   width: 100%;
@@ -54,5 +54,8 @@
 .side-panel ul li div {
   width: 20%;
   display: flex;
-  justify-content: flex-end;
+}
+
+.hidden {
+  display: none;
 }
