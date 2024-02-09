@@ -1,7 +1,9 @@
-const showMyReviews = document.querySelector('#show-reviews-card-container');
 
-const reviewCards = document.querySelector('#review-cards-container');
-
-showMyReviews.addEventListener('click', () => {
-  console.log('clicked');
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("show-my-reviews").addEventListener("click", function(event) {
+    event.preventDefault();
+    console.log('my review button clicked')
+    const reviewsContainer = document.getElementById("reviews-container");
+    reviewsContainer.classList.remove("hidden");
+  });
 });

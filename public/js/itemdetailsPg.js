@@ -39,13 +39,13 @@ starsRanges.forEach((range, i) => {
 
 showReviewFormBtn.addEventListener('click', () => {
   console.log("Clicked showreview");
-  reviewFormContainer.classList.add('review-model-active');
+  reviewFormContainer.classList.remove('hidden');
 });
 
 reviewForm.addEventListener('submit', async (e) => {
   e.preventDefault();
 
-  reviewFormContainer.classList.remove('review-model-active');
+  reviewFormContainer.classList.add('hidden');
 
   let res = await fetch('/api/reviews/add/review', {
     method: 'POST',
@@ -65,11 +65,8 @@ reviewForm.addEventListener('submit', async (e) => {
   }
 
   let newReview = await res.json();
-  console.log(newReview);
-});
 
-closeReview.addEventListener('click', () => {
-  reviewFormContainer.classList.remove('review-model-active');
+  console.log(newReview);
 });
 
 

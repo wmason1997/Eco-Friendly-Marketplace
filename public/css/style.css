@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html, body, .main-container {
+  min-height: 100vh;
+}
+
+
 .navbar-brand {
   margin-top: 5px;
 }
@@ -186,7 +191,7 @@
 .search-categories img {
   border-radius: 35px;
   width: 90%;
-  box-shadow: 4px 4px 8px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .categories div a::before {
@@ -213,7 +218,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-
   }
 }
 
